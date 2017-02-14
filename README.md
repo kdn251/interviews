@@ -3,22 +3,6 @@ Directory Tree
 
 .
 ├── LinkedList
-│   ├── palindromeLinkedList.java
-│   └── README.md
-├── String
-│   ├── longestPalindrome.java
-│   ├── palindromePermutation.java
-│   ├── README.md
-│   └── validPalindrome.java
-└── tree.txt
-
-2 directories, 7 files
-
-
-
-```
-.
-├── LinkedList
 │   ├── addTwoNumbers.java
 │   ├── deleteNodeInALinkedList.java
 │   ├── mergeKSortedLists.java
@@ -49,4 +33,6 @@ Directory Tree
 │   └── validParentheses.java
 └── validPalindrome.java
 
-2 directories, 28 files
+2 directories, 28 file
+
+```
