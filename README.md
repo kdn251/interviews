@@ -1,7 +1,6 @@
 ```
 Directory Tree
 
-
 .
 ├── BitManipulation
 │   ├── binaryWatch.java
@@ -11,6 +10,14 @@ Directory Tree
 │   ├── numberOf1Bits.java
 │   ├── sumOfTwoIntegers.java
 │   └── utf-8Validation.java
+├── BreadthFirstSearch
+│   ├── binaryTreeLevelOrderTraversal.java
+│   ├── cloneGraph.java
+│   ├── pacificAtlanticWaterFlow.java
+│   ├── removeInvalidParentheses.java
+│   ├── shortestDistanceFromAllBuildings.java
+│   ├── symmetricTree.java
+│   └── wallsAndGates.java
 ├── DepthFirstSearch
 │   ├── balancedBinaryTree.java
 │   ├── convertSortedArrayToBinarySearchTree.java
@@ -57,7 +64,7 @@ Directory Tree
     ├── validPalindrome.java
     └── validParentheses.java
 
-5 directories, 48 files
+6 directories, 55 files
 
 
 ```
