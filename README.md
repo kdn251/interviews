@@ -1,6 +1,22 @@
 ```
 Directory Tree
+
 .
+├── Array
+│   ├── bestTimeToBuyAndSellStock.java
+│   ├── findTheCelebrity.java
+│   ├── gameOfLife.java
+│   ├── longestConsecutiveSequence.java
+│   ├── maximumProductSubarray.java
+│   ├── maximumSubarray.java
+│   ├── mergeIntervals.java
+│   ├── rotateImage.java
+│   ├── searchInRotatedSortedArray.java
+│   ├── spiralMatrixII.java
+│   ├── subsets.java
+│   ├── summaryRanges.java
+│   ├── wiggleSort.java
+│   └── wordSearch.java
 ├── BitManipulation
 │   ├── binaryWatch.java
 │   ├── countingBits.java
@@ -67,6 +83,10 @@ Directory Tree
 │   ├── romanToInteger.java
 │   ├── validPalindrome.java
 │   └── validParentheses.java
+├── Trie
+│   ├── addAndSearchWordDataStructureDesign.java
+│   ├── implementTrie.java
+│   └── wordSquares.java
 └── TwoPointers
     ├── 3Sum.java
     ├── 3SumSmaller.java
@@ -77,6 +97,7 @@ Directory Tree
     ├── reverseString.java
     └── sortColors.java
 
-8 directories, 67 files
+10 directories, 84 files
+
 
 ```
