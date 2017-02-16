@@ -1,8 +1,5 @@
 ```
 Directory Tree
-
-
-```
 .
 ├── BitManipulation
 │   ├── binaryWatch.java
@@ -81,6 +78,5 @@ Directory Tree
     └── sortColors.java
 
 8 directories, 67 files
-
 
 ```
