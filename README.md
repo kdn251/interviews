@@ -88,6 +88,8 @@ Directory Tree
 │   ├── plusOneLinkedList.java
 │   ├── README.md
 │   └── reverseLinkedList.java
+├── Queue
+│   └── movingAverageFromDataStream.java
 ├── README.md
 ├── Sort
 │   ├── meetingRoomsII.java
@@ -128,7 +130,5 @@ Directory Tree
     ├── reverseString.java
     └── sortColors.java
 
-15 directories, 111 files
-
+16 directories, 112 files
 ```
-
