@@ -1,22 +1,34 @@
 ```
 Directory Tree
-
 .
 ├── Array
 │   ├── bestTimeToBuyAndSellStock.java
 │   ├── findTheCelebrity.java
 │   ├── gameOfLife.java
+│   ├── insertInterval.java
 │   ├── longestConsecutiveSequence.java
 │   ├── maximumProductSubarray.java
 │   ├── maximumSubarray.java
 │   ├── mergeIntervals.java
+│   ├── missingRanges.java
 │   ├── rotateImage.java
 │   ├── searchInRotatedSortedArray.java
 │   ├── spiralMatrixII.java
+│   ├── subsetsII.java
 │   ├── subsets.java
 │   ├── summaryRanges.java
 │   ├── wiggleSort.java
 │   └── wordSearch.java
+├── Backtracking
+│   ├── androidUnlockPatterns.java
+│   ├── generalizedAbbreviation.java
+│   └── letterCombinationsOfAPhoneNumber.java
+├── BinarySearch
+│   ├── closestBinarySearchTreeValue.java
+│   ├── firstBadVersion.java
+│   ├── guessNumberHigherOrLower.java
+│   ├── pow(x,n).java
+│   └── sqrt(x).java
 ├── BitManipulation
 │   ├── binaryWatch.java
 │   ├── countingBits.java
@@ -40,6 +52,22 @@ Directory Tree
 │   ├── numberOfIslands.java
 │   ├── populatingNextRightPointersInEachNode.java
 │   └── sameTree.java
+├── DivideAndConquer
+│   ├── expressionAddOperators.java
+│   └── kthLargestElementInAnArray.java
+├── DynamicProgramming
+│   ├── bombEnemy.java
+│   ├── climbingStairs.java
+│   ├── combinationSumIV.java
+│   ├── countingBits.java
+│   ├── editDistance.java
+│   ├── houseRobber.java
+│   ├── paintFence.java
+│   ├── paintHouseII.java
+│   ├── regularExpressionMatching.java
+│   ├── sentenceScreenFitting.java
+│   ├── uniqueBinarySearchTrees.java
+│   └── wordBreak.java
 ├── HashTable
 │   ├── binaryTreeVerticalOrderTraversal.java
 │   ├── findTheDifference.java
@@ -61,6 +89,9 @@ Directory Tree
 │   ├── README.md
 │   └── reverseLinkedList.java
 ├── README.md
+├── Sort
+│   ├── meetingRoomsII.java
+│   └── meetingRooms.java
 ├── Stack
 │   ├── binarySearchTreeIterator.java
 │   ├── decodeString.java
@@ -97,7 +128,7 @@ Directory Tree
     ├── reverseString.java
     └── sortColors.java
 
-10 directories, 84 files
-
+15 directories, 111 files
 
 ```
+
