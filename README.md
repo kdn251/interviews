@@ -1,6 +1,8 @@
 ```
 Directory Tree
 
+
+```
 .
 ├── BitManipulation
 │   ├── binaryWatch.java
@@ -46,25 +48,39 @@ Directory Tree
 │   ├── README.md
 │   └── reverseLinkedList.java
 ├── README.md
-└── String
-    ├── addBinary.java
-    ├── countAndSay.java
-    ├── decodeWays.java
-    ├── editDistance.java
-    ├── integerToEnglishWords.java
-    ├── longestPalindrome.java
-    ├── longestSubstringWithAtMostKDistinctCharacters.java
-    ├── minimumWindowSubstring.java
-    ├── multiplyString.java
-    ├── oneEditDistance.java
-    ├── palindromePermutation.java
-    ├── README.md
-    ├── reverseVowelsOfAString.java
-    ├── romanToInteger.java
-    ├── validPalindrome.java
-    └── validParentheses.java
+├── Stack
+│   ├── binarySearchTreeIterator.java
+│   ├── decodeString.java
+│   ├── flattenNestedListIterator.java
+│   └── trappingRainWater.java
+├── String
+│   ├── addBinary.java
+│   ├── countAndSay.java
+│   ├── decodeWays.java
+│   ├── editDistance.java
+│   ├── integerToEnglishWords.java
+│   ├── longestPalindrome.java
+│   ├── longestSubstringWithAtMostKDistinctCharacters.java
+│   ├── minimumWindowSubstring.java
+│   ├── multiplyString.java
+│   ├── oneEditDistance.java
+│   ├── palindromePermutation.java
+│   ├── README.md
+│   ├── reverseVowelsOfAString.java
+│   ├── romanToInteger.java
+│   ├── validPalindrome.java
+│   └── validParentheses.java
+└── TwoPointers
+    ├── 3Sum.java
+    ├── 3SumSmaller.java
+    ├── mergeSortedArray.java
+    ├── minimumSizeSubarraySum.java
+    ├── moveZeros.java
+    ├── removeDuplicatesFromSortedArray.java
+    ├── reverseString.java
+    └── sortColors.java
 
-6 directories, 55 files
+8 directories, 67 files
 
 
 ```
