@@ -5,12 +5,14 @@ Directory Tree
 │   ├── bestTimeToBuyAndSellStock.java
 │   ├── findTheCelebrity.java
 │   ├── gameOfLife.java
+│   ├── increasingTripletSubsequence.java
 │   ├── insertInterval.java
 │   ├── longestConsecutiveSequence.java
 │   ├── maximumProductSubarray.java
 │   ├── maximumSubarray.java
 │   ├── mergeIntervals.java
 │   ├── missingRanges.java
+│   ├── productOfArrayExceptSelf.java
 │   ├── rotateImage.java
 │   ├── searchInRotatedSortedArray.java
 │   ├── spiralMatrixII.java
@@ -47,11 +49,14 @@ Directory Tree
 │   └── wallsAndGates.java
 ├── DepthFirstSearch
 │   ├── balancedBinaryTree.java
+│   ├── battleshipsInABoard.java
 │   ├── convertSortedArrayToBinarySearchTree.java
 │   ├── maximumDepthOfABinaryTree.java
 │   ├── numberOfIslands.java
 │   ├── populatingNextRightPointersInEachNode.java
 │   └── sameTree.java
+├── Design
+│   └── zigzagIterator.java
 ├── DivideAndConquer
 │   ├── expressionAddOperators.java
 │   └── kthLargestElementInAnArray.java
@@ -72,6 +77,7 @@ Directory Tree
 │   ├── binaryTreeVerticalOrderTraversal.java
 │   ├── findTheDifference.java
 │   ├── groupAnagrams.java
+│   ├── groupShiftedStrings.java
 │   ├── islandPerimeter.java
 │   ├── loggerRateLimiter.java
 │   ├── maximumSizeSubarraySumEqualsK.java
@@ -116,6 +122,14 @@ Directory Tree
 │   ├── romanToInteger.java
 │   ├── validPalindrome.java
 │   └── validParentheses.java
+├── Tree
+│   ├── binaryTreeMaximumPathSum.java
+│   ├── binaryTreePaths.java
+│   ├── inorderSuccessorInBST.java
+│   ├── invertBinaryTree.java
+│   ├── lowestCommonAncestorOfABinaryTree.java
+│   ├── sumOfLeftLeaves.java
+│   └── validateBinarySearchTree.java
 ├── Trie
 │   ├── addAndSearchWordDataStructureDesign.java
 │   ├── implementTrie.java
@@ -130,5 +144,5 @@ Directory Tree
     ├── reverseString.java
     └── sortColors.java
 
-16 directories, 112 files
+18 directories, 124 files
 ```
