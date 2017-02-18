@@ -54,7 +54,8 @@
  * **Perfect Binary Tree**: a binary tree in which all interior nodes have two children and all leave have the same depth
  * **Complete Tree**: a binary tree in which every level *except possibly the last* is full and all nodes in the last
    level are as far left as possible
-* **Binary Search Tree**
+
+### Binary Search Tree
  * A binary search tree, sometimes called BST, is a type of binary tree which maintains the property that the value in each
    node must be greater than or equal to any value stored in the left sub-tree, and less than or equal to any value stored
    in the right sub-tree
@@ -75,20 +76,20 @@
 #### Quicksort
 * *Quicksort* is a divide and conquer algorithm. It picks an element as a pivot and partitions the given array around the
   selected pivot. This process is repeated recursively for the left subarray and right subarray
- * Stable: No
- * Time Complexity:
-  * Best Case: `O(nlog(n))`
-  * Worst Case: `O(n^2)`
-  * Average Case: `O(nlog(n))`
+* Stable: `No`
+* Time Complexity:
+ * Best Case: `O(nlog(n))`
+ * Worst Case: `O(n^2)`
+ * Average Case: `O(nlog(n))`
 
 #### Mergesort
 * *Mergesort* is also a divide and conquer algorithm. It continuously divides an array into two halves, recurses on both the
   left subarray and right subarray and then merges the two sorted halves
- * Stable: Yes
- * Time Complexity:
-  * Best Case: `O(nlog(n))`
-  * Worst Case: `O(nlog(n))`
-  * Average Case: `O(nlog(n))`
+* Stable: `Yes`
+* Time Complexity:
+ * Best Case: `O(nlog(n))`
+ * Worst Case: `O(nlog(n))`
+ * Average Case: `O(nlog(n))`
 
 ## Computer Science News
 * [Hacker News](https://news.ycombinator.com/) 
