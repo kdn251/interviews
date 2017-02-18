@@ -9,6 +9,7 @@
 - [Live Coding Practice](#live-coding-practice)
 - [Computer Science News](#computer-science-news)
 - [Data Structures](#data-structures)
+- [Algorithms](#algorithms)
 
 ## Online Judges
 * [LeetCode](https://leetcode.com/)
@@ -21,7 +22,7 @@
 * [Gainlo](http://www.gainlo.co/#!/)
 
 ## Data Structures
-* **Linked List**
+### Linked List
  * A *Linked List* is a linear collection of data elements, called nodes, each
    pointing to the next node by means of a pointer. It is a data structure
    consisting of a group of nodes which together represent a sequence.
@@ -32,17 +33,17 @@
    * Search: `O(n)`
    * Insert: `O(1)`
    * Remove: `O(1)` 
-* **Stack**
+### Stack
  * A *Stack* is a collection of elements, with two principle operations: *push*, which adds to the collection, and
    *pop*, which removes the most recently added element
  * Last in, first out data structure (LIFO)
-* **Queue**
+### Queue
  * A *Queue* is a collection of elements, supporting two principle operations: *enqueue*, which inserts an element
    into the queue, and *dequeue*, which removes an element from the queue
  * First in, first out data structure (FIFO)
-* **Tree**
+### Tree
  * A *Tree* is an undirected, connected, acyclic graph
-* **Binary Tree**
+### Binary Tree
  * A *Binary Tree* is a tree data structure in which each node has at most two children, which are referred to as
    the *left child* and *right child*
  * **Full Tree**: a tree in which every node has either 0 or 2 children
@@ -58,10 +59,28 @@
   * Search: `O(log(n))`
   * Insert: `O(log(n))`
   * Remove: `O(log(n))`
-* **Heap**
-* **Hashing**
-* **Graph**
+### Heap
+### Hashing
+### Graph
 
+## Algorithms
+### Sorting
+#### Quicksort
+* *Quicksort* is a divide and conquer algorithm. It picks an element as a pivot and partitions the given array around the
+  selected pivot. This process is repeated recursively for the left subarray and right subarray
+ * Stable: No
+ * Time Complexity:
+  * Best Case: `O(nlog(n))`
+  * Worst Case: `O(n^2)`
+  * Average Case: `O(nlog(n))`
+#### Mergesort
+* *Mergesort* is also a divide and conquer algorithm. It continuously divides an array into two halves, recurses on both the
+  left subarray and right subarray and then merges the two sorted halves
+ * Stable: Yes
+ * Time Complexity:
+  * Best Case: `O(nlog(n))`
+  * Worst Case: `O(nlog(n))`
+  * Average Case: `O(nlog(n))`
 ## Computer Science News
 * [Hacker News](https://news.ycombinator.com/) 
 
