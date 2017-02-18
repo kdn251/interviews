@@ -20,48 +20,48 @@
 ## Live Coding Practice
 * [Gainlo](http://www.gainlo.co/#!/)
 
-## Data Structures
-* Linked List
  * A *Linked List* is a linear collection of data elements, called nodes, each
    pointing to the next node by means of a pointer. It is a data structure
    consisting of a group of nodes which together represent a sequence.
  * **Singly-linked list**: linked list in which nodes have pointers to the next node
  * **Doubly-linked list**: linked list in which nodes have pointers to *both* the previous node and the next node
  * Time Complexity:
-  * Access: `O(n)`
-  * Search: `O(n)`
-  * Insert: `O(1)`
-  * Remove: `O(1)` 
-* Stack
+   * Access: `O(n)`
+   * Search: `O(n)`
+   * Insert: `O(1)`
+   * Remove: `O(1)` 
+* **Stack**
  * A *Stack* is a collection of elements, with two principle operations: *push*, which adds to the collection, and
    *pop*, which removes the most recently added element
  * Last in, first out data structure (LIFO)
-* Queue
+* **Queue**
  * A *Queue* is a collection of elements, supporting two principle operations: *enqueue*, which inserts an element
    into the queue, and *dequeue*, which removes an element from the queue
  * First in, first out data structure (FIFO)
-* Tree
+* **Tree**
  * A *Tree* is an undirected, connected, acyclic graph
-* Binary Tree
+* **Binary Tree**
  * A *Binary Tree* is a tree data structure in which each node has at most two children, which are referred to as
    the *left child* and *right child*
  * **Full Tree**: a tree in which every node has either 0 or 2 children
  * **Perfect Binary Tree**: a binary tree in which all interior nodes have two children and all leave have the same depth
  * **Complete Tree**: a binary tree in which every level *except possibly the last* is full and all nodes in the last
    level are as far left as possible
+* **Binary Search Tree**
+ * A binary search tree, sometimes called BST, is a type of binary tree which maintains the property that the value in each
+   node must be greater than or equal to any value stored in the left sub-tree, and less than or equal to any value stored
+   in the right sub-tree
  * Time Complexity:
   * Access: `O(log(n))`
   * Search: `O(log(n))`
   * Insert: `O(log(n))`
   * Remove: `O(log(n))`
-* Binary Search Tree
-* Heap
-* Hashing
-* Graph
+* **Heap**
+* **Hashing**
+* **Graph**
 
 ## Computer Science News
 * [Hacker News](https://news.ycombinator.com/) 
-
 
 ## Directory Tree
 
