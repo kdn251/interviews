@@ -9,7 +9,7 @@
 - [Directory Tree](#directory-tree)
 - [Live Coding Practice](#live-coding-practice)
 - [Computer Science News](#computer-science-news)
-
+- [Data Structures](#data-structures)
 ## Online Judges
 
 * [LeetCode](https://leetcode.com/)
@@ -20,6 +20,25 @@
 
 ## Live Coding Practice
 * [Gainlo](http://www.gainlo.co/#!/)
+
+## Data Structures
+* Linked List
+ * A *Linked List* is a linear collection of data elements, called nodes, each
+   pointing to the next node by means of a pointer. It is a data structure
+   consisting of a group of nodes which together represent a sequence.
+ * **Singly-linked list**: linked list in which nodes have pointers to the next node
+ * **Doubly-linked list**: linked list in which nodes have pointers to *both* the previous node and the next node
+ * Time Complexity:
+  * Search: `O(n)`
+  * Insert: `O(1)`
+  * Remove: `O(1)` 
+* Stack
+* Queue
+* Binary Tree
+* Binary Search Tree
+* Heap
+* Hashing
+* Graph
 
 ## Computer Science News
 * [Hacker News](https://news.ycombinator.com/) 
