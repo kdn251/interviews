@@ -21,6 +21,7 @@
 * [Gainlo](http://www.gainlo.co/#!/)
 
 ## Data Structures
+* **Linked List**
  * A *Linked List* is a linear collection of data elements, called nodes, each
    pointing to the next node by means of a pointer. It is a data structure
    consisting of a group of nodes which together represent a sequence.
