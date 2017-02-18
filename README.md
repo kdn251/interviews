@@ -3,8 +3,15 @@
 >
 > Maintainer - [Kevin Naughton Jr.](https://github.com/kdn251)
 
+## Table of Contents
+
+- [Directory Tree](#directory-tree)
+
+
+
+# Directory Tree
+
 ```
-Directory Tree
 .
 ├── Array
 │   ├── bestTimeToBuyAndSellStock.java
