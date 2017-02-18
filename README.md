@@ -8,7 +8,7 @@
 - [Online Judges](#online-judges)
 - [Directory Tree](#directory-tree)
 - [Live Coding Practice](#live-coding-practice)
-
+- [Computer Science News](#computer-science-news)
 
 ## Online Judges
 
