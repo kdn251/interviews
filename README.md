@@ -5,8 +5,24 @@
 
 ## Table of Contents
 
+- [Online Judges](#online-judges)
 - [Directory Tree](#directory-tree)
+- [Live Coding Practice](#live-coding-practice)
 
+
+## Online Judges
+
+* [LeetCode](https://leetcode.com/)
+* [Virtual Judge](https://vjudge.net/)
+* [CareerCup](https://www.careercup.com/)
+* [HackerRank](https://www.hackerrank.com/)
+* [CodeFights](https://codefights.com/)
+
+## Live Coding Practice
+* [Gainlo](http://www.gainlo.co/#!/)
+
+## Computer Science News
+* [Hacker News](https://news.ycombinator.com/) 
 
 
 ## Directory Tree
