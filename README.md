@@ -33,16 +33,20 @@
    * Search: `O(n)`
    * Insert: `O(1)`
    * Remove: `O(1)` 
+
 ### Stack
  * A *Stack* is a collection of elements, with two principle operations: *push*, which adds to the collection, and
    *pop*, which removes the most recently added element
  * Last in, first out data structure (LIFO)
+
 ### Queue
  * A *Queue* is a collection of elements, supporting two principle operations: *enqueue*, which inserts an element
    into the queue, and *dequeue*, which removes an element from the queue
  * First in, first out data structure (FIFO)
+
 ### Tree
  * A *Tree* is an undirected, connected, acyclic graph
+
 ### Binary Tree
  * A *Binary Tree* is a tree data structure in which each node has at most two children, which are referred to as
    the *left child* and *right child*
@@ -59,8 +63,11 @@
   * Search: `O(log(n))`
   * Insert: `O(log(n))`
   * Remove: `O(log(n))`
+
 ### Heap
+
 ### Hashing
+
 ### Graph
 
 ## Algorithms
@@ -73,6 +80,7 @@
   * Best Case: `O(nlog(n))`
   * Worst Case: `O(n^2)`
   * Average Case: `O(nlog(n))`
+
 #### Mergesort
 * *Mergesort* is also a divide and conquer algorithm. It continuously divides an array into two halves, recurses on both the
   left subarray and right subarray and then merges the two sorted halves
@@ -81,6 +89,7 @@
   * Best Case: `O(nlog(n))`
   * Worst Case: `O(nlog(n))`
   * Average Case: `O(nlog(n))`
+
 ## Computer Science News
 * [Hacker News](https://news.ycombinator.com/) 
 
