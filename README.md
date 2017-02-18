@@ -4,14 +4,13 @@
 > Maintainer - [Kevin Naughton Jr.](https://github.com/kdn251)
 
 ## Table of Contents
-
 - [Online Judges](#online-judges)
 - [Directory Tree](#directory-tree)
 - [Live Coding Practice](#live-coding-practice)
 - [Computer Science News](#computer-science-news)
 - [Data Structures](#data-structures)
-## Online Judges
 
+## Online Judges
 * [LeetCode](https://leetcode.com/)
 * [Virtual Judge](https://vjudge.net/)
 * [CareerCup](https://www.careercup.com/)
@@ -29,12 +28,32 @@
  * **Singly-linked list**: linked list in which nodes have pointers to the next node
  * **Doubly-linked list**: linked list in which nodes have pointers to *both* the previous node and the next node
  * Time Complexity:
+  * Access: `O(n)`
   * Search: `O(n)`
   * Insert: `O(1)`
   * Remove: `O(1)` 
 * Stack
+ * A *Stack* is a collection of elements, with two principle operations: *push*, which adds to the collection, and
+   *pop*, which removes the most recently added element
+ * Last in, first out data structure (LIFO)
 * Queue
+ * A *Queue* is a collection of elements, supporting two principle operations: *enqueue*, which inserts an element
+   into the queue, and *dequeue*, which removes an element from the queue
+ * First in, first out data structure (FIFO)
+* Tree
+ * A *Tree* is an undirected, connected, acyclic graph
 * Binary Tree
+ * A *Binary Tree* is a tree data structure in which each node has at most two children, which are referred to as
+   the *left child* and *right child*
+ * **Full Tree**: a tree in which every node has either 0 or 2 children
+ * **Perfect Binary Tree**: a binary tree in which all interior nodes have two children and all leave have the same depth
+ * **Complete Tree**: a binary tree in which every level *except possibly the last* is full and all nodes in the last
+   level are as far left as possible
+ * Time Complexity:
+  * Access: `O(log(n))`
+  * Search: `O(log(n))`
+  * Insert: `O(log(n))`
+  * Remove: `O(log(n))`
 * Binary Search Tree
 * Heap
 * Hashing
