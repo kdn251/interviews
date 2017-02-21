@@ -1,4 +1,4 @@
-# Interviews
+Interviews
 > Your personal guide to Software Development technical interviews.
 >
 > Maintainer - [Kevin Naughton Jr.](https://github.com/kdn251)
@@ -64,9 +64,10 @@
   * Search: `O(log(n))`
   * Insert: `O(log(n))`
   * Remove: `O(log(n))`
+ * ![Alt text](/Images/BST.png?raw=true)
 
 ### Heap
-
+* A *Heap* is a specialized tree based structure data structure that satisfies the *heap* property: if A 
 ### Hashing
 
 ### Graph
