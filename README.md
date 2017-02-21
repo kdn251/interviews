@@ -64,7 +64,7 @@ Interviews
   * Search: `O(log(n))`
   * Insert: `O(log(n))`
   * Remove: `O(log(n))`
- * ![Alt text](/Images/BST.png?raw=true)
+![Alt text](/Images/BST.png =500x500  "Binary Search Tree")
 
 ### Heap
 * A *Heap* is a specialized tree based structure data structure that satisfies the *heap* property: if A 
