@@ -81,6 +81,13 @@ Interviews
  the fact that the location of an item is not always determined by its hash value
 
 ### Graph
+* A *Graph* is an ordered pair of G = (V, E) comprising a set V of vertices or nodes together with a set E of edges or arcs,
+  which are 2-element subsets of V (i.e. an edge is associated with two vertices, and that association takes the form of the
+  unordered pair comprising those two vertices)
+ * **Undirected Graph**: a graph in which the adjacency relation is symmetric. So if there exists an edge from node u to node
+ v (u -> v), then it is also the case that there exists an edge from node v to node u (v -> u)
+ * **Directed Graph**: a graph in which the adjacency relation is not symmetric. So if there exists an edge from node u to node v
+ (u -> v), this does *not* imply that there exists an edge from node v to node u (v -> u)
 
 ## Algorithms
 
@@ -102,6 +109,43 @@ Interviews
  * Worst Case: `O(nlog(n))`
  * Average Case: `O(nlog(n))`
 
+### Graph Algorithms
+
+#### Depth First Search
+* *Depth First Search* is a graph traversal algorithm which explores as far as possible along each branch before backtracking
+* Time Complexity: `O(|V| + |E|)`
+
+#### Breadth First Search
+* *Breadth First Search* is a graph traversal algorithm which explores the neighbor nodes first, before moving to the next
+  level neighbors
+* Time Complexity: `O(|V| + |E|)`
+
+#### Topological Sort
+* *Topological Sort* is the linear ordering of a directed graph's nodes such that for every edge from node u to node v, u
+  comes before v in the ordering
+* Time Complexity: `O(|V| + |E|)`
+
+#### Dijkstra's Algorithm
+* *Dijkstra's Algorithm* is an algorithm for finding the shortest path between nodes in a graph
+* Time Complexity: `O(|V|^2)`
+
+#### Bellman-Ford Algorithm
+* *Bellman-Ford Algorithm* is an algorithm that computes the shortest paths from a single source node to all other nodes in a weighted graph
+* Although it is slower than Dijstra's, it is more versatile, as it is capable of handling graphs in which some of the edge weights are
+  negative numbers
+* Time Complexity:
+ * Best Case: `O(|E|)`
+ * Worst Case: `O(|V||E|)`
+
+#### Floyd-Warshall Algorithm
+* *Floyd-Warshall Algorithm* is an algorithm for finding the shortest paths in a weighted graph with positive or negative edge weights, but
+  no negative cycles
+* A single execution of the algorithm will find the lengths (summed weights) of the shortest paths between *all* pairs of nodes
+* Time Complexity:
+ * Best Case: `O(|V|^3)`
+ * Worst Case: `O(|V|^3)`
+ * Average Case: `O(|V|^3)`
+ 
 ## Computer Science News
 * [Hacker News](https://news.ycombinator.com/) 
 
