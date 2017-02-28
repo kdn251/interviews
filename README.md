@@ -74,6 +74,7 @@ Interviews
   * Search: `O(log(n))`
   * Insert: `O(log(n))`
   * Remove: `O(log(n))`
+
 ![Alt text](/Images/BST.png?raw=true "Binary Search Tree")
 
 
