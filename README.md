@@ -38,11 +38,21 @@ Interviews
  * A *Stack* is a collection of elements, with two principle operations: *push*, which adds to the collection, and
    *pop*, which removes the most recently added element
  * Last in, first out data structure (LIFO)
+ * Time Complexity:
+  * Access: `O(n)`
+  * Search: `O(n)`
+  * Insert: `O(1)`
+  * Remove: `O(1)`
 
 ### Queue
  * A *Queue* is a collection of elements, supporting two principle operations: *enqueue*, which inserts an element
    into the queue, and *dequeue*, which removes an element from the queue
  * First in, first out data structure (FIFO)
+ * Time Complexity:
+  * Access: `O(n)`
+  * Search: `O(n)`
+  * Insert: `O(1)`
+  * Remove: `O(1)`
 
 ### Tree
  * A *Tree* is an undirected, connected, acyclic graph
@@ -64,9 +74,15 @@ Interviews
   * Search: `O(log(n))`
   * Insert: `O(log(n))`
   * Remove: `O(log(n))`
+![Alt text](/Images/BST.png?raw=true "Binary Search Tree")
+
 
 ### Heap
-* A *Heap* is a specialized tree based structure data structure that satisfies the *heap* property: if A 
+* A *Heap* is a specialized tree based structure data structure that satisfies the *heap* property: if A is a parent node of 
+B, then the key (the value) of node A is ordered with respect to the key of node B with the same ordering applying across the entire heap. 
+A heap can be classified further as either a "max heap" or a "min heap". In a max heap, the keys of parent nodes are always greater 
+than or equal to those of the children and the highest key is in the root node. In a min heap, the keys of parent nodes are less than 
+or equal to those of the children and the lowest key is in the root node
 
 ### Hashing
 * *Hashing* is used to map data of an arbitrary size to data of a fixed size. The values return by a hash
@@ -92,8 +108,6 @@ Interviews
 ## Algorithms
 
 ### Sorting
-* *Quicksort* is a divide and conquer algorithm. It picks an element as a pivot and partitions the given array around the
-  selected pivot. This process is repeated recursively for the left subarray and right subarray
 * Stable: `No`
 * Time Complexity:
  * Best Case: `O(nlog(n))`
@@ -108,6 +122,22 @@ Interviews
  * Best Case: `O(nlog(n))`
  * Worst Case: `O(nlog(n))`
  * Average Case: `O(nlog(n))`
+
+#### Bucket Sort
+* *Bucket Sort* is a sorting algorithm that works by distributing the elements of an array into a number of buckets. Each bucket
+  is then sorted individually, either using a different sorting algorithm, or by recursively applying the bucket sorting algorithm
+* Time Complexity:
+ * Best Case: `Ω(n + k)`
+ * Worst Case: `O(n<sup>2</sup>)`
+ * Average Case:`Θ(n + k)`
+
+#### Radix Sort
+* *Radix Sort* is a sorting algorithm that like bucket sort, distributes elements of an array into a number of buckets. However, radix
+  sort differs from bucket sort by 're-bucketing' the array after the initial pass as opposed to sorting each bucket and merging
+* Time Complexity:
+ * Best Case: `Ω(nk)`
+ * Worst Case: `O(nk)`
+ * Average Case: `Θ(nk)`
 
 ### Graph Algorithms
 
