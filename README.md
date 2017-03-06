@@ -5,12 +5,14 @@ Interviews
 
 ## Table of Contents
 - [Online Judges](#online-judges)
-- [Directory Tree](#directory-tree)
 - [Live Coding Practice](#live-coding-practice)
 - [Data Structures](#data-structures)
 - [Algorithms](#algorithms)
 - [Runtime Analysis](#runtime-analysis)
+- [Video Lectures](#video-lectures)
+- [Interview Books](#interview-books)
 - [Computer Science News](#computer-science-news)
+- [Directory Tree](#directory-tree)
 
 ## Online Judges
 * [LeetCode](https://leetcode.com/)
@@ -201,6 +203,20 @@ or equal to those of the children and the lowest key is in the root node
  * Worst Case: `O(|V|^3)`
  * Average Case: `O(|V|^3)`
 
+#### Prim's Algorithm
+* *Prim's Algorithm* is a greedy algorithm that finds a minimum spanning tree for a weighted undirected graph. In other words, Prim's find a
+  subset of edges that forms a tree that includes every node in the graph
+* Time Complexity: `O(|V|^2)`
+
+![Alt text](/Images/prim.gif?raw=true "Prim's Algorithm")
+
+#### Kruskal's Algorithm
+* *Kruskal's Algorithm* is also a greedy algorithm that finds a minimum spanning tree in a graph. However, in Kruskal's, the graph does not 
+  have to be connected
+* Time Complexity: `O(|E|log|V|)`
+
+![Alt text](/Images/kruskal.gif?raw=true "Kruskal's Algorithm")
+
 ## Runtime Analysis
 
 #### Big O Notation
@@ -225,6 +241,18 @@ or equal to those of the children and the lowest key is in the root node
   two constants (one for an upper limit and one for a lower limit) for sufficiently large values
 
 ![Alt text](/Images/theta.png?raw=true "Theta Notation")
+
+## Video Lectures
+* Data Structures
+ * [UC Berkeley Data Structures](https://www.youtube.com/watch?v=mFPmKGIrQs4&index=1&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
+ * [MIT Advanced Data Structures](https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1)
+* Algorithms
+ * [MIT Introduction to Algorithms](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=1)
+ * [MIT Advanced Algorithms](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
+
+## Interview Books
+* Cracking The Coding Interview - Gayle Laakmann McDowell
+* Cracking The PM Interview - Gayle Laakmann McDowell & Jackie Bavaro
 
 ## Computer Science News
 * [Hacker News](https://news.ycombinator.com/) 
