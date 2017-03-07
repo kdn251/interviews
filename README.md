@@ -1,5 +1,5 @@
 Interviews
-> Your personal guide to Software Development technical interviews.
+> Your personal guide to Software Engineering technical interviews.
 >
 > Maintainer - [Kevin Naughton Jr.](https://github.com/kdn251)
 
@@ -251,6 +251,7 @@ or equal to those of the children and the lowest key is in the root node
  * [MIT Advanced Algorithms](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
 
 ## Interview Books
+* Competitive Programming 3 - Steven Halim & Felix Halim
 * Cracking The Coding Interview - Gayle Laakmann McDowell
 * Cracking The PM Interview - Gayle Laakmann McDowell & Jackie Bavaro
 
