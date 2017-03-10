@@ -221,13 +221,13 @@ or equal to those of the children and the lowest key is in the root node
 ##Bitmasks
 * Bitmasking is a technique used to perform operations at the bit level. Leveraging bitmasks often leads to faster runtime complexity and
   helps limit memory usage
-* Test kth bit: 's & (1 << k)'
-* Set kth bit: 's |= (1 << k)'
-* Turn off kth bit: 's &= ~(1 << k)'
-* Toggle kth bit: 's ^= ~(1 << k)'
-* Intersection: 's & t'
-* Union: 's | t'
-* Set Subtraction: 's & ~t'
+* Test kth bit: `s & (1 << k)`
+* Set kth bit: `s |= (1 << k)`
+* Turn off kth bit: `s &= ~(1 << k)`
+* Toggle kth bit: `s ^= ~(1 << k)`
+* Intersection: `s & t`
+* Union: `s | t`
+* Set Subtraction: `s & ~t`
 
 ## Runtime Analysis
 
