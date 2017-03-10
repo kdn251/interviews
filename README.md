@@ -8,6 +8,7 @@ Interviews
 - [Live Coding Practice](#live-coding-practice)
 - [Data Structures](#data-structures)
 - [Algorithms](#algorithms)
+- [Bitmasks](#bitmasks)
 - [Runtime Analysis](#runtime-analysis)
 - [Video Lectures](#video-lectures)
 - [Interview Books](#interview-books)
@@ -216,6 +217,17 @@ or equal to those of the children and the lowest key is in the root node
 * Time Complexity: `O(|E|log|V|)`
 
 ![Alt text](/Images/kruskal.gif?raw=true "Kruskal's Algorithm")
+
+##Bitmasks
+* Bitmasking is a technique used to perform operations at the bit level. Leveraging bitmasks often leads to faster runtime complexity and
+  helps limit memory usage
+* Test kth bit: 's & (1 << k)'
+* Set kth bit: 's |= (1 << k)'
+* Turn off kth bit: 's &= ~(1 << k)'
+* Toggle kth bit: 's ^= ~(1 << k)'
+* Intersection: 's & t'
+* Union: 's | t'
+* Set Subtraction: 's & ~t'
 
 ## Runtime Analysis
 
