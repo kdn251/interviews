@@ -36,7 +36,7 @@ Interviews
    * Access: `O(n)`
    * Search: `O(n)`
    * Insert: `O(1)`
-   * Remove: `O(1)` 
+   * Remove: `O(1)`
 
 ### Stack
  * A *Stack* is a collection of elements, with two principle operations: *push*, which adds to the collection, and
@@ -79,17 +79,18 @@ Interviews
   * Insert: `O(log(n))`
   * Remove: `O(log(n))`
 
-![Alt text](/Images/BST.png?raw=true "Binary Search Tree")
+<img src="/Images/BST.png?raw=true" alt="Binary Search Tree" width="400" height="500">
 
 
 ### Heap
-* A *Heap* is a specialized tree based structure data structure that satisfies the *heap* property: if A is a parent node of 
-B, then the key (the value) of node A is ordered with respect to the key of node B with the same ordering applying across the entire heap. 
-A heap can be classified further as either a "max heap" or a "min heap". In a max heap, the keys of parent nodes are always greater 
-than or equal to those of the children and the highest key is in the root node. In a min heap, the keys of parent nodes are less than 
+* A *Heap* is a specialized tree based structure data structure that satisfies the *heap* property: if A is a parent node of
+B, then the key (the value) of node A is ordered with respect to the key of node B with the same ordering applying across the entire heap.
+A heap can be classified further as either a "max heap" or a "min heap". In a max heap, the keys of parent nodes are always greater
+than or equal to those of the children and the highest key is in the root node. In a min heap, the keys of parent nodes are less than
 or equal to those of the children and the lowest key is in the root node
 
-![Alt text](/Images/heap.png?raw=true "Max Heap")
+<img src="/Images/heap.png?raw=true" alt="Max Heap" width="400" height="500">
+
 
 ### Hashing
 * *Hashing* is used to map data of an arbitrary size to data of a fixed size. The values return by a hash
@@ -99,7 +100,7 @@ or equal to those of the children and the lowest key is in the root node
 * Collision Resolution
  * **Separate Chaining**: in *separate chaining*, each bucket is independent, and contains a list of entries for each index. The
  time for hash map operations is the time to find the bucket (constant time), plus the time to iterate through the list
- * **Open Addressing**: in *open addressing*, when a new entry is inserted, the buckets are examined, starting with the 
+ * **Open Addressing**: in *open addressing*, when a new entry is inserted, the buckets are examined, starting with the
  hashed-to-slot and proceeding in some sequence, until an unoccupied slot is found. The name open addressing refers to
  the fact that the location of an item is not always determined by its hash value
 
@@ -115,7 +116,8 @@ or equal to those of the children and the lowest key is in the root node
  * **Directed Graph**: a graph in which the adjacency relation is not symmetric. So if there exists an edge from node u to node v
  (u -> v), this does *not* imply that there exists an edge from node v to node u (v -> u)
 
-![Alt text](/Images/graph.png?raw=true "Graph")
+
+<img src="/Images/graph.png?raw=true" alt="Graph" width="400" height="500">
 
 ## Algorithms
 
@@ -212,7 +214,7 @@ or equal to those of the children and the lowest key is in the root node
 ![Alt text](/Images/prim.gif?raw=true "Prim's Algorithm")
 
 #### Kruskal's Algorithm
-* *Kruskal's Algorithm* is also a greedy algorithm that finds a minimum spanning tree in a graph. However, in Kruskal's, the graph does not 
+* *Kruskal's Algorithm* is also a greedy algorithm that finds a minimum spanning tree in a graph. However, in Kruskal's, the graph does not
   have to be connected
 * Time Complexity: `O(|E|log|V|)`
 
@@ -268,7 +270,7 @@ or equal to those of the children and the lowest key is in the root node
 * Cracking The PM Interview - Gayle Laakmann McDowell & Jackie Bavaro
 
 ## Computer Science News
-* [Hacker News](https://news.ycombinator.com/) 
+* [Hacker News](https://news.ycombinator.com/)
 
 ## Directory Tree
 
