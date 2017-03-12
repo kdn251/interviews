@@ -25,6 +25,7 @@
 
 ## Live Coding Practice
 * [Gainlo](http://www.gainlo.co/#!/)
+* [Refdash](https://refdash.com/)
 
 ## Data Structures
 ### Linked List
@@ -267,9 +268,11 @@ or equal to those of the children and the lowest key is in the root node
 * Intersection: `s & t`
 * Union: `s | t`
 * Set Subtraction: `s & ~t`
-* Swap Values: `x = x ^ y ^ (y = x)`
 * Extract lowest set bit: `s & (-s)`
 * Extract lowest unset bit: `~s & (s + 1)`
+* Swap Values: `x ^= y
+                y ^= x
+                x ^= y`
 
 ## Runtime Analysis
 
