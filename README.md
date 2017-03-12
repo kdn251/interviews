@@ -36,7 +36,7 @@ Interviews
    * Access: `O(n)`
    * Search: `O(n)`
    * Insert: `O(1)`
-   * Remove: `O(1)` 
+   * Remove: `O(1)`
 
 ### Stack
  * A *Stack* is a collection of elements, with two principle operations: *push*, which adds to the collection, and
@@ -81,13 +81,47 @@ Interviews
 
 ![Alt text](/Images/BST.png?raw=true "Binary Search Tree")
 
+### Trie
+* A trie, sometimes called a radix or prefix tree, is a kind of search tree that is used to store a dynamic set or associative
+  array where the keys are usually Strings. No node in the tree stores the key associated with that node; instead, its position 
+  in the tree defines the key with which it is associated. All the descendants of a node have a common prefix of the String associated 
+  with that node, and the root is associated with the empty String.
+
+![Alt text](/Images/trie.png?raw=true "Trie")
+
+### Fenwick Tree
+* A Fenwick tree, sometimes called a binary indexed tree, is a tree in concept, but in practice is implemented as an implicit data
+  structure using an array. Given an index in the array representing a vertex, the index of a vertex's parent or child is calculated
+  through bitwise operations on the binary representation of its index. Each element of the array contains the pre-calculated sum of
+  a range of values, and by combining that sum with additional ranges encountered during an upward traversal to the root, the prefix
+  sum is calculated
+* Time Complexity:
+ * Range Sum: `O(log(n))`
+ * Update: `O(log(n))`
+
+![Alt text](/Images/fenwickTree.png?raw=true "Fenwick Tree")
+
+### Segment Tree
+* A Segment tree, is a tree data structure for storing intervals, or segments. It allows quering which of the stored segments contain
+  a given point
+* Time Complexity:
+ * Range Query: `O(log(n))`
+ * Update: `O(log(n))`
+
+![Alt text](/Images/segmentTree.png?raw=true "Segment Tree")
 
 ### Heap
-* A *Heap* is a specialized tree based structure data structure that satisfies the *heap* property: if A is a parent node of 
-B, then the key (the value) of node A is ordered with respect to the key of node B with the same ordering applying across the entire heap. 
-A heap can be classified further as either a "max heap" or a "min heap". In a max heap, the keys of parent nodes are always greater 
-than or equal to those of the children and the highest key is in the root node. In a min heap, the keys of parent nodes are less than 
+* A *Heap* is a specialized tree based structure data structure that satisfies the *heap* property: if A is a parent node of
+B, then the key (the value) of node A is ordered with respect to the key of node B with the same ordering applying across the entire heap.
+A heap can be classified further as either a "max heap" or a "min heap". In a max heap, the keys of parent nodes are always greater
+than or equal to those of the children and the highest key is in the root node. In a min heap, the keys of parent nodes are less than
 or equal to those of the children and the lowest key is in the root node
+* Time Complexity:
+ * Access: `O(log(n))`
+ * Search: `O(log(n))`
+ * Insert: `O(log(n))`
+ * Remove: `O(log(n))`
+ * Remove Max / Min: `O(1)`
 
 ![Alt text](/Images/heap.png?raw=true "Max Heap")
 
@@ -99,7 +133,7 @@ or equal to those of the children and the lowest key is in the root node
 * Collision Resolution
  * **Separate Chaining**: in *separate chaining*, each bucket is independent, and contains a list of entries for each index. The
  time for hash map operations is the time to find the bucket (constant time), plus the time to iterate through the list
- * **Open Addressing**: in *open addressing*, when a new entry is inserted, the buckets are examined, starting with the 
+ * **Open Addressing**: in *open addressing*, when a new entry is inserted, the buckets are examined, starting with the
  hashed-to-slot and proceeding in some sequence, until an unoccupied slot is found. The name open addressing refers to
  the fact that the location of an item is not always determined by its hash value
 
@@ -212,7 +246,7 @@ or equal to those of the children and the lowest key is in the root node
 ![Alt text](/Images/prim.gif?raw=true "Prim's Algorithm")
 
 #### Kruskal's Algorithm
-* *Kruskal's Algorithm* is also a greedy algorithm that finds a minimum spanning tree in a graph. However, in Kruskal's, the graph does not 
+* *Kruskal's Algorithm* is also a greedy algorithm that finds a minimum spanning tree in a graph. However, in Kruskal's, the graph does not
   have to be connected
 * Time Complexity: `O(|E|log|V|)`
 
@@ -225,9 +259,14 @@ or equal to those of the children and the lowest key is in the root node
 * Set kth bit: `s |= (1 << k)`
 * Turn off kth bit: `s &= ~(1 << k)`
 * Toggle kth bit: `s ^= ~(1 << k)`
+* Multiple by 2<sup>n</sup>: `s << n`
+* Divide by 2<sup>n</sup>: `s >> n`
 * Intersection: `s & t`
 * Union: `s | t`
 * Set Subtraction: `s & ~t`
+* Swap Values: `x = x ^ y ^ (y = x)`
+* Extract lowest set bit: `s & (-s)`
+* Extract lowest unset bit: `~s & (s + 1)`
 
 ## Runtime Analysis
 
@@ -268,7 +307,7 @@ or equal to those of the children and the lowest key is in the root node
 * Cracking The PM Interview - Gayle Laakmann McDowell & Jackie Bavaro
 
 ## Computer Science News
-* [Hacker News](https://news.ycombinator.com/) 
+* [Hacker News](https://news.ycombinator.com/)
 
 ## Directory Tree
 
