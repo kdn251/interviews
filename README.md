@@ -221,7 +221,7 @@ or equal to those of the children and the lowest key is in the root node
 
 #### Bellman-Ford Algorithm
 * *Bellman-Ford Algorithm* is an algorithm that computes the shortest paths from a single source node to all other nodes in a weighted graph
-* Although it is slower than Dijstra's, it is more versatile, as it is capable of handling graphs in which some of the edge weights are
+* Although it is slower than Dijkstra's, it is more versatile, as it is capable of handling graphs in which some of the edge weights are
   negative numbers
 * Time Complexity:
  * Best Case: `O(|E|)`
