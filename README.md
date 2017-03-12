@@ -30,9 +30,9 @@ Interviews
  * A *Linked List* is a linear collection of data elements, called nodes, each
    pointing to the next node by means of a pointer. It is a data structure
    consisting of a group of nodes which together represent a sequence.
- * **Singly-linked list**: linked list in which nodes have pointers to the next node and last node point to null
- * **Doubly-linked list**: linked list in which nodes have two pointers to point *both* the previous node and the next node
- * **Circular-linked list**: linked list in which nodes have pointers to the next node and last node point again head
+ * **Singly-linked list**: linked list in which nodes have pointers to the next node and the last node point's to null
+ * **Doubly-linked list**: linked list in which nodes have two pointers which point's to *both* the previous node and the next node
+ * **Circular-linked list**: linked list in which nodes have pointers to the next node and the last node point's again to the head
  * Time Complexity:
    * Access: `O(n)`
    * Search: `O(n)`
