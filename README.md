@@ -79,7 +79,7 @@ Interviews
   * Insert: `O(log(n))`
   * Remove: `O(log(n))`
 
-![Alt text](/Images/BST.png?raw=true "Binary Search Tree")
+<img src="/Images/BST.png?raw=true" alt="Binary Search Tree" width="400" height="500">
 
 ### Trie
 * A trie, sometimes called a radix or prefix tree, is a kind of search tree that is used to store a dynamic set or associative
@@ -123,7 +123,8 @@ or equal to those of the children and the lowest key is in the root node
  * Remove: `O(log(n))`
  * Remove Max / Min: `O(1)`
 
-![Alt text](/Images/heap.png?raw=true "Max Heap")
+<img src="/Images/heap.png?raw=true" alt="Max Heap" width="400" height="500">
+
 
 ### Hashing
 * *Hashing* is used to map data of an arbitrary size to data of a fixed size. The values return by a hash
@@ -149,7 +150,8 @@ or equal to those of the children and the lowest key is in the root node
  * **Directed Graph**: a graph in which the adjacency relation is not symmetric. So if there exists an edge from node u to node v
  (u -> v), this does *not* imply that there exists an edge from node v to node u (v -> u)
 
-![Alt text](/Images/graph.png?raw=true "Graph")
+
+<img src="/Images/graph.png?raw=true" alt="Graph" width="400" height="500">
 
 ## Algorithms
 
