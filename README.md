@@ -260,7 +260,7 @@ or equal to those of the children and the lowest key is in the root node
 * Test kth bit: `s & (1 << k)`
 * Set kth bit: `s |= (1 << k)`
 * Turn off kth bit: `s &= ~(1 << k)`
-* Toggle kth bit: `s ^= ~(1 << k)`
+* Toggle kth bit: `s ^= (1 << k)`
 * Multiple by 2<sup>n</sup>: `s << n`
 * Divide by 2<sup>n</sup>: `s >> n`
 * Intersection: `s & t`
