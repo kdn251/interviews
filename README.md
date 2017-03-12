@@ -21,6 +21,7 @@
 * [CareerCup](https://www.careercup.com/)
 * [HackerRank](https://www.hackerrank.com/)
 * [CodeFights](https://codefights.com/)
+* [Kattis](https://open.kattis.com/)
 
 ## Live Coding Practice
 * [Gainlo](http://www.gainlo.co/#!/)
