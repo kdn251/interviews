@@ -22,6 +22,7 @@
 * [HackerRank](https://www.hackerrank.com/)
 * [CodeFights](https://codefights.com/)
 * [Kattis](https://open.kattis.com/)
+* [HackerEarth](https://www.hackerearth.com)
 
 ## Live Coding Practice
 * [Gainlo](http://www.gainlo.co/#!/)
