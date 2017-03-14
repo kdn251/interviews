@@ -12,17 +12,17 @@
 
 - [English](./README.md)
 
-## Table of Contents
-- [Online Judges](#online-judges)
-- [Live Coding Practice](#live-coding-practice)
-- [Data Structures](#data-structures)
-- [Algorithms](#algorithms)
-- [Bitmasks](#bitmasks)
-- [Runtime Analysis](#runtime-analysis)
-- [Video Lectures](#video-lectures)
-- [Interview Books](#interview-books)
-- [Computer Science News](#computer-science-news)
-- [Directory Tree](#directory-tree)
+## 目录
+- [在线练习](#在线练习)
+- [在线面试编程](#在线面试编程)
+- [数据结构](#数据结构)
+- [算法](#算法)
+- [位运算](#位运算)
+- [算法复杂度分析](#算法复杂度分析)
+- [视频教程](#视频教程)
+- [面试书籍](#面试书籍)
+- [计算机科学与技术资讯](#计算机科学与技术资讯)
+- [文件结构](#文件结构)
 
 ## 在线练习
 * [LeetCode](https://leetcode.com/)
@@ -67,8 +67,7 @@
   * 移除: `O(1)`
 
 ### Tree
-
-* 树还要求 connected，不能有空节点
+* 树是无向、连通、非循环的图。
 
 ### Binary Tree
  * 二叉树即是每个节点最多包含左子节点与右子节点这两个节点的树形数据结构。
@@ -195,7 +194,7 @@
 * 时间复杂度: `O(|V| + |E|)`
 
 #### Dijkstra 算法
-* *Dijkstra 算法* 用于计算有向图中单源最短路径问题。
+* **Dijkstra 算法** 用于计算有向图中单源最短路径问题。
 * 时间复杂度: `O(|V|^2)`
 
 ![Alt text](/Images/dijkstra.gif?raw=true "Dijkstra's")
@@ -217,7 +216,7 @@
   * 平均时间: `O(|V|^3)`
 
 #### Prim 算法
-* **Prim's 算法**是用于在带权无向图中计算最小生成树的贪婪算法。换言之，Prim 算法能够在图中抽取出连接所有节点的边的最小代价子集。
+* **Prim 算法**是用于在带权无向图中计算最小生成树的贪婪算法。换言之，Prim 算法能够在图中抽取出连接所有节点的边的最小代价子集。
 * 时间复杂度: `O(|V|^2)`
 
 ![Alt text](/Images/prim.gif?raw=true "Prim's Algorithm")
