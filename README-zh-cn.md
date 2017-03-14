@@ -209,7 +209,7 @@
 ![Alt text](/Images/bellman-ford.gif?raw=true "Bellman-Ford")
 
 #### Floyd-Warshall 算法
-* *Floyd-Warshall 算法* 能够用于在无环带权图中寻找任意节点的最短路径。
+* **Floyd-Warshall 算法** 能够用于在无环带权图中寻找任意节点的最短路径。
 * 时间复杂度:
   * 最优时间: `O(|V|^3)`
   * 最坏时间: `O(|V|^3)`
