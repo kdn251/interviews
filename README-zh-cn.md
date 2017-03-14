@@ -39,7 +39,7 @@
 
 ## 数据结构
 ### Linked List
- * 链表即是由节点（Node）组成的线性集合，每个节点可以利用指针指向其他节点。它是一种包含了多个节点的，能够用于表示序列的数据结构。
+ * 链表即是由节点（Node）组成的线性集合，每个节点可以利用指针指向其他节点。它是一种包含了多个节点的、能够用于表示序列的数据结构。
  * **Singly-linked list**: 链表中的节点仅指向下一个节点。
  * **Doubly-linked list**: 链表中的节点不仅指向下一个节点，还指向前一个节点。
  * 时间复杂度:
@@ -129,7 +129,7 @@
 ![Alt text](/Images/hash.png?raw=true "Hashing")
 
 ### Graph
-* 图是一种数据元素间为多对多关系的数据结构,加上一组基本操作构成的抽象数据类型。
+* 图是一种数据元素间为多对多关系的数据结构，加上一组基本操作构成的抽象数据类型。
     * **无向图（Undirected Graph）**: 无向图具有对称的邻接矩阵，因此如果存在某条从节点 u 到节点 v 的边，反之从 v 到 u 的边也存在。
     * **有向图（Directed Graph）**: 有向图的邻接矩阵是非对称的，即如果存在从 u 到 v 的边并不意味着一定存在从 v 到 u 的边。
 
@@ -137,7 +137,7 @@
 
 ## 算法
 
-### Sorting
+### 排序
 
 #### 快速排序
 * 稳定: 否
@@ -200,7 +200,7 @@
 ![Alt text](/Images/dijkstra.gif?raw=true "Dijkstra's")
 
 #### Bellman-Ford 算法
-* *Bellman-Ford 算法* 是在带权图中计算从单一源点出发到其他节点的最短路径的算法。
+* **Bellman-Ford 算法**是在带权图中计算从单一源点出发到其他节点的最短路径的算法。
 * 尽管算法复杂度大于 Dijkstra 算法，但是它适用于包含了负值边的图。
 * 时间复杂度:
   * 最优时间: `O(|E|)`
@@ -216,13 +216,13 @@
   * 平均时间: `O(|V|^3)`
 
 #### Prim 算法
-* *Prim's 算法*是用于在带权无向图中计算最小生成树的贪婪算法。换言之，Prim 算法能够在图中抽取出连接所有节点的边的最小代价子集。
+* **Prim's 算法**是用于在带权无向图中计算最小生成树的贪婪算法。换言之，Prim 算法能够在图中抽取出连接所有节点的边的最小代价子集。
 * 时间复杂度: `O(|V|^2)`
 
 ![Alt text](/Images/prim.gif?raw=true "Prim's Algorithm")
 
 #### Kruskal 算法
-* *Kruskal 算法* 同样是计算图的最小生成树的算法，与 Prim 的区别在于并不需要图是连通的。
+* **Kruskal 算法**同样是计算图的最小生成树的算法，与 Prim 的区别在于并不需要图是连通的。
 * 时间复杂度: `O(|E|log|V|)`
 
 ![Alt text](/Images/kruskal.gif?raw=true "Kruskal's Algorithm")
@@ -241,27 +241,33 @@
 * 交换 `x = x ^ y ^ (y = x)`
 * Extract lowest set bit: `s & (-s)`
 * Extract lowest unset bit: `~s & (s + 1)`
+* Swap Values:
+             ```
+                x ^= y;
+                y ^= x;
+                x ^= y;
+             ```
 
 ## 算法复杂度分析
 
 #### 大 O 表示
-* *大 O 表示* 用于表示某个算法的上限，往往用于描述最坏的情况。
+* **大 O 表示** 用于表示某个算法的上限，往往用于描述最坏的情况。
 
 ![Alt text](/Images/bigO.png?raw=true "Theta Notation")
 
 #### 小 O 表示
-* *小 O 表示* 用于描述某个算法的渐进上界，不过二者要更为紧密。
+* **小 O 表示**用于描述某个算法的渐进上界，不过二者要更为紧密。
 
 #### 大 Ω 表示
-* *大 Ω 表示* 用于描述某个算法的渐进下界。
+* **大 Ω 表示**用于描述某个算法的渐进下界。
 
 ![Alt text](/Images/bigOmega.png?raw=true "Theta Notation")
 
 #### 小 ω 表示
-* *Little Omega Notation* 用于描述某个特定算法的下界，不过不一定很靠近。
+* **Little Omega Notation**用于描述某个特定算法的下界，不过不一定很靠近。
 
 #### Theta Θ 表示
-* *Theta Notation* 用于描述某个确定算法的确界。
+* **Theta Notation**用于描述某个确定算法的确界。
 
 ![Alt text](/Images/theta.png?raw=true "Theta Notation")
 
