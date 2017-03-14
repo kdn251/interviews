@@ -1,10 +1,10 @@
 > * 原文地址：[github.com/kdn251/interviews](https://github.com/kdn251/interviews)
-* 译文出自：[掘金翻译计划](https://github.com/xitu/gold-miner)
-* 译者：[王下邀月熊](https://github.com/wxyyxc1992)
-* 校对者：
+> * 译文出自：[掘金翻译计划](https://github.com/xitu/gold-miner)
+> * 译者：[王下邀月熊](https://github.com/wxyyxc1992)
+> * 校对者：[PhxNirvana](https://github.com/phxnirvana)、[根号三](https://github.com/sqrthree)
 
 # Interviews
-> Your personal guide to Software Engineering technical interviews.
+> 软件工程技术面试个人指南。
 >
 > Maintainer - [Kevin Naughton Jr.](https://github.com/kdn251)
 
@@ -240,8 +240,8 @@
 * 并集: `s | t`
 * 减法: `s & ~t`
 * 交换 `x = x ^ y ^ (y = x)`
-* 取出最小 0 位（Extract lowest set bit）: `s & (-s)`
-* 取出最小非 0 位（Extract lowest unset bit）: `~s & (s + 1)`
+* 取出最小非 0 位（Extract lowest set bit）: `s & (-s)`
+* 取出最小 0 位（Extract lowest unset bit）: `~s & (s + 1)`
 * 交换值:
              ```
                 x ^= y;
