@@ -3,6 +3,10 @@
 >
 > Maintainer - [Kevin Naughton Jr.](https://github.com/kdn251)
 
+## Translations
+
+- [简体中文](./README-zh-cn.md)
+
 ## Table of Contents
 - [Online Judges](#online-judges)
 - [Live Coding Practice](#live-coding-practice)
