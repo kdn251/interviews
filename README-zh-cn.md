@@ -2,6 +2,7 @@
 > * 译文出自：[掘金翻译计划](https://github.com/xitu/gold-miner)
 > * 译者：[王下邀月熊](https://github.com/wxyyxc1992)
 > * 校对者：[PhxNirvana](https://github.com/phxnirvana)、[根号三](https://github.com/sqrthree)
+> * 这个 [链接](https://github.com/xitu/interviews/compare/master...kdn251:master) 用来查看本翻译与英文版是否有差别（如果你没有看到 README.md 发生变化，那就意味着这份翻译文档是最新的）。
 
 # Interviews
 > 软件工程技术面试个人指南。
