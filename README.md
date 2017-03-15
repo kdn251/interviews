@@ -258,7 +258,7 @@ or equal to those of the children and the lowest key is in the root node
 
 ![Alt text](/Images/kruskal.gif?raw=true "Kruskal's Algorithm")
 
-##Bitmasks
+## Bitmasks
 * Bitmasking is a technique used to perform operations at the bit level. Leveraging bitmasks often leads to faster runtime complexity and
   helps limit memory usage
 * Test kth bit: `s & (1 << k);`
