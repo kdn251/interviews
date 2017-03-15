@@ -38,7 +38,7 @@ public class Solution {
                     //increment the count by the distance between left and right because the array is sorted
                     count += right - left;
                     
-                    //decrement right pointer
+                    //increment left pointer
                     left++;
                     
                 }
@@ -46,7 +46,7 @@ public class Solution {
                 //if they sum to a value greater than target...
                 else {
                     
-                    //increment left pointer
+                    //decrement right pointer
                     right--;
                     
                 }
