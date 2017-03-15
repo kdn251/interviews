@@ -23,6 +23,8 @@
 * [CodeFights](https://codefights.com/)
 * [Kattis](https://open.kattis.com/)
 * [HackerEarth](https://www.hackerearth.com)
+* [TopCoder](https://www.topcoder.com/)
+* [GeeksForGeeks](http://www.geeksforgeeks.org/)
 
 ## Live Coding Practice
 * [Gainlo](http://www.gainlo.co/#!/)
