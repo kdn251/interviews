@@ -318,17 +318,16 @@ or equal to those of the children and the lowest key is in the root node
 
 ## Books
 * [Competitive Programming 3 - Steven Halim & Felix Halim](https://www.amazon.com/Competitive-Programming-3rd-Steven-Halim/dp/B00FG8MNN8) 
-* (Cracking The Coding Interview - Gayle Laakmann McDowell](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=sr_1_1?s=books&ie=UTF8)
+* [Cracking The Coding Interview - Gayle Laakmann McDowell](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=sr_1_1?s=books&ie=UTF8)
 * [Cracking The PM Interview - Gayle Laakmann McDowell & Jackie Bavaro](https://www.amazon.com/Cracking-PM-Interview-Product-Technology-ebook/dp/B00ISYMUR6/ref=sr_1_1?s=books&ie=UTF8)
-* [Algorithm Design](https://www.pearsonhighered.com/program/Kleinberg-Algorithm-Design/PGM319216.html) - Pretty straight-forward.
-* [Algorithms](http://algs4.cs.princeton.edu/home/) - Problems explained with Java, OO good practices, visualizations, and free online resources.
-* [Data Structures Using C](http://www.amazon.com/Data-Structures-Using-Aaron-Tenenbaum/dp/0131997467) - The basic concepts and usages of data structures.
-* [Elementary Algorithms](https://github.com/liuxinyu95/AlgoXY) - An awesome book about algorithms and data structures.
-* [Grokking Algorithms](http://www.manning.com/bhargava) - An illustrated book on algorithms with practical examples.
-* [Introduction to Algorithms](http://mitpress.mit.edu/books/introduction-algorithms) - Essential!
-* [Swift Algorithms & Data Structures](http://shop.waynewbishop.com/) - A practical guide to concepts, theory and code.
-* [The Algorithm Design Manual](http://www.algorist.com/) - Easy to read and full of real world examples.
-* [The Art of Computer Programming](http://www-cs-faculty.stanford.edu/~uno/taocp.html) - The Book.
+* [Algorithm Design](https://www.pearsonhighered.com/program/Kleinberg-Algorithm-Design/PGM319216.html)
+* [Algorithms](http://algs4.cs.princeton.edu/home/)
+* [Data Structures Using C](http://www.amazon.com/Data-Structures-Using-Aaron-Tenenbaum/dp/0131997467)
+* [Grokking Algorithms](http://www.manning.com/bhargava)
+* [Introduction to Algorithms](http://mitpress.mit.edu/books/introduction-algorithms)
+* [Swift Algorithms & Data Structures](http://shop.waynewbishop.com/)
+* [The Algorithm Design Manual](http://www.algorist.com/)
+* [The Art of Computer Programming](http://www-cs-faculty.stanford.edu/~uno/taocp.html)
 
 ## Computer Science News
 * [Hacker News](https://news.ycombinator.com/)
