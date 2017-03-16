@@ -288,6 +288,7 @@
 
 ## 计算机科学与技术资讯
 * [Hacker News](https://news.ycombinator.com/)
+* [Lobsters](https://lobste.rs/)
 
 ## 文件结构
 
