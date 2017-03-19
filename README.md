@@ -110,7 +110,7 @@
 ![Alt text](/Images/fenwickTree.png?raw=true "Fenwick Tree")
 
 ### Segment Tree
-* A Segment tree, is a tree data structure for storing intervals, or segments. It allows quering which of the stored segments contain
+* A Segment tree, is a tree data structure for storing intervals, or segments. It allows querying which of the stored segments contain
   a given point
 * Time Complexity:
  * Range Query: `O(log(n))`
