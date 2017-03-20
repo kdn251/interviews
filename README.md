@@ -27,6 +27,11 @@
 * [CodeFights](https://codefights.com/)
 * [Kattis](https://open.kattis.com/)
 * [HackerEarth](https://www.hackerearth.com)
+* [Codility](https://codility.com/programmers/lessons/1-iterations/)
+* [Code Forces](http://codeforces.com/)
+* [Code Chef](https://www.codechef.com/)
+* [Sphere Online Judge - SPOJ](http://www.spoj.com/)
+* [Code Eval](https://www.codeeval.com/)
 
 ## Live Coding Practice
 * [Gainlo](http://www.gainlo.co/#!/)
