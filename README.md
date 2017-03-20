@@ -12,6 +12,7 @@
 - [Live Coding Practice](#live-coding-practice)
 - [Data Structures](#data-structures)
 - [Algorithms](#algorithms)
+- [Greedy Algorithms](#greedy-algorithms)
 - [Bitmasks](#bitmasks)
 - [Runtime Analysis](#runtime-analysis)
 - [Video Lectures](#video-lectures)
@@ -262,6 +263,26 @@ or equal to those of the children and the lowest key is in the root node
 
 ![Alt text](/Images/kruskal.gif?raw=true "Kruskal's Algorithm")
 
+## Greedy Algorithms
+* *Greedy Algorithms* are algorithms that make locally optimal choices at each step in the hope of eventually reaching the globally optimal solution
+* Problems must exhibit two properties in order to implement a Greedy solution:
+ * Optimal Substructure
+    * An optimal solution to the problem contains optimal solutions to the given problem's subproblems
+ * The Greedy Property
+    * An optimal solution is reached by "greedily" choosing the locally optimal choice without ever reconsidering previous choices
+* Example - Coin Change
+    * Given a target amount V cents and a list of denominations of n coins, i.e. we have coinValue[i] (in cents) for coin types i from [0...n - 1],
+      what is the minimum number of coins that we must use to represent amount V? Assume that we have an unlimited supply of coins of any type
+    * Coins - Penny (1 cent), Nickel (5 cents), Dime (10 cents), Quarter (25 cents)
+    * Assume V = 43. We can use the Greedy algorithm of continuously selecting the largest coin denomination less than or equal to V, subtract that
+      coin's value from V, and repeat.
+    * V = 41 | 0 coins used
+    * V = 16 | 1 coin used (41 - 25 = 16)
+    * V = 6  | 2 coins used (16 - 10 = 6)
+    * V = 1  | 3 coins used (6 - 5 = 1)
+    * V = 0  | 4 coins used (1 - 1 = 0)
+    * Using this algorithm, we arrive at a total of 4 coins which is optimal
+
 ## Bitmasks
 * Bitmasking is a technique used to perform operations at the bit level. Leveraging bitmasks often leads to faster runtime complexity and
   helps limit memory usage
@@ -310,11 +331,11 @@ or equal to those of the children and the lowest key is in the root node
 
 ## Video Lectures
 * Data Structures
- * [UC Berkeley Data Structures](https://www.youtube.com/watch?v=mFPmKGIrQs4&index=1&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
- * [MIT Advanced Data Structures](https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1)
+    * [UC Berkeley Data Structures](https://www.youtube.com/watch?v=mFPmKGIrQs4&index=1&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
+    * [MIT Advanced Data Structures](https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1)
 * Algorithms
- * [MIT Introduction to Algorithms](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=1)
- * [MIT Advanced Algorithms](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
+    * [MIT Introduction to Algorithms](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=1)
+    * [MIT Advanced Algorithms](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
 
 ## Interview Books
 * Competitive Programming 3 - Steven Halim & Felix Halim
