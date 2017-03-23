@@ -15,7 +15,7 @@
 - [Bitmasks](#bitmasks)
 - [Runtime Analysis](#runtime-analysis)
 - [Video Lectures](#video-lectures)
-- [Books](#books)
+- [Interview Books](#books)
 - [Computer Science News](#computer-science-news)
 - [Directory Tree](#directory-tree)
 
@@ -31,7 +31,6 @@
 * [Code Forces](http://codeforces.com/)
 * [Code Chef](https://www.codechef.com/)
 * [Sphere Online Judge - SPOJ](http://www.spoj.com/)
-* [Code Eval](https://www.codeeval.com/)
 
 ## Live Coding Practice
 * [Gainlo](http://www.gainlo.co/#!/)
