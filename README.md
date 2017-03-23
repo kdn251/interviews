@@ -15,7 +15,7 @@
 - [Bitmasks](#bitmasks)
 - [Runtime Analysis](#runtime-analysis)
 - [Video Lectures](#video-lectures)
-- [Interview Books](#books)
+- [Interview Books](#interview-books)
 - [Computer Science News](#computer-science-news)
 - [Directory Tree](#directory-tree)
 
@@ -320,17 +320,11 @@ or equal to those of the children and the lowest key is in the root node
  * [MIT Introduction to Algorithms](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=1)
  * [MIT Advanced Algorithms](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
 
-## Books
+## Interview Books
 * [Competitive Programming 3 - Steven Halim & Felix Halim](https://www.amazon.com/Competitive-Programming-3rd-Steven-Halim/dp/B00FG8MNN8) 
 * [Cracking The Coding Interview - Gayle Laakmann McDowell](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=sr_1_1?s=books&ie=UTF8)
 * [Cracking The PM Interview - Gayle Laakmann McDowell & Jackie Bavaro](https://www.amazon.com/Cracking-PM-Interview-Product-Technology-ebook/dp/B00ISYMUR6/ref=sr_1_1?s=books&ie=UTF8)
-* [Algorithm Design - Jon Kleinberg & Éva Tardos](https://www.pearsonhighered.com/program/Kleinberg-Algorithm-Design/PGM319216.html)
-* [Algorithms - Robert Sedgewick & Kevin Wayne](http://algs4.cs.princeton.edu/home/)
-* [Data Structures Using C - Aaron M. Tenenbaum](http://www.amazon.com/Data-Structures-Using-Aaron-Tenenbaum/dp/0131997467)
-* [Grokking Algorithms - Aditya Y. Bhargava](http://www.manning.com/bhargava)
 * [Introduction to Algorithms -  Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest & Clifford Stein](http://mitpress.mit.edu/books/introduction-algorithms)
-* [The Algorithm Design Manual - Steven Skiena](http://www.algorist.com/)
-* [The Art of Computer Programming - Donald E. Knuth](http://www-cs-faculty.stanford.edu/~uno/taocp.html)
 
 ## Computer Science News
 * [Hacker News](https://news.ycombinator.com/)
