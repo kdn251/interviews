@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Airbnb" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Amazon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Facebook" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Google" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LinkedIn" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Twitter" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Uber" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
