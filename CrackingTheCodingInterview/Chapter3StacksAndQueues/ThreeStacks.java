@@ -34,7 +34,7 @@ public class ThreeStacks {
 	}
 
 	boolean isEmpty(int stackNum) {
-		return stackPointer[sstackNum] == -1;
+		return stackPointer[stackNum] == -1;
 	}
 
 	/* returns index of top of stack "stackNum", in absolute terms */
