@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Company/Airbnb"/>
+	<classpathentry kind="src" path="Company/Amazon"/>
+	<classpathentry kind="src" path="Company/Facebook"/>
+	<classpathentry kind="src" path="Company/Google"/>
+	<classpathentry kind="src" path="Company/LinkedIn"/>
+	<classpathentry kind="src" path="Company/Twitter"/>
+	<classpathentry kind="src" path="Company/Uber"/>
+	<classpathentry kind="src" path="CrackingTheCodingInterview/Chapter1ArraysAndStrings"/>
+	<classpathentry kind="src" path="CrackingTheCodingInterview/Chapter2LinkedLists"/>
+	<classpathentry kind="src" path="LeetCode/Array"/>
+	<classpathentry kind="src" path="LeetCode/Backtracking"/>
+	<classpathentry kind="src" path="LeetCode/BinarySearch"/>
+	<classpathentry kind="src" path="LeetCode/BitManipulation"/>
+	<classpathentry kind="src" path="LeetCode/BreadthFirstSearch"/>
+	<classpathentry kind="src" path="LeetCode/DepthFirstSearch"/>
+	<classpathentry kind="src" path="LeetCode/Design"/>
+	<classpathentry kind="src" path="LeetCode/DivideAndConquer"/>
+	<classpathentry kind="src" path="LeetCode/DynamicProgramming"/>
+	<classpathentry kind="src" path="LeetCode/HashTable"/>
+	<classpathentry kind="src" path="LeetCode/LinkedList"/>
+	<classpathentry kind="src" path="LeetCode/Queue"/>
+	<classpathentry kind="src" path="LeetCode/Sort"/>
+	<classpathentry kind="src" path="LeetCode/Stack"/>
+	<classpathentry kind="src" path="LeetCode/String"/>
+	<classpathentry kind="src" path="LeetCode/Tree"/>
+	<classpathentry kind="src" path="LeetCode/Trie"/>
+	<classpathentry kind="src" path="LeetCode/TwoPointers"/>
+	<classpathentry kind="src" path="UVa"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
