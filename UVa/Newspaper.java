@@ -32,21 +32,13 @@ and rapid software development.
 From Wikipedia.
 Sample Output
 3.74$*/
-//https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2315
 
-import static java.lang.Integer.parseInt;
-import static java.lang.System.exit;
+package UVa;
 
 import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.text.DecimalFormat;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
-import java.util.StringTokenizer;
 
 public class Newspaper {
 
