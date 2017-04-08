@@ -93,7 +93,7 @@ public class PrimeFactors {
 
 	static void formatOutput(int number, List<Integer> primeFactors, boolean isNegative) {
 		if (isNegative) {
-			number = number * (-1);
+			number *= -1;
 		}
 		StringBuilder output = new StringBuilder(number + " = ");
 		int numberOfPrimeFactors = primeFactors.size();
