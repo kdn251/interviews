@@ -1,10 +1,4 @@
-/*Webster defines prime as:
-prime (pr¯im) n. [ME, fr. MF, fem. of prin first, L primus; akin to L prior] 1: first in
-time: original 2 a: having no factor except itself and one ⟨3 is a ∼ number⟩ b : having
-no common factor except one ⟨12 and 25 are relatively ∼⟩ 3 a: first in rank, authority or
-significance: principal b: having the highest quality or value ⟨∼ television time ⟩ [from
-Webster’s New Collegiate Dictionary]
-The most relevant definition for this problem is 2a: An integer g > 1 is said to be prime if and only
+/*The most relevant definition for this problem is 2a: An integer g > 1 is said to be prime if and only
 if its only positive divisors are itself and one (otherwise it is said to be composite). For example, the
 number 21 is composite; the number 23 is prime. Note that the decompositon of a positive number g
 into its prime factors, i.e.,
@@ -53,118 +47,89 @@ Sample Output
 198 = 2 x 3 x 3 x 11
 199 = 199
 200 = 2 x 2 x 2 x 5 x 5*/
-import static java.lang.Integer.parseInt;
-import static java.lang.System.exit;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.io.PrintWriter;
+//https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=524
+package UVa;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.StringTokenizer;
-
+import java.util.Scanner;
 
 public class PrimeFactors {
 
-    static void solve() throws Exception {
-	int number = nextInt();
-	boolean[] isPrime = generatePrimeNumbers();
-	while (number != 0) {
-	    boolean isNegative = false;
-	    if (number < 0) {
-		isNegative = true;
-		number = (int) Math.abs(number);
-	    }
-	    int originalNumber = number;
-	    List<Integer> primeFactors = new ArrayList<Integer>();
-	    int squareRootOfOriginalNumber = (int) Math.sqrt(originalNumber);
-	    for (int i = 2; i <= squareRootOfOriginalNumber; i++) {
-		if (isPrime[i]) {
-		    while (number % i == 0) {
-			primeFactors.add(i);
-			number = number / i;
-		    }
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int number = input.nextInt();
+		while (number != 0) {
+			boolean isNegative = false;
+			if (number < 0) {
+				isNegative = true;
+				number = (int) Math.abs(number);
+			}
+			int originalNumber = number;
+			formatOutput(originalNumber, getPrimeFactors(originalNumber), isNegative);
+			number = input.nextInt();
 		}
-	    }
-	    if (number != 1) {
-		primeFactors.add(number);
-	    }
-	    formatOutput(originalNumber, primeFactors, isNegative);
-	    number = nextInt();
-
 	}
 
-    }
-
-    static void formatOutput(int number, List<Integer> primeFactors, boolean isNegative) {
-	if (isNegative) {
-	    number = number * (-1);
-	}
-	StringBuilder output = new StringBuilder(number + " = ");
-	int numberOfPrimeFactors = primeFactors.size();
-	if (numberOfPrimeFactors == 1) {
-	    if (isNegative) {
-		output.append("-1 x " + (number * (-1)));
-	    } else {
-		output.append(number);
-	    }
-	} else {
-	    Collections.sort(primeFactors);
-	    if (isNegative) {
-		output.append("-1 x ");
-	    }
-	    for (int i = 0; i < numberOfPrimeFactors - 1; i++) {
-		output.append(primeFactors.get(i) + " x ");
-	    }
-	    output.append(primeFactors.get(numberOfPrimeFactors - 1));
-	}
-	System.out.println(output);
-    }
-
-    static boolean[] generatePrimeNumbers() {
-	int number = (int) Math.sqrt(Integer.MAX_VALUE);
-	boolean[] isPrime = new boolean[number + 1];
-	for (int i = 2; i < number + 1; i++) {
-	    isPrime[i] = true;
-	}
-	for (int factor = 2; factor * factor < number + 1; factor++) {
-	    if (isPrime[factor]) {
-		for (int j = factor; j * factor < number + 1; j++) {
-		    isPrime[j * factor] = false;
+	public static List<Integer> getPrimeFactors(int number) {
+		boolean[] isPrime = generatePrimeNumbers();
+		List<Integer> primeFactors = new ArrayList<Integer>();
+		int squareRootOfOriginalNumber = (int) Math.sqrt(number);
+		for (int i = 2; i <= squareRootOfOriginalNumber; i++) {
+			if (isPrime[i]) {
+				while (number % i == 0) {
+					primeFactors.add(i);
+					number = number / i;
+				}
+			}
 		}
-	    }
+		if (number != 1) {
+			primeFactors.add(number);
+		}
+		return primeFactors;
 	}
-	return isPrime;
-    }
 
-    static int nextInt() throws IOException {
-	return parseInt(next());
-    }
-
-    static String next() throws IOException {
-	while (tok == null || !tok.hasMoreTokens()) {
-	    tok = new StringTokenizer(in.readLine());
+	static void formatOutput(int number, List<Integer> primeFactors, boolean isNegative) {
+		if (isNegative) {
+			number = number * (-1);
+		}
+		StringBuilder output = new StringBuilder(number + " = ");
+		int numberOfPrimeFactors = primeFactors.size();
+		if (numberOfPrimeFactors == 1) {
+			if (isNegative) {
+				output.append("-1 x " + (number * (-1)));
+			} else {
+				output.append(number);
+			}
+		} else {
+			Collections.sort(primeFactors);
+			if (isNegative) {
+				output.append("-1 x ");
+			}
+			for (int i = 0; i < numberOfPrimeFactors - 1; i++) {
+				output.append(primeFactors.get(i) + " x ");
+			}
+			output.append(primeFactors.get(numberOfPrimeFactors - 1));
+		}
+		System.out.println(output);
 	}
-	return tok.nextToken();
-    }
 
-    public static void main(String[] args) {
-	try {
-	    in = new BufferedReader(new InputStreamReader(System.in));
-	    out = new PrintWriter(new OutputStreamWriter(System.out));
-	    solve();
-	    in.close();
-	    out.close();
-	} catch (Throwable e) {
-	    e.printStackTrace();
-	    exit(0);
+	static boolean[] generatePrimeNumbers() {
+		int number = (int) Math.sqrt(Integer.MAX_VALUE);
+		boolean[] isPrime = new boolean[number + 1];
+		for (int i = 2; i < number + 1; i++) {
+			isPrime[i] = true;
+		}
+		for (int factor = 2; factor * factor < number + 1; factor++) {
+			if (isPrime[factor]) {
+				for (int j = factor; j * factor < number + 1; j++) {
+					isPrime[j * factor] = false;
+				}
+			}
+		}
+		return isPrime;
 	}
-    }
 
-    static BufferedReader in;
-    static PrintWriter out;
-    static StringTokenizer tok;
 }
