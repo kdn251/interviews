@@ -65,7 +65,7 @@ public class PrimeFactors {
 			boolean isNegative = false;
 			if (number < 0) {
 				isNegative = true;
-				number = (int) Math.abs(number);
+				number = Math.abs(number);
 			}
 			int originalNumber = number;
 			formatOutput(originalNumber, getPrimeFactors(originalNumber), isNegative);
