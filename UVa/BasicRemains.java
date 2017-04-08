@@ -21,15 +21,8 @@ Sample Output
 10
 789
  */
-import static java.lang.Integer.parseInt;
-import static java.lang.System.exit;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.PrintWriter;
 import java.math.BigInteger;
 import java.util.Scanner;
-import java.util.StringTokenizer;
 
 public class BasicRemains {
 
@@ -43,9 +36,6 @@ public class BasicRemains {
 			BigInteger p = new BigInteger(input.next(), baseNumber);
 			BigInteger m = new BigInteger(input.next(), baseNumber);
 			System.out.println((p.mod(m)).toString(baseNumber));
-		}
-		
-		input.close();
 		}
 	}
 }
