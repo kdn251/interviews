@@ -1,3 +1,4 @@
+
 /*A sequence of n > 0 integers is called a jolly jumper if the absolute values of the difference between
 successive elements take on all the values 1 through n − 1. For instance,
 1 4 2 3
@@ -16,7 +17,6 @@ Jolly
 Not jolly*/
 //https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=979
 
-
 import static java.lang.Integer.parseInt;
 import static java.lang.System.exit;
 
@@ -32,7 +32,7 @@ import java.util.StringTokenizer;
 
 public class JollyJumper {
 
-	static void solve() throws Exception {
+	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		while (input.hasNext()) {
 			Set<Integer> numbersAlreadyAdded = new HashSet<Integer>();
@@ -53,10 +53,9 @@ public class JollyJumper {
 				System.out.println("Not jolly");
 			}
 		}
-		input.close();
 	}
 
-	static int findMaximalElement(int[] numbers) {
+	public static int findMaximalElement(int[] numbers) {
 		int max = numbers[0];
 		for (int i = 1; i < numbers.length; i++) {
 			if (max < numbers[i]) {
@@ -66,31 +65,4 @@ public class JollyJumper {
 		return max;
 	}
 
-	static int nextInt() throws IOException {
-		return parseInt(next());
-	}
-
-	static String next() throws IOException {
-		while (tok == null || !tok.hasMoreTokens()) {
-			tok = new StringTokenizer(in.readLine());
-		}
-		return tok.nextToken();
-	}
-
-	public static void main(String[] args) {
-		try {
-			in = new BufferedReader(new InputStreamReader(System.in));
-			out = new PrintWriter(new OutputStreamWriter(System.out));
-			solve();
-			in.close();
-			out.close();
-		} catch (Throwable e) {
-			e.printStackTrace();
-			exit(0);
-		}
-	}
-
-	static BufferedReader in;
-	static PrintWriter out;
-	static StringTokenizer tok;
 }
