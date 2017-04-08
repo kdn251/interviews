@@ -1,3 +1,4 @@
+
 /**
  * In this problem you will be given two decimal integer number N, M. You will have to find the last
 non-zero digit of the P
@@ -28,38 +29,28 @@ import java.util.Scanner;
 
 public class LastNonZeroDigit {
 
-    static void solve() throws Exception {
-	Scanner input = new Scanner(System.in);
-	while (input.hasNext()) {
-	    long n = input.nextInt();
-	    long m = input.nextInt();
-	    long product = 1;
-	    for (long i = (n - m + 1); i < n + 1; i++) {
-		product = product * i;
-		while (product % 10 == 0) {
-		    product = product / 10;
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		while (input.hasNext()) {
+			long n = input.nextInt();
+			long m = input.nextInt();
+			long product = 1;
+			for (long i = (n - m + 1); i < n + 1; i++) {
+				product = product * i;
+				while (product % 10 == 0) {
+					product = product / 10;
+				}
+				product = product % (long) (Math.pow(10, 11));
+			}
+			String number = product + "";
+			for (int i = number.length() - 1; i > -1; i--) {
+				char c = number.charAt(i);
+				if (c != '0') {
+					System.out.println(c);
+					break;
+				}
+			}
 		}
-		product = product % (long) (Math.pow(10, 11));
-	    }
-	    String number = product + "";
-	    for (int i = number.length() - 1; i > -1; i--) {
-		char c = number.charAt(i);
-		if (c != '0') {
-		    System.out.println(c);
-		    break;
-		}
-	    }
 	}
-	input.close();
-    }
-
-    public static void main(String[] args) {
-	try {
-	    solve();
-	} catch (Throwable e) {
-	    e.printStackTrace();
-	    exit(0);
-	}
-    }
 
 }
