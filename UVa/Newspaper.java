@@ -33,7 +33,6 @@ From Wikipedia.
 Sample Output
 3.74$*/
 
-package UVa;
 
 import java.text.DecimalFormat;
 import java.util.HashMap;
