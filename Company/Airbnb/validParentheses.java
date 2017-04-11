@@ -22,19 +22,19 @@ public class Solution {
                 
             }
             
-            else if(s.charAt(i) == ')' && !stack.isEmpty() && stack.peek() == ')') {
+            else if(s.charAt(i) == ')' && !stack.isEmpty() && stack.peek() == '(') {
                 
                 stack.pop();
                 
             }
             
-            else if(s.charAt(i) == ']' && !stack.isEmpty() && stack.peek() == ']') {
+            else if(s.charAt(i) == ']' && !stack.isEmpty() && stack.peek() == '[') {
                 
                 stack.pop();
                 
             }
             
-            else if(s.charAt(i) == '}' && !stack.isEmpty() && stack.peek() == '}') {
+            else if(s.charAt(i) == '}' && !stack.isEmpty() && stack.peek() == '{') {
                 
                 stack.pop();
                 
