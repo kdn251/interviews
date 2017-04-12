@@ -69,7 +69,7 @@ public class PrimeFactors {
 				number = Math.abs(number);
 			}
 			int originalNumber = number;
-			formatOutput(originalNumber, getPrimeFactors(originalNumber), isNegative);
+			formatOutput(originalNumber, sieveOfEratosthenes(originalNumber), isNegative);
 			number = input.nextInt();
 		}
 	}
