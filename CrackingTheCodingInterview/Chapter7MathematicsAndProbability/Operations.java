@@ -40,6 +40,9 @@ public class Operations {
 		else {
 			return a;
 		}
+		
+		//or
+		return Math.abs(a);
 	}
 
 	public int divide(int a, int b) throws ArithmeticException {
