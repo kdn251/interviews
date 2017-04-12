@@ -20,7 +20,7 @@
 
 //https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=979
 
-public class JollyJumper {
+public class JollyJumpers {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
