@@ -74,7 +74,7 @@ public class PrimeFactors {
 		}
 	}
 
-	public static List<Integer> getPrimeFactors(int number) {
+	public static List<Integer> sieveOfEratosthenes(int number) {
 		boolean[] isPrime = generatePrimeNumbers();
 		List<Integer> primeFactors = new ArrayList<Integer>();
 		int squareRootOfOriginalNumber = (int) Math.sqrt(number);
