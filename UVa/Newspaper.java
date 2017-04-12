@@ -34,7 +34,7 @@
 *Sample Output
 *3.74$
 */
-
+//https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2315
 
 import java.text.DecimalFormat;
 import java.util.HashMap;
