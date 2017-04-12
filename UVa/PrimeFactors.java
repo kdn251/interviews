@@ -62,6 +62,7 @@ public class PrimeFactors {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int number = input.nextInt();
+		boolean[] isPrime = generatePrimeNumbers();
 		while (number != 0) {
 			boolean isNegative = false;
 			if (number < 0) {
@@ -69,13 +70,12 @@ public class PrimeFactors {
 				number = Math.abs(number);
 			}
 			int originalNumber = number;
-			formatOutput(originalNumber, sieveOfEratosthenes(originalNumber), isNegative);
+			formatOutput(originalNumber, sieveOfEratosthenes(isPrime, originalNumber), isNegative);
 			number = input.nextInt();
 		}
 	}
 
-	public static List<Integer> sieveOfEratosthenes(int number) {
-		boolean[] isPrime = generatePrimeNumbers();
+	public static List<Integer> sieveOfEratosthenes(boolean[] isPrime, int number) {
 		List<Integer> primeFactors = new ArrayList<Integer>();
 		int squareRootOfOriginalNumber = (int) Math.sqrt(number);
 		for (int i = 2; i <= squareRootOfOriginalNumber; i++) {
