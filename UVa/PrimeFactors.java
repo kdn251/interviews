@@ -47,7 +47,8 @@
 *197 = 197
 *198 = 2 x 3 x 3 x 11
 *199 = 199
-*200 = 2 x 2 x 2 x 5 x 5*/
+*200 = 2 x 2 x 2 x 5 x 5
+*/
 
 //https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=524
 
