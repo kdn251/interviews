@@ -20,6 +20,11 @@
 
 //https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=979
 
+import java.util.HashSet;
+import java.util.Scanner;
+import java.util.Set;
+
+
 public class JollyJumpers {
 
 	public static void main(String[] args) {
