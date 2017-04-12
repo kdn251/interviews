@@ -49,7 +49,6 @@ Sample Output
 200 = 2 x 2 x 2 x 5 x 5*/
 
 //https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=524
-package UVa;
 
 import java.util.ArrayList;
 import java.util.Collections;
