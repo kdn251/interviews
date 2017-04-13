@@ -28,7 +28,7 @@
 
 import java.util.Scanner;
 
-public class LastNonZeroDigit {
+public class TheLastNonZeroDigit {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
