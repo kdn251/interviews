@@ -82,13 +82,6 @@
  * **Complete Tree**: a binary tree in which every level *except possibly the last* is full and all nodes in the last
    level are as far left as possible
    
-   <table>
-      <tr>
-         <td> <img src="https://github.com/jsroyal/interviews/blob/master/Images/Full.png"></td>
-         <td><img src="https://github.com/jsroyal/interviews/blob/master/Images/Perfect.png"></td>
-         <td><img src="https://github.com/jsroyal/interviews/blob/master/Images/Complete.png"></td>
-      </tr>
-   </table> 
 
 ### Binary Search Tree
  * A binary search tree, sometimes called BST, is a type of binary tree which maintains the property that the value in each
@@ -364,147 +357,147 @@ or equal to those of the children and the lowest key is in the root node
 ```
 .
 ├── Array
-│   ├── bestTimeToBuyAndSellStock.java
-│   ├── findTheCelebrity.java
-│   ├── gameOfLife.java
-│   ├── increasingTripletSubsequence.java
-│   ├── insertInterval.java
-│   ├── longestConsecutiveSequence.java
-│   ├── maximumProductSubarray.java
-│   ├── maximumSubarray.java
-│   ├── mergeIntervals.java
-│   ├── missingRanges.java
-│   ├── productOfArrayExceptSelf.java
-│   ├── rotateImage.java
-│   ├── searchInRotatedSortedArray.java
-│   ├── spiralMatrixII.java
-│   ├── subsetsII.java
-│   ├── subsets.java
-│   ├── summaryRanges.java
-│   ├── wiggleSort.java
-│   └── wordSearch.java
+│   ├── [bestTimeToBuyAndSellStock.java](LeetCode/Array/bestTimeToBuyAndSellStock.java)
+│   ├── [findTheCelebrity.java](LeetCode/Array/findTheCelebrity.java)
+│   ├── [gameOfLife.java](LeetCode/ArraygameOfLife/.java)
+│   ├── [increasingTripletSubsequence.java](LeetCode/Array/increasingTripletSubsequence.java)
+│   ├── [insertInterval.java](LeetCode/Array/insertInterval.java)
+│   ├── [longestConsecutiveSequence.java](LeetCode/Array/longestConsecutiveSequence.java)
+│   ├── [maximumProductSubarray.java](LeetCode/Array/maximumProductSubarray.java)
+│   ├── [maximumSubarray.java](LeetCode/Array/maximumSubarray.java)
+│   ├── [mergeIntervals.java](LeetCode/ArraymergeIntervals/.java)
+│   ├── [missingRanges.java](LeetCode/Array/missingRanges.java)
+│   ├── [productOfArrayExceptSelf.java](LeetCode/Array/productOfArrayExceptSelf.java)
+│   ├── [rotateImage.java](LeetCode/Array/rotateImage.java)
+│   ├── [searchInRotatedSortedArray.java](LeetCode/Array/searchInRotatedSortedArray.java)
+│   ├── [spiralMatrixII.java](LeetCode/Array/spiralMatrixII.java)
+│   ├── [subsetsII.java](LeetCode/Array/subsetsII.java)
+│   ├── [subsets.java](LeetCode/Array/subsets.java)
+│   ├── [summaryRanges.java](LeetCode/Array/summaryRanges.java)
+│   ├── [wiggleSort.java](LeetCode/Array/wiggleSort.java)
+│   └── [wordSearch.java](LeetCode/Array/wordSearch.java)
 ├── Backtracking
-│   ├── androidUnlockPatterns.java
-│   ├── generalizedAbbreviation.java
-│   └── letterCombinationsOfAPhoneNumber.java
+│   ├── [androidUnlockPatterns.java](LeetCode/Array/.java)
+│   ├── [generalizedAbbreviation.java](LeetCode/Array/.java)
+│   └── [letterCombinationsOfAPhoneNumber.java](LeetCode/Array/.java)
 ├── BinarySearch
-│   ├── closestBinarySearchTreeValue.java
-│   ├── firstBadVersion.java
-│   ├── guessNumberHigherOrLower.java
-│   ├── pow(x,n).java
-│   └── sqrt(x).java
+│   ├── [closestBinarySearchTreeValue.java](LeetCode/Array/.java)
+│   ├── [firstBadVersion.java](LeetCode/Array/.java)
+│   ├── [guessNumberHigherOrLower.java](LeetCode/Array/.java)
+│   ├── [pow(x,n).java](LeetCode/Array/.java)
+│   └── [sqrt(x).java](LeetCode/Array/.java)
 ├── BitManipulation
-│   ├── binaryWatch.java
-│   ├── countingBits.java
-│   ├── hammingDistance.java
-│   ├── maximumProductOfWordLengths.java
-│   ├── numberOf1Bits.java
-│   ├── sumOfTwoIntegers.java
-│   └── utf-8Validation.java
+│   ├── [binaryWatch.java](LeetCode/Array/.java)
+│   ├── [countingBits.java](LeetCode/Array/.java)
+│   ├── [hammingDistance.java](LeetCode/Array/.java)
+│   ├── [maximumProductOfWordLengths.java](LeetCode/Array/.java)
+│   ├── [numberOf1Bits.java](LeetCode/Array/.java)
+│   ├── [sumOfTwoIntegers.java](LeetCode/Array/.java)
+│   └── [utf-8Validation.java](LeetCode/Array/.java)
 ├── BreadthFirstSearch
-│   ├── binaryTreeLevelOrderTraversal.java
-│   ├── cloneGraph.java
-│   ├── pacificAtlanticWaterFlow.java
-│   ├── removeInvalidParentheses.java
-│   ├── shortestDistanceFromAllBuildings.java
-│   ├── symmetricTree.java
-│   └── wallsAndGates.java
+│   ├── [binaryTreeLevelOrderTraversal.java](LeetCode/Array/.java)
+│   ├── [cloneGraph.java](LeetCode/Array/.java)
+│   ├── [pacificAtlanticWaterFlow.java](LeetCode/Array/.java)
+│   ├── [removeInvalidParentheses.java](LeetCode/Array/.java)
+│   ├── [shortestDistanceFromAllBuildings.java](LeetCode/Array/.java)
+│   ├── [symmetricTree.java](LeetCode/Array/.java)
+│   └── [wallsAndGates.java](LeetCode/Array/.java)
 ├── DepthFirstSearch
-│   ├── balancedBinaryTree.java
-│   ├── battleshipsInABoard.java
-│   ├── convertSortedArrayToBinarySearchTree.java
-│   ├── maximumDepthOfABinaryTree.java
-│   ├── numberOfIslands.java
-│   ├── populatingNextRightPointersInEachNode.java
-│   └── sameTree.java
+│   ├── [balancedBinaryTree.java](LeetCode/Array/.java)
+│   ├── [battleshipsInABoard.java](LeetCode/Array/.java)
+│   ├── [convertSortedArrayToBinarySearchTree.java](LeetCode/Array/.java)
+│   ├── [maximumDepthOfABinaryTree.java](LeetCode/Array/.java)
+│   ├── [numberOfIslands.java](LeetCode/Array/.java)
+│   ├── [populatingNextRightPointersInEachNode.java](LeetCode/Array/.java)
+│   └── [sameTree.java](LeetCode/Array/.java)
 ├── Design
-│   └── zigzagIterator.java
+│   └── [zigzagIterator.java](LeetCode/Array/.java)
 ├── DivideAndConquer
-│   ├── expressionAddOperators.java
-│   └── kthLargestElementInAnArray.java
+│   ├── [expressionAddOperators.java](LeetCode/Array/.java)
+│   └── [kthLargestElementInAnArray.java](LeetCode/Array/.java)
 ├── DynamicProgramming
-│   ├── bombEnemy.java
-│   ├── climbingStairs.java
-│   ├── combinationSumIV.java
-│   ├── countingBits.java
-│   ├── editDistance.java
-│   ├── houseRobber.java
-│   ├── paintFence.java
-│   ├── paintHouseII.java
-│   ├── regularExpressionMatching.java
-│   ├── sentenceScreenFitting.java
-│   ├── uniqueBinarySearchTrees.java
-│   └── wordBreak.java
+│   ├── [bombEnemy.java](LeetCode/Array/.java)
+│   ├── [climbingStairs.java](LeetCode/Array/.java)
+│   ├── [combinationSumIV.java](LeetCode/Array/.java)
+│   ├── [countingBits.java](LeetCode/Array/.java)
+│   ├── [editDistance.java](LeetCode/Array/.java)
+│   ├── [houseRobber.java](LeetCode/Array/.java)
+│   ├── [paintFence.java](LeetCode/Array/.java)
+│   ├── [paintHouseII.java](LeetCode/Array/.java)
+│   ├── [regularExpressionMatching.java](LeetCode/Array/.java)
+│   ├── [sentenceScreenFitting.java](LeetCode/Array/.java)
+│   ├── [uniqueBinarySearchTrees.java](LeetCode/Array/.java)
+│   └── [wordBreak.java](LeetCode/Array/.java)
 ├── HashTable
-│   ├── binaryTreeVerticalOrderTraversal.java
-│   ├── findTheDifference.java
-│   ├── groupAnagrams.java
-│   ├── groupShiftedStrings.java
-│   ├── islandPerimeter.java
-│   ├── loggerRateLimiter.java
-│   ├── maximumSizeSubarraySumEqualsK.java
-│   ├── minimumWindowSubstring.java
-│   ├── sparseMatrixMultiplication.java
-│   ├── strobogrammaticNumber.java
-│   ├── twoSum.java
-│   └── uniqueWordAbbreviation.java
+│   ├── [binaryTreeVerticalOrderTraversal.java](LeetCode/Array/.java)
+│   ├── [findTheDifference.java](LeetCode/Array/.java)
+│   ├── [groupAnagrams.java](LeetCode/Array/.java)
+│   ├── [groupShiftedStrings.java](LeetCode/Array/.java)
+│   ├── [islandPerimeter.java](LeetCode/Array/.java)
+│   ├── [loggerRateLimiter.java](LeetCode/Array/.java)
+│   ├── [maximumSizeSubarraySumEqualsK.java](LeetCode/Array/.java)
+│   ├── [minimumWindowSubstring.java](LeetCode/Array/.java)
+│   ├── [sparseMatrixMultiplication.java](LeetCode/Array/.java)
+│   ├── [strobogrammaticNumber.java](LeetCode/Array/.java)
+│   ├── [twoSum.java](LeetCode/Array/.java)
+│   └── [uniqueWordAbbreviation.java](LeetCode/Array/.java)
 ├── LinkedList
-│   ├── addTwoNumbers.java
-│   ├── deleteNodeInALinkedList.java
-│   ├── mergeKSortedLists.java
-│   ├── palindromeLinkedList.java
-│   ├── plusOneLinkedList.java
-│   ├── README.md
-│   └── reverseLinkedList.java
+│   ├── [addTwoNumbers.java](LeetCode/Array/.java)
+│   ├── [deleteNodeInALinkedList.java](LeetCode/Array/.java)
+│   ├── [mergeKSortedLists.java](LeetCode/Array/.java)
+│   ├── [palindromeLinkedList.java](LeetCode/Array/.java)
+│   ├── [plusOneLinkedList.java](LeetCode/Array/.java)
+│   ├── [README.md](LeetCode/Array/.java)
+│   └── [reverseLinkedList.java](LeetCode/Array/.java)
 ├── Queue
-│   └── movingAverageFromDataStream.java
+│   └── [movingAverageFromDataStream.java](LeetCode/Array/.java)
 ├── README.md
 ├── Sort
-│   ├── meetingRoomsII.java
-│   └── meetingRooms.java
+│   ├── [meetingRoomsII.java](LeetCode/Array/.java)
+│   └── [meetingRooms.java](LeetCode/Array/.java)
 ├── Stack
-│   ├── binarySearchTreeIterator.java
-│   ├── decodeString.java
-│   ├── flattenNestedListIterator.java
-│   └── trappingRainWater.java
+│   ├── [binarySearchTreeIterator.java](LeetCode/Array/.java)
+│   ├── [decodeString.java](LeetCode/Array/.java)
+│   ├── [flattenNestedListIterator.java](LeetCode/Array/.java)
+│   └── [trappingRainWater.java](LeetCode/Array/.java)
 ├── String
-│   ├── addBinary.java
-│   ├── countAndSay.java
-│   ├── decodeWays.java
-│   ├── editDistance.java
-│   ├── integerToEnglishWords.java
-│   ├── longestPalindrome.java
-│   ├── longestSubstringWithAtMostKDistinctCharacters.java
-│   ├── minimumWindowSubstring.java
-│   ├── multiplyString.java
-│   ├── oneEditDistance.java
-│   ├── palindromePermutation.java
-│   ├── README.md
-│   ├── reverseVowelsOfAString.java
-│   ├── romanToInteger.java
-│   ├── validPalindrome.java
-│   └── validParentheses.java
+│   ├── [addBinary.java](LeetCode/Array/.java)
+│   ├── [countAndSay.java](LeetCode/Array/.java)
+│   ├── [decodeWays.java](LeetCode/Array/.java)
+│   ├── [editDistance.java](LeetCode/Array/.java)
+│   ├── [integerToEnglishWords.java](LeetCode/Array/.java)
+│   ├── [longestPalindrome.java](LeetCode/Array/.java)
+│   ├── [longestSubstringWithAtMostKDistinctCharacters.java](LeetCode/Array/.java)
+│   ├── [minimumWindowSubstring.java](LeetCode/Array/.java)
+│   ├── [multiplyString.java](LeetCode/Array/.java)
+│   ├── [oneEditDistance.java](LeetCode/Array/.java)
+│   ├── [palindromePermutation.java](LeetCode/Array/.java)
+│   ├── [README.md](LeetCode/Array/.java)
+│   ├── [reverseVowelsOfAString.java](LeetCode/Array/.java)
+│   ├── [romanToInteger.java](LeetCode/Array/.java)
+│   ├── [validPalindrome.java](LeetCode/Array/.java)
+│   └── [validParentheses.java](LeetCode/Array/.java)
 ├── Tree
-│   ├── binaryTreeMaximumPathSum.java
-│   ├── binaryTreePaths.java
-│   ├── inorderSuccessorInBST.java
-│   ├── invertBinaryTree.java
-│   ├── lowestCommonAncestorOfABinaryTree.java
-│   ├── sumOfLeftLeaves.java
-│   └── validateBinarySearchTree.java
+│   ├── [binaryTreeMaximumPathSum.java](LeetCode/Array/.java)
+│   ├── [binaryTreePaths.java](LeetCode/Array/.java)
+│   ├── [inorderSuccessorInBST.java](LeetCode/Array/.java)
+│   ├── [invertBinaryTree.java](LeetCode/Array/.java)
+│   ├── [lowestCommonAncestorOfABinaryTree.java](LeetCode/Array/.java)
+│   ├── [sumOfLeftLeaves.java](LeetCode/Array/.java)
+│   └── [validateBinarySearchTree.java](LeetCode/Array/.java)
 ├── Trie
-│   ├── addAndSearchWordDataStructureDesign.java
-│   ├── implementTrie.java
-│   └── wordSquares.java
+│   ├── [addAndSearchWordDataStructureDesign.java](LeetCode/Array/.java)
+│   ├── [implementTrie.java](LeetCode/Array/.java)
+│   └── [wordSquares.java](LeetCode/Array/.java)
 └── TwoPointers
-    ├── 3Sum.java
-    ├── 3SumSmaller.java
-    ├── mergeSortedArray.java
-    ├── minimumSizeSubarraySum.java
-    ├── moveZeros.java
-    ├── removeDuplicatesFromSortedArray.java
-    ├── reverseString.java
-    └── sortColors.java
+    ├── [3Sum.java](LeetCode/Array/.java)
+    ├── [3SumSmaller.java](LeetCode/Array/.java)
+    ├── [mergeSortedArray.java](LeetCode/Array/.java)
+    ├── [minimumSizeSubarraySum.java](LeetCode/Array/.java)
+    ├── [moveZeros.java](LeetCode/Array/.java)
+    ├── [removeDuplicatesFromSortedArray.java](LeetCode/Array/.java)
+    ├── [reverseString.java](LeetCode/Array/.java)
+    └── [sortColors.java](LeetCode/Array/.java)
 
 18 directories, 124 files
 ```
