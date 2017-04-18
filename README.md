@@ -81,6 +81,14 @@
  * **Perfect Binary Tree**: a binary tree in which all interior nodes have two children and all leave have the same depth
  * **Complete Tree**: a binary tree in which every level *except possibly the last* is full and all nodes in the last
    level are as far left as possible
+   
+   <table>
+      <tr>
+         <td> <img src="https://github.com/jsroyal/interviews/blob/master/Images/Full.png"></td>
+         <td><img src="https://github.com/jsroyal/interviews/blob/master/Images/Perfect.png"></td>
+         <td><img src="https://github.com/jsroyal/interviews/blob/master/Images/Complete.png"></td>
+      </tr>
+   </table> 
 
 ### Binary Search Tree
  * A binary search tree, sometimes called BST, is a type of binary tree which maintains the property that the value in each
