@@ -357,7 +357,7 @@ or equal to those of the children and the lowest key is in the root node
 ```
 .
 ├── Array
-│   ├── [bestTimeToBuyAndSellStock.java](LeetCode/Array/bestTimeToBuyAndSellStock.java)
+│   ├── [Best Time To Buy And Sell Stock](LeetCode/Array/bestTimeToBuyAndSellStock.java)
 │   ├── [findTheCelebrity.java](LeetCode/Array/findTheCelebrity.java)
 │   ├── [gameOfLife.java](LeetCode/ArraygameOfLife/.java)
 │   ├── [increasingTripletSubsequence.java](LeetCode/Array/increasingTripletSubsequence.java)
