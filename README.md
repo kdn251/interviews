@@ -382,7 +382,7 @@ or equal to those of the children and the lowest key is in the root node
  - [generalizedAbbreviation.java](LeetCode/Backtracking/generalizedAbbreviation.java)
  - [letterCombinationsOfAPhoneNumber.java](LeetCode/Backtracking/letterCombinationsOfAPhoneNumber.java)
 
-### BinarySearch
+### Binary Search
 
  - [closestBinarySearchTreeValue.java](LeetCode/BinarySearch/closestBinarySearchTreeValue.java)
  - [firstBadVersion.java](LeetCode/BinarySearch/firstBadVersion.java)
@@ -390,7 +390,7 @@ or equal to those of the children and the lowest key is in the root node
  - [pow(x,n).java](LeetCode/BinarySearch/pow(x,n).java)
  - [sqrt(x).java](LeetCode/BinarySearch/sqrt(x).java)
 
-### BitManipulation
+### Bit Manipulation
 
  - [binaryWatch.java](LeetCode/BitManipulation/binaryWatch.java)
  - [countingBits.java](LeetCode/BitManipulation/countingBits.java)
@@ -400,7 +400,7 @@ or equal to those of the children and the lowest key is in the root node
  - [sumOfTwoIntegers.java](LeetCode/BitManipulation/sumOfTwoIntegers.java)
  - [utf-8Validation.java](LeetCode/BitManipulation/utf-8Validation.java)
 
-### BreadthFirstSearch
+### Breadth First Search
 
  - [binaryTreeLevelOrderTraversal.java](LeetCode/BreadthFirstSearch/binaryTreeLevelOrderTraversal.java)
  - [cloneGraph.java](LeetCode/BreadthFirstSearch/cloneGraph.java)
@@ -410,7 +410,7 @@ or equal to those of the children and the lowest key is in the root node
  - [symmetricTree.java](LeetCode/BreadthFirstSearch/symmetricTree.java)
  - [wallsAndGates.java](LeetCode/BreadthFirstSearch/wallsAndGates.java)
 
-### DepthFirstSearch
+### Depth First Search
  
  - [balancedBinaryTree.java](LeetCode/DepthFirstSearch/balancedBinaryTree.java)
  - [battleshipsInABoard.java](LeetCode/DepthFirstSearch/battleshipsInABoard.java)
@@ -424,12 +424,12 @@ or equal to those of the children and the lowest key is in the root node
 
  - [zigzagIterator.java](LeetCode/Design/zigzagIterator.java)
 
-### DivideAndConquer
+### Divide And Conquer
 
  - [expressionAddOperators.java](LeetCode/DivideAndConquer/expressionAddOperators.java)
  - [kthLargestElementInAnArray.java](LeetCode/DivideAndConquer/kthLargestElementInAnArray.java)
 
-### DynamicProgramming
+### Dynamic Programming
 
  - [bombEnemy.java](LeetCode/DynamicProgramming/bombEnemy.java)
  - [climbingStairs.java](LeetCode/DynamicProgramming/climbingStairs.java)
@@ -521,7 +521,7 @@ or equal to those of the children and the lowest key is in the root node
  - [implementTrie.java](LeetCode/Trie/implementTrie.java)
  - [wordSquares.java](LeetCode/Trie/wordSquares.java)
 
-### TwoPointers
+### Two Pointers
  
  - [3Sum.java](LeetCode//3Sum.java)
  - [3SumSmaller.java](LeetCode/TwoPointers/3SumSmaller.java)
