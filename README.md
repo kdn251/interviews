@@ -352,7 +352,7 @@ or equal to those of the children and the lowest key is in the root node
 * [Hacker News](https://news.ycombinator.com/)
 * [Lobsters](https://lobste.rs/)
 
-## Directory Tree
+## Directory of populer Algorithms and Data structures Implementation in Java. 
  
 ### Array
 
