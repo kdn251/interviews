@@ -82,7 +82,6 @@
  * **Complete Tree**: a binary tree in which every level *except possibly the last* is full and all nodes in the last
    level are as far left as possible
    
-
 ### Binary Search Tree
  * A binary search tree, sometimes called BST, is a type of binary tree which maintains the property that the value in each
    node must be greater than or equal to any value stored in the left sub-tree, and less than or equal to any value stored
@@ -533,4 +532,3 @@ or equal to those of the children and the lowest key is in the root node
  - [sortColors.java](LeetCode/TwoPointers/sortColors.java)
  
 ## 18 directories, 124 files
-
