@@ -530,5 +530,3 @@ or equal to those of the children and the lowest key is in the root node
  - [removeDuplicatesFromSortedArray.java](LeetCode/TwoPointers/removeDuplicatesFromSortedArray.java)
  - [reverseString.java](LeetCode/TwoPointers/reverseString.java)
  - [sortColors.java](LeetCode/TwoPointers/sortColors.java)
- 
-## 18 directories, 124 files
