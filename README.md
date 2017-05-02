@@ -1,7 +1,7 @@
 # Interviews
 > Your personal guide to Software Engineering technical interviews.
 >
-> Maintainer - [Kevin Naughton Jr.](https:/Facebook/github.com/kdn251)
+> Maintainer - [Kevin Naughton Jr.](https://github.com/kdn251)
 
 ## Translations
 
@@ -21,21 +21,21 @@
 - [Directory Tree](#directory-tree)
 
 ## Online Judges
-* LeetCode](https:/Facebook/leetcode.com/)
-* Virtual Judge](https:/Facebook/vjudge.net/)
-* CareerCup](https:/Facebook/www.careercup.com/)
-* HackerRank](https:/Facebook/www.hackerrank.com/)
-* CodeFights](https:/Facebook/codefights.com/)
-* Kattis](https:/Facebook/open.kattis.com/)
-* HackerEarth](https:/Facebook/www.hackerearth.com)
-* Codility](https:/Facebook/codility.com/programmers/lessons/1-iterations/)
+* LeetCode](https://leetcode.com/)
+* Virtual Judge](https://vjudge.net/)
+* CareerCup](https://www.careercup.com/)
+* HackerRank](https://www.hackerrank.com/)
+* CodeFights](https://codefights.com/)
+* Kattis](https://open.kattis.com/)
+* HackerEarth](https://www.hackerearth.com)
+* Codility](https://codility.com/programmers/lessons/1-iterations/)
 * Code Forces](http:/Facebook/codeforces.com/)
-* Code Chef](https:/Facebook/www.codechef.com/)
+* Code Chef](https://www.codechef.com/)
 * Sphere Online Judge - SPOJ](http:/Facebook/www.spoj.com/)
 
 ## Live Coding Practice
-* Gainlo](http:/Facebook/www.gainlo.co/#!/)
-* Refdash](https:/Facebook/refdash.com/)
+* Gainlo](http://www.gainlo.co/#!/)
+* Refdash](https://refdash.com/)
 
 ## Data Structures
 ### Linked List
@@ -81,7 +81,7 @@
  * **Perfect Binary Tree**: a binary tree in which all interior nodes have two children and all leave have the same depth
  * **Complete Tree**: a binary tree in which every level *except possibly the last* is full and all nodes in the last
    level are as far left as possible
-   
+      
 ### Binary Search Tree
  * A binary search tree, sometimes called BST, is a type of binary tree which maintains the property that the value in each
    node must be greater than or equal to any value stored in the left sub-tree, and less than or equal to any value stored
@@ -335,21 +335,21 @@ or equal to those of the children and the lowest key is in the root node
 
 ## Video Lectures
 * Data Structures
-    * UC Berkeley Data Structures](https:/Facebook/www.youtube.com/watch?v=mFPmKGIrQs4&index=1&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
-    * MIT Advanced Data Structures](https:/Facebook/www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1)
+    * UC Berkeley Data Structures](https://www.youtube.com/watch?v=mFPmKGIrQs4&index=1&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
+    * MIT Advanced Data Structures](https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1)
 * Algorithms
-    * MIT Introduction to Algorithms](https:/Facebook/www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=1)
-    * MIT Advanced Algorithms](https:/Facebook/www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
+    * MIT Introduction to Algorithms](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=1)
+    * MIT Advanced Algorithms](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
 
 ## Interview Books
-* Competitive Programming 3 - Steven Halim & Felix Halim](https:/Facebook/www.amazon.com/Competitive-Programming-3rd-Steven-Halim/dp/B00FG8MNN8) 
-* Cracking The Coding Interview - Gayle Laakmann McDowell](https:/Facebook/www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=sr_1_1?s=books&ie=UTF8)
-* Cracking The PM Interview - Gayle Laakmann McDowell & Jackie Bavaro](https:/Facebook/www.amazon.com/Cracking-PM-Interview-Product-Technology-ebook/dp/B00ISYMUR6/ref=sr_1_1?s=books&ie=UTF8)
-* Introduction to Algorithms -  Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest & Clifford Stein](https:/Facebook/www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/ref=sr_1_1?ie=UTF8&qid=1490295989&sr=8-1&keywords=Introduction+to+Algorithms)
+* Competitive Programming 3 - Steven Halim & Felix Halim](https://www.amazon.com/Competitive-Programming-3rd-Steven-Halim/dp/B00FG8MNN8) 
+* Cracking The Coding Interview - Gayle Laakmann McDowell](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=sr_1_1?s=books&ie=UTF8)
+* Cracking The PM Interview - Gayle Laakmann McDowell & Jackie Bavaro](https://www.amazon.com/Cracking-PM-Interview-Product-Technology-ebook/dp/B00ISYMUR6/ref=sr_1_1?s=books&ie=UTF8)
+* Introduction to Algorithms -  Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest & Clifford Stein](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/ref=sr_1_1?ie=UTF8&qid=1490295989&sr=8-1&keywords=Introduction+to+Algorithms)
 
 ## Computer Science News
-* Hacker News](https:/Facebook/news.ycombinator.com/)
-* Lobsters](https:/Facebook/lobste.rs/)
+* Hacker News](https://news.ycombinator.com/)
+* Lobsters](https://lobste.rs/)
 
 # Directory Tree of Company
 
