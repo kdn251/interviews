@@ -1,7 +1,7 @@
 # Interviews
 > Your personal guide to Software Engineering technical interviews.
 >
-> Maintainer - [Kevin Naughton Jr.](https://github.com/kdn251)
+> Maintainer - [Kevin Naughton Jr.](https:/Facebook/github.com/kdn251)
 
 ## Translations
 
@@ -21,21 +21,21 @@
 - [Directory Tree](#directory-tree)
 
 ## Online Judges
-* [LeetCode](https://leetcode.com/)
-* [Virtual Judge](https://vjudge.net/)
-* [CareerCup](https://www.careercup.com/)
-* [HackerRank](https://www.hackerrank.com/)
-* [CodeFights](https://codefights.com/)
-* [Kattis](https://open.kattis.com/)
-* [HackerEarth](https://www.hackerearth.com)
-* [Codility](https://codility.com/programmers/lessons/1-iterations/)
-* [Code Forces](http://codeforces.com/)
-* [Code Chef](https://www.codechef.com/)
-* [Sphere Online Judge - SPOJ](http://www.spoj.com/)
+* LeetCode](https:/Facebook/leetcode.com/)
+* Virtual Judge](https:/Facebook/vjudge.net/)
+* CareerCup](https:/Facebook/www.careercup.com/)
+* HackerRank](https:/Facebook/www.hackerrank.com/)
+* CodeFights](https:/Facebook/codefights.com/)
+* Kattis](https:/Facebook/open.kattis.com/)
+* HackerEarth](https:/Facebook/www.hackerearth.com)
+* Codility](https:/Facebook/codility.com/programmers/lessons/1-iterations/)
+* Code Forces](http:/Facebook/codeforces.com/)
+* Code Chef](https:/Facebook/www.codechef.com/)
+* Sphere Online Judge - SPOJ](http:/Facebook/www.spoj.com/)
 
 ## Live Coding Practice
-* [Gainlo](http://www.gainlo.co/#!/)
-* [Refdash](https://refdash.com/)
+* Gainlo](http:/Facebook/www.gainlo.co/#!/)
+* Refdash](https:/Facebook/refdash.com/)
 
 ## Data Structures
 ### Linked List
@@ -335,290 +335,290 @@ or equal to those of the children and the lowest key is in the root node
 
 ## Video Lectures
 * Data Structures
-    * [UC Berkeley Data Structures](https://www.youtube.com/watch?v=mFPmKGIrQs4&index=1&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
-    * [MIT Advanced Data Structures](https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1)
+    * UC Berkeley Data Structures](https:/Facebook/www.youtube.com/watch?v=mFPmKGIrQs4&index=1&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
+    * MIT Advanced Data Structures](https:/Facebook/www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1)
 * Algorithms
-    * [MIT Introduction to Algorithms](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=1)
-    * [MIT Advanced Algorithms](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
+    * MIT Introduction to Algorithms](https:/Facebook/www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=1)
+    * MIT Advanced Algorithms](https:/Facebook/www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
 
 ## Interview Books
-* [Competitive Programming 3 - Steven Halim & Felix Halim](https://www.amazon.com/Competitive-Programming-3rd-Steven-Halim/dp/B00FG8MNN8) 
-* [Cracking The Coding Interview - Gayle Laakmann McDowell](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=sr_1_1?s=books&ie=UTF8)
-* [Cracking The PM Interview - Gayle Laakmann McDowell & Jackie Bavaro](https://www.amazon.com/Cracking-PM-Interview-Product-Technology-ebook/dp/B00ISYMUR6/ref=sr_1_1?s=books&ie=UTF8)
-* [Introduction to Algorithms -  Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest & Clifford Stein](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/ref=sr_1_1?ie=UTF8&qid=1490295989&sr=8-1&keywords=Introduction+to+Algorithms)
+* Competitive Programming 3 - Steven Halim & Felix Halim](https:/Facebook/www.amazon.com/Competitive-Programming-3rd-Steven-Halim/dp/B00FG8MNN8) 
+* Cracking The Coding Interview - Gayle Laakmann McDowell](https:/Facebook/www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=sr_1_1?s=books&ie=UTF8)
+* Cracking The PM Interview - Gayle Laakmann McDowell & Jackie Bavaro](https:/Facebook/www.amazon.com/Cracking-PM-Interview-Product-Technology-ebook/dp/B00ISYMUR6/ref=sr_1_1?s=books&ie=UTF8)
+* Introduction to Algorithms -  Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest & Clifford Stein](https:/Facebook/www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/ref=sr_1_1?ie=UTF8&qid=1490295989&sr=8-1&keywords=Introduction+to+Algorithms)
 
 ## Computer Science News
-* [Hacker News](https://news.ycombinator.com/)
-* [Lobsters](https://lobste.rs/)
+* Hacker News](https:/Facebook/news.ycombinator.com/)
+* Lobsters](https:/Facebook/lobste.rs/)
 
 # Directory Tree of Company
 
 ## Airbnb
-- addTwoNumbers.java
-- convertSortedArrayToBinarySearchTree.java
-- houseRobber.java
-- mergeKSortedLists.java
-- regularExpressionMatching.java
-- twoSum.java
-- validParentheses.java
+- [addTwoNumbers.java](Company/Airbnb/addTwoNumbers.java)
+- [convertSortedArrayToBinarySearchTree.java](Company/Airbnb/convertSortedArrayToBinarySearchTree.java)
+- [houseRobber.java](Company/Airbnb/houseRobber.java)
+- [mergeKSortedLists.java](Company/Airbnb/mergeKSortedLists.java)
+- [regularExpressionMatching.java](Company/Airbnb/regularExpressionMatching.java)
+- [twoSum.java](Company/Airbnb/twoSum.java)
+- [validParentheses.java](Company/Airbnb/validParentheses.java)
 
 ## Amazon
-- 3Sum.java
-- addTwoNumbers.java
-- bestTimeToBuyAndSellStock.java
-- binaryTreeLevelOrderTraversal.java
-- groupAnagrams.java
-- kthLargestElementInAnArray.java
-- letterCombinationsOfAPhoneNumber.java
-- lowestCommonAncestorOfABinaryTree.java
-- mergeKSortedLists.java
-- numberOfIslands.java
-- palindromeLinkedList.java
-- productOfArrayExceptSelf.java
-- reverseLinkedList.java
-- rotateImage.java
-- subsets.java
-- trappingRainWater.java
-- twoSum.java
-- validateBinarySearchTree.java
-- validParentheses.java
-- wordBreak.java
+- [3Sum.java](Company/Amazon/3Sum.java)
+- [addTwoNumbers.java](Company/Amazon/addTwoNumbers.java)
+- [bestTimeToBuyAndSellStock.java](Company/Amazon/bestTimeToBuyAndSellStock.java)
+- [binaryTreeLevelOrderTraversal.java](Company/Amazon/binaryTreeLevelOrderTraversal.java)
+- [groupAnagrams.java](Company/Amazon/groupAnagrams.java)
+- [kthLargestElementInAnArray.java](Company/Amazon/kthLargestElementInAnArray.java)
+- [letterCombinationsOfAPhoneNumber.java](Company/Amazon/letterCombinationsOfAPhoneNumber.java)
+- [lowestCommonAncestorOfABinaryTree.java](Company/Amazon/lowestCommonAncestorOfABinaryTree.java)
+- [mergeKSortedLists.java](Company/Amazon/mergeKSortedLists.java)
+- [numberOfIslands.java](Company/Amazon/numberOfIslands.java)
+- [palindromeLinkedList.java](Company/Amazon/palindromeLinkedList.java)
+- [productOfArrayExceptSelf.java](Company/Amazon/productOfArrayExceptSelf.java)
+- [reverseLinkedList.java](Company/Amazon/reverseLinkedList.java)
+- [rotateImage.java](Company/Amazon/rotateImage.java)
+- [subsets.java](Company/Amazon/subsets.java)
+- [trappingRainWater.java](Company/Amazon/trappingRainWater.java)
+- [twoSum.java](Company/Amazon/twoSum.java)
+- [validateBinarySearchTree.java](Company/Amazon/validateBinarySearchTree.java)
+- [validParentheses.java](Company/Amazon/validParentheses.java)
+- [wordBreak.java](Company/Amazon/wordBreak.java)
 
 ## Facebook
-- 3Sum.java
-- addAndSearchWordDataStructureDesign.java
-- addBinary.java
-- bestTimeToBuyAndSellStock.java
-- binarySearchTreeIterator.java
-- binaryTreeLevelOrderTraversal.java
-- binaryTreePaths.java
-- binaryTreeVerticalOrderTraversal.java
-- cloneGraph.java
-- combinationSumIV.java
-- countAndSay.java
-- decodeWays.java
-- expressionAddOperators.java
-- findTheCelebrity.java
-- firstBadVersion.java
-- flattenNestedListIterator.java
-- groupAnagrams.java
-- hammingDistance.java
-- implementTrie.java
-- inorderSuccessorInBST.java
-- insertInterval.java
-- integerToEnglishWords.java
-- kthLargestElementInAnArray.java
-- letterCombinationsOfAPhoneNumber.java
-- longestConsecutiveSequence.java
-- lowestCommonAncestorOfABinaryTree.java
-- maximumSizeSubarraySumEqualsK.java
-- meetingRooms.java
-- mergeIntervals.java
-- mergeKSortedLists.java
-- mergeSortedArray.java
-- minimumSizeSubarraySum.java
-- minimumWindowSubstring.java
-- moveZeros.java
-- multiplyStrings.java
-- numberOfIslands.java
-- oneEditDistance.java
-- paintHouseII.java
-- palindromeLinkedList.java
-- pow(x,n).java
-- productOfArrayExceptSelf.java
-- regularExpressionMatching.java
-- removeDuplicatesFromSortedArray.java
-- removeInvalidParentheses.java
-- reverseLinkedList.java
-- romanToInteger.java
-- searchInRotatedSortedArray.java
-- sortColors.java
-- sparseMatrixMultiplication.java
-- sqrt(x).java
-- subsetsII.java
-- subsets.java
-- sumOfLeftLeaves.java
-- twoSum.java
-- validateBinarySearchTree.java
-- validPalindrome.java
-- validParentheses.java
-- wallsAndGates.java
-- wordBreak.java
-- wordSearch.java
+- [3Sum.java](Company/Facebook/3Sum.java)
+- [addAndSearchWordDataStructureDesign.java](Company/Facebook/addAndSearchWordDataStructureDesign.java)
+- [addBinary.java](Company/Facebook/addBinary.java)
+- [bestTimeToBuyAndSellStock.java](Company/Facebook/bestTimeToBuyAndSellStock.java)
+- [binarySearchTreeIterator.java](Company/Facebook/binarySearchTreeIterator.java)
+- [binaryTreeLevelOrderTraversal.java](Company/Facebook/binaryTreeLevelOrderTraversal.java)
+- [binaryTreePaths.java](Company/Facebook/binaryTreePaths.java)
+- [binaryTreeVerticalOrderTraversal.java](Company/Facebook/binaryTreeVerticalOrderTraversal.java)
+- [cloneGraph.java](Company/Facebook/cloneGraph.java)
+- [combinationSumIV.java](Company/Facebook/combinationSumIV.java)
+- [countAndSay.java](Company/Facebook/countAndSay.java)
+- [decodeWays.java](Company/Facebook/decodeWays.java)
+- [expressionAddOperators.java](Company/Facebook/expressionAddOperators.java)
+- [findTheCelebrity.java](Company/Facebook/findTheCelebrity.java)
+- [firstBadVersion.java](Company/Facebook/firstBadVersion.java)
+- [flattenNestedListIterator.java](Company/Facebook/flattenNestedListIterator.java)
+- [groupAnagrams.java](Company/Facebook/groupAnagrams.java)
+- [hammingDistance.java](Company/Facebook/hammingDistance.java)
+- [implementTrie.java](Company/Facebook/implementTrie.java)
+- [inorderSuccessorInBST.java](Company/Facebook/inorderSuccessorInBST.java)
+- [insertInterval.java](Company/Facebook/insertInterval.java)
+- [integerToEnglishWords.java](Company/Facebook/integerToEnglishWords.java)
+- [kthLargestElementInAnArray.java](Company/Facebook/kthLargestElementInAnArray.java)
+- [letterCombinationsOfAPhoneNumber.java](Company/Facebook/letterCombinationsOfAPhoneNumber.java)
+- [longestConsecutiveSequence.java](Company/Facebook/longestConsecutiveSequence.java)
+- [lowestCommonAncestorOfABinaryTree.java](Company/Facebook/lowestCommonAncestorOfABinaryTree.java)
+- [maximumSizeSubarraySumEqualsK.java](Company/Facebook/maximumSizeSubarraySumEqualsK.java)
+- [meetingRooms.java](Company/Facebook/meetingRooms.java)
+- [mergeIntervals.java](Company/Facebook/mergeIntervals.java)
+- [mergeKSortedLists.java](Company/Facebook/mergeKSortedLists.java)
+- [mergeSortedArray.java](Company/Facebook/mergeSortedArray.java)
+- [minimumSizeSubarraySum.java](Company/Facebook/minimumSizeSubarraySum.java)
+- [minimumWindowSubstring.java](Company/Facebook/minimumWindowSubstring.java)
+- [moveZeros.java](Company/Facebook/moveZeros.java)
+- [multiplyStrings.java](Company/Facebook/multiplyStrings.java)
+- [numberOfIslands.java](Company/Facebook/numberOfIslands.java)
+- [oneEditDistance.java](Company/Facebook/oneEditDistance.java)
+- [paintHouseII.java](Company/Facebook/paintHouseII.java)
+- [palindromeLinkedList.java](Company/Facebook/palindromeLinkedList.java)
+- [pow(x,n).java](Company/Facebook/pow(x,n).java)
+- [productOfArrayExceptSelf.java](Company/Facebook/productOfArrayExceptSelf.java)
+- [regularExpressionMatching.java](Company/Facebook/regularExpressionMatching.java)
+- [removeDuplicatesFromSortedArray.java](Company/Facebook/removeDuplicatesFromSortedArray.java)
+- [removeInvalidParentheses.java](Company/Facebook/removeInvalidParentheses.java)
+- [reverseLinkedList.java](Company/Facebook/reverseLinkedList.java)
+- [romanToInteger.java](Company/Facebook/romanToInteger.java)
+- [searchInRotatedSortedArray.java](Company/Facebook/searchInRotatedSortedArray.java)
+- [sortColors.java](Company/Facebook/sortColors.java)
+- [sparseMatrixMultiplication.java](Company/Facebook/sparseMatrixMultiplication.java)
+- [sqrt(x).java](Company/Facebook/sqrt(x).java)
+- [subsetsII.java](Company/Facebook/subsetsII.java)
+- [subsets.java](Company/Facebook/subsets.java)
+- [sumOfLeftLeaves.java](Company/Facebook/sumOfLeftLeaves.java)
+- [twoSum.java](Company/Facebook/twoSum.java)
+- [validateBinarySearchTree.java](Company/Facebook/validateBinarySearchTree.java)
+- [validPalindrome.java](Company/Facebook/validPalindrome.java)
+- [validParentheses.java](Company/Facebook/validParentheses.java)
+- [wallsAndGates.java](Company/Facebook/wallsAndGates.java)
+- [wordBreak.java](Company/Facebook/wordBreak.java)
+- [wordSearch.java](Company/Facebook/wordSearch.java)
 
 ## Google
-- 3SumSmaller.java
-- androidUnlockPatterns.java
-- binarySearchTreeIterator.java
-- binaryTreePaths.java
-- binaryTreeVerticalOrderTraversal.java
-- binaryWatch.java
-- bombEnemy.java
-- cloneGraph.java
-- closestBinarySearchTreeValue.java
-- combinationSumIV.java
-- decodeString.java
-- expressionAddOperators.java
-- findTheDifference.java
-- flattenNestedListIterator.java
-- gameOfLife.java
-- generalizedAbbreviation.java
-- groupShiftedStrings.java
-- guessNumberHigherOrLower.java
-- implementTrie.java
-- insertInterval.java
-- islandPerimeter.java
-- letterCombinationsOfAPhoneNumber.java
-- loggerRateLimiter.java
-- longestConsecutiveSequence.java
-- longestSubstringWithAtMostKDistinctCharacters.java
-- maximumProductOfWordLengths.java
-- mergeIntervals.java
-- missingRanges.java
-- movingAverageFromDataStream.java
-- numberOfIslands.java
-- pacificAtlanticWaterFlow.java
-- paintFence.java
-- plusOneLinkedList.java
-- pow(x,n).java
-- regularExpressionMatching.java
-- reverseVowelsOfAString.java
-- sentenceScreenFitting.java
-- shortestDistanceFromAllBuildings.java
-- strobogrammaticNumber.java
-- summaryRanges.java
-- trappingRainWater.java
-- uniqueWordAbbreviation.java
-- utf-8Validation.java
-- validParentheses.java
-- wallsAndGates.java
-- wiggleSort.java
-- wordBreak.java
-- wordSquares.java
-- zigzagIterator.java
+- [3SumSmaller.java](Company/Google/3SumSmaller.java)
+- [androidUnlockPatterns.java](Company/Google/androidUnlockPatterns.java)
+- [binarySearchTreeIterator.java](Company/Google/binarySearchTreeIterator.java)
+- [binaryTreePaths.java](Company/Google/binaryTreePaths.java)
+- [binaryTreeVerticalOrderTraversal.java](Company/Google/binaryTreeVerticalOrderTraversal.java)
+- [binaryWatch.java](Company/Google/binaryWatch.java)
+- [bombEnemy.java](Company/Google/bombEnemy.java)
+- [cloneGraph.java](Company/Google/cloneGraph.java)
+- [closestBinarySearchTreeValue.java](Company/Google/closestBinarySearchTreeValue.java)
+- [combinationSumIV.java](Company/Google/combinationSumIV.java)
+- [decodeString.java](Company/Google/decodeString.java)
+- [expressionAddOperators.java](Company/Google/expressionAddOperators.java)
+- [findTheDifference.java](Company/Google/findTheDifference.java)
+- [flattenNestedListIterator.java](Company/Google/flattenNestedListIterator.java)
+- [gameOfLife.java](Company/Google/gameOfLife.java)
+- [generalizedAbbreviation.java](Company/Google/generalizedAbbreviation.java)
+- [groupShiftedStrings.java](Company/Google/groupShiftedStrings.java)
+- [guessNumberHigherOrLower.java](Company/Google/guessNumberHigherOrLower.java)
+- [implementTrie.java](Company/Google/implementTrie.java)
+- [insertInterval.java](Company/Google/insertInterval.java)
+- [islandPerimeter.java](Company/Google/islandPerimeter.java)
+- [letterCombinationsOfAPhoneNumber.java](Company/Google/letterCombinationsOfAPhoneNumber.java)
+- [loggerRateLimiter.java](Company/Google/loggerRateLimiter.java)
+- [longestConsecutiveSequence.java](Company/Google/longestConsecutiveSequence.java)
+- [longestSubstringWithAtMostKDistinctCharacters.java](Company/Google/longestSubstringWithAtMostKDistinctCharacters.java)
+- [maximumProductOfWordLengths.java](Company/Google/maximumProductOfWordLengths.java)
+- [mergeIntervals.java](Company/Google/mergeIntervals.java)
+- [missingRanges.java](Company/Google/missingRanges.java)
+- [movingAverageFromDataStream.java](Company/Google/movingAverageFromDataStream.java)
+- [numberOfIslands.java](Company/Google/numberOfIslands.java)
+- [pacificAtlanticWaterFlow.java](Company/Google/pacificAtlanticWaterFlow.java)
+- [paintFence.java](Company/Google/paintFence.java)
+- [plusOneLinkedList.java](Company/Google/plusOneLinkedList.java)
+- [pow(x,n).java](Company/Google/pow(x,n).java)
+- [regularExpressionMatching.java](Company/Google/regularExpressionMatching.java)
+- [reverseVowelsOfAString.java](Company/Google/reverseVowelsOfAString.java)
+- [sentenceScreenFitting.java](Company/Google/sentenceScreenFitting.java)
+- [shortestDistanceFromAllBuildings.java](Company/Google/shortestDistanceFromAllBuildings.java)
+- [strobogrammaticNumber.java](Company/Google/strobogrammaticNumber.java)
+- [summaryRanges.java](Company/Google/summaryRanges.java)
+- [trappingRainWater.java](Company/Google/trappingRainWater.java)
+- [uniqueWordAbbreviation.java](Company/Google/uniqueWordAbbreviation.java)
+- [utf-8Validation.java](Company/Google/utf-8Validation.java)
+- [validParentheses.java](Company/Google/validParentheses.java)
+- [wallsAndGates.java](Company/Google/wallsAndGates.java)
+- [wiggleSort.java](Company/Google/wiggleSort.java)
+- [wordBreak.java](Company/Google/wordBreak.java)
+- [wordSquares.java](Company/Google/wordSquares.java)
+- [zigzagIterator.java](Company/Google/zigzagIterator.java)
 
 ## LinkedIn
-- binarySearchTreeIterator.java
-- binaryTreeLevelOrderTraversal.java
-- findTheCelebrity.java
-- houseRobber.java
-- insertInterval.java
-- lowestCommonAncestorOfABinaryTree.java
-- maximumDepthOfABinaryTree.java
-- maximumProductSubarray.java
-- maximumSubarray.java
-- mergeIntervals.java
-- mergeKSortedLists.java
-- minimumWindowSubstring.java
-- pow(x,n).java
-- productOfArrayExceptSelf.java
-- searchInRotatedSortedArray.java
-- sparseMatrixMultiplication.java
-- symmetricTree.java
-- twoSum.java
+- [binarySearchTreeIterator.java](Company/LinkedIn/binarySearchTreeIterator.java)
+- [binaryTreeLevelOrderTraversal.java](Company/LinkedIn/binaryTreeLevelOrderTraversal.java)
+- [findTheCelebrity.java](Company/LinkedIn/findTheCelebrity.java)
+- [houseRobber.java](Company/LinkedIn/houseRobber.java)
+- [insertInterval.java](Company/LinkedIn/insertInterval.java)
+- [lowestCommonAncestorOfABinaryTree.java](Company/LinkedIn/lowestCommonAncestorOfABinaryTree.java)
+- [maximumDepthOfABinaryTree.java](Company/LinkedIn/maximumDepthOfABinaryTree.java)
+- [maximumProductSubarray.java](Company/LinkedIn/maximumProductSubarray.java)
+- [maximumSubarray.java](Company/LinkedIn/maximumSubarray.java)
+- [mergeIntervals.java](Company/LinkedIn/mergeIntervals.java)
+- [mergeKSortedLists.java](Company/LinkedIn/mergeKSortedLists.java)
+- [minimumWindowSubstring.java](Company/LinkedIn/minimumWindowSubstring.java)
+- [pow(x,n).java](Company/LinkedIn/pow(x,n).java)
+- [productOfArrayExceptSelf.java](Company/LinkedIn/productOfArrayExceptSelf.java)
+- [searchInRotatedSortedArray.java](Company/LinkedIn/searchInRotatedSortedArray.java)
+- [sparseMatrixMultiplication.java](Company/LinkedIn/sparseMatrixMultiplication.java)
+- [symmetricTree.java](Company/LinkedIn/symmetricTree.java)
+- [twoSum.java](Company/LinkedIn/twoSum.java)
 
 ## Twitter
-- flattenNestedListIterator.java
-- implementTrie.java
-- lowestCommonAncestorOfABinaryTree.java
-- mergeIntervals.java
-- mergeKSortedLists.java
-- multiplyStrings.java
-- oneEditDistance.java
-- regularExpressionMatching.java
-- reverseLinkedList.java
-- trappingRainWater.java
-- validParentheses.java
+- [flattenNestedListIterator.java](Company/Twitter/flattenNestedListIterator.java)
+- [implementTrie.java](Company/Twitter/implementTrie.java)
+- [lowestCommonAncestorOfABinaryTree.java](Company/Twitter/lowestCommonAncestorOfABinaryTree.java)
+- [mergeIntervals.java](Company/Twitter/.mergeIntervalsjava)
+- [mergeKSortedLists.java](Company/Twitter/mergeKSortedLists.java)
+- [multiplyStrings.java](Company/Twitter/multiplyStrings.java)
+- [oneEditDistance.java](Company/Twitter/oneEditDistance.java)
+- [regularExpressionMatching.java](Company/Twitter/regularExpressionMatching.java)
+- [reverseLinkedList.java](Company/Twitter/reverseLinkedList.java)
+- [trappingRainWater.java](Company/Twitter/trappingRainWater.java)
+- [validParentheses.java](Company/Twitter/validParentheses.java)
 
 ## Uber
-- bestTimeToBuyAndSellStock.java
-- cloneGraph.java
-- decodeWays.java
-- groupAnagrams.java
-- groupShiftedStrings.java
-- implementTrie.java
-- letterCombinationsOfAPhoneNumber.java
-- maximumDepthOfABinaryTree.java
-- mergeKSortedLists.java
-- minimumWindowSubstring.java
-- oneEditDistance.java
-- palindromePermutation.java
-- regularExpressionMatching.java
-- reverseLinkedList.java
-- romanToInteger.java
-- searchInRotatedSortedArray.java
-- subsets.java
-- twoSum.java
-- validPalindrome.java
-- wordBreak.java
+- [bestTimeToBuyAndSellStock.java](Company/Uber/bestTimeToBuyAndSellStock.java)
+- [cloneGraph.java](Company/Uber/cloneGraph.java)
+- [decodeWays.java](Company/Uber/decodeWays.java)
+- [groupAnagrams.java](Company/Uber/groupAnagrams.java)
+- [groupShiftedStrings.java](Company/Uber/groupShiftedStrings.java)
+- [implementTrie.java](Company/Uber/implementTrie.java)
+- [letterCombinationsOfAPhoneNumber.java](Company/Uber/letterCombinationsOfAPhoneNumber.java)
+- [maximumDepthOfABinaryTree.java](Company/Uber/maximumDepthOfABinaryTree.java)
+- [mergeKSortedLists.java](Company/Uber/mergeKSortedLists.java)
+- [minimumWindowSubstring.java](Company/Uber/minimumWindowSubstring.java)
+- [oneEditDistance.java](Company/Uber/oneEditDistance.java)
+- [palindromePermutation.java](Company/Uber/palindromePermutation.java)
+- [regularExpressionMatching.java](Company/Uber/regularExpressionMatching.java)
+- [reverseLinkedList.java](Company/Uber/reverseLinkedList.java)
+- [romanToInteger.java](Company/Uber/romanToInteger.java)
+- [searchInRotatedSortedArray.java](Company/Uber/searchInRotatedSortedArray.java)
+- [subsets.java](Company/Uber/subsets.java)
+- [twoSum.java](Company/Uber/twoSum.java)
+- [validPalindrome.java](Company/Uber/validPalindrome.java)
+- [wordBreak.java](Company/Uber/wordBreak.java)
 
 ## Cracking TheCodingInterview
 * Chapter1ArraysAndStrings
-- DeleteDups.java
-- IsRotation.java
-- IsUniqueChars.java
-- NthToLast.java
-- Permutation.java
-- ReplaceSpaces.java
+- [DeleteDups.java](Company/CrackingTheCodingInterview/Chapter1ArraysAndStrings/DeleteDups.java)
+- [IsRotation.java](Company/CrackingTheCodingInterview/Chapter1ArraysAndStrings/IsRotation.java)
+- [IsUniqueChars.java](Company/CrackingTheCodingInterview/Chapter1ArraysAndStrings/IsUniqueChars.java)
+- [NthToLast.java](Company/CrackingTheCodingInterview/Chapter1ArraysAndStrings/NthToLast.java)
+- [Permutation.java](Company/CrackingTheCodingInterview/Chapter1ArraysAndStrings/Permutation.java)
+- [ReplaceSpaces.java](Company/CrackingTheCodingInterview/Chapter1ArraysAndStrings/ReplaceSpaces.java)
 * Chapter2LinkedLists
-- DeleteDups.java
-- DeleteNode.java
-- FindBeginning.java
-- IsPalindrome.java
-- NthToLast.java
-- Partition.java
+- [DeleteDups.java](Company/CrackingTheCodingInterview/Chapter2LinkedLists/DeleteDups.java)
+- [DeleteNode.java](Company/CrackingTheCodingInterview/Chapter2LinkedLists/DeleteNode.java)
+- [FindBeginning.java](Company/CrackingTheCodingInterview/Chapter2LinkedLists/FindBeginning.java)
+- [IsPalindrome.java](Company/CrackingTheCodingInterview/Chapter2LinkedLists/.java)
+- [NthToLast.java](Company/CrackingTheCodingInterview/Chapter2LinkedLists/IsPalindrome.java)
+- [Partition.java](Company/CrackingTheCodingInterview/Chapter2LinkedLists/Partition.java)
 * Chapter3StacksAndQueues
-- BinaryTreeIsBalanced.java
-- MyQueue.java
-- MyQUeue.java
-- QueueUsingTwoStacks.java
-- SetOfStacks.java
-- SortStack.java
-- StackWithMin.java
-- ThreeStacks.java
-- TowersOfHanoi.java
+- [BinaryTreeIsBalanced.java](Company/CrackingTheCodingInterview/Chapter3StacksAndQueues/BinaryTreeIsBalanced.java)
+- [MyQueue.java](Company/CrackingTheCodingInterview/Chapter3StacksAndQueues/MyQueue.java)
+- [MyQUeue.java](Company/CrackingTheCodingInterview/Chapter3StacksAndQueues/MyQUeue.java)
+- [QueueUsingTwoStacks.java](Company/CrackingTheCodingInterview/Chapter3StacksAndQueues/QueueUsingTwoStacks.java)
+- [SetOfStacks.java](Company/CrackingTheCodingInterview/Chapter3StacksAndQueues/SetOfStacks.java)
+- [SortStack.java](Company/CrackingTheCodingInterview/Chapter3StacksAndQueues/SortStack.java)
+- [StackWithMin.java](Company/CrackingTheCodingInterview/Chapter3StacksAndQueues/StackWithMin.java)
+- [ThreeStacks.java](Company/CrackingTheCodingInterview/Chapter3StacksAndQueues/ThreeStacks.java)
+- [TowersOfHanoi.java](Company/CrackingTheCodingInterview/Chapter3StacksAndQueues/TowersOfHanoi.java)
 * Chapter4TreesAndGraphs
-- BinaryTreeIsBalanced.java
-- CreateBinarySearchTree.java
-- CreateLinkedListForEachLevel.java
-- FindPath.java
-- IsSubtree.java
-- PrintPaths.java
-- ValidBinarySearchTree.java
+- [BinaryTreeIsBalanced.java](Company/CrackingTheCodingInterview/Chapter4TreesAndGraphs/BinaryTreeIsBalanced.java)
+- [CreateBinarySearchTree.java](Company/CrackingTheCodingInterview/Chapter4TreesAndGraphs/CreateBinarySearchTree.java)
+- [CreateLinkedListForEachLevel.java](Company/CrackingTheCodingInterview/Chapter4TreesAndGraphs/CreateLinkedListForEachLevel.java)
+- [FindPath.java](Company/CrackingTheCodingInterview/Chapter4TreesAndGraphs/FindPath.java)
+- [IsSubtree.java](Company/CrackingTheCodingInterview/Chapter4TreesAndGraphs/IsSubtree.java)
+- [PrintPaths.java](Company/CrackingTheCodingInterview/Chapter4TreesAndGraphs/PrintPaths.java)
+- [ValidBinarySearchTree.java](Company/CrackingTheCodingInterview/Chapter4TreesAndGraphs/ValidBinarySearchTree.java)
 * Chapter5BitManipulation
-- BinaryRepresentation.java
-- FindMissingInteger.java
-- InsertMIntoN.java
-- SwapBits.java
+- [BinaryRepresentation.java](Company/CrackingTheCodingInterview/hapter5BitManipulation/BinaryRepresentation.java)
+- [FindMissingInteger.java](Company/CrackingTheCodingInterview/hapter5BitManipulation/FindMissingInteger.java)
+- [InsertMIntoN.java](Company/CrackingTheCodingInterview/hapter5BitManipulation/InsertMIntoN.java)
+- [SwapBits.java](Company/CrackingTheCodingInterview/hapter5BitManipulation/SwapBits.java)
 * Chapter7MathematicsAndProbability
-- Operations.java
-- WouldIntersect.java
+- [Operations.java](Company/CrackingTheCodingInterview/Chapter7MathematicsAndProbability/Operations.java)
+- [WouldIntersect.java](Company/CrackingTheCodingInterview/Chapter7MathematicsAndProbability/WorstIntersect.java)
 * Chapter9RecursionAndDynamicProgramming
-- AllPermutations.java
-- AllSubsets.java
-- EightQueens.java
-- MagicIndex.java
-- RepresentingNCents.java
-- StackBoxes.java
-- Staircase.java
+- [AllPermutations.java](Company/CrackingTheCodingInterview/Chapter9RecursionAndDynamicProgramming/AllPermutations.java)
+- [AllSubsets.java](Company/CrackingTheCodingInterview/Chapter9RecursionAndDynamicProgramming/AllSubsets.java)
+- [EightQueens.java](Company/CrackingTheCodingInterview/Chapter9RecursionAndDynamicProgramming/EightQueens.java)
+- [MagicIndex.java](Company/CrackingTheCodingInterview/Chapter9RecursionAndDynamicProgramming/MagicIndex.java)
+- [RepresentingNCents.java](Company/CrackingTheCodingInterview/Chapter9RecursionAndDynamicProgramming/RepresentingNCents.java)
+- [StackBoxes.java](Company/CrackingTheCodingInterview/Chapter9RecursionAndDynamicProgramming/StackBoxes.java)
+- [Staircase.java](Company/CrackingTheCodingInterview/Chapter9RecursionAndDynamicProgramming/Staircase.java)
 
 ## UVa 
-- Ants.java
-- BasicRemains.java
-- Friends.java
-- GoogleIsFeelingLucky.java
-- ICanGuessTheDataStructure.java
-- JollyJumpers.java
-- Newspaper.java
-- OpenSource.java
-- PeskyPalindromes.java
-- PrimeFactors.java
-- SplittingNumbers.java
-- TheLastNonZeroDigit.java
-- TheSettlersOfCatan.java
-- VirtualFriends.java
+- [Ants.java](Company/UVa/Ants.java)
+- [BasicRemains.java](Company/UVa/BasicRemains.java)
+- [Friends.java](Company/UVa/Friends.java)
+- [GoogleIsFeelingLucky.java](Company/UVa/GoogleIsFeelingLucky.java)
+- [ICanGuessTheDataStructure.java](Company/UVa/ICanGuessTheDataStructure.java)
+- [JollyJumpers.java](Company/UVa/JollyJumpers.java)
+- [Newspaper.java](Company/UVa/Newspaper.java)
+- [OpenSource.java](Company/UVa/OpenSource.java)
+- [PeskyPalindromes.java](Company/UVa/PeskyPalindromes.java)
+- [PrimeFactors.java](Company/UVa/PrimeFactors.java)
+- [SplittingNumbers.java](Company/UVa/SplittingNumbers.java)
+- [TheLastNonZeroDigit.java](Company/UVa/TheLastNonZeroDigit.java)
+- [TheSettlersOfCatan.java](Company/UVa/TheSettlersOfCatan.java)
+- [VirtualFriends.java](Company/UVa/VirtualFriends.java)
 
-##LeetCode
+## LeetCode
 
 ### Array
  - [bestTimeToBuyAndSellStock.java](LeetCode/Array/bestTimeToBuyAndSellStock.java)
@@ -788,11 +788,11 @@ or equal to those of the children and the lowest key is in the root node
 
 ### Two Pointers
  
- - [3Sum.java](LeetCode//3Sum.java)
+ - [3Sum.java](LeetCode/Facebook/3Sum.java)
  - [3SumSmaller.java](LeetCode/TwoPointers/3SumSmaller.java)
  - [mergeSortedArray.java](LeetCode/TwoPointers/mergeSortedArray.java)
  - [minimumSizeSubarraySum.java](LeetCode/TwoPointers/minimumSizeSubarraySum.java)
- - [moveZeros.java](LeetCode//moveZeros.java)
+ - [moveZeros.java](LeetCode/Facebook/moveZeros.java)
  - [removeDuplicatesFromSortedArray.java](LeetCode/TwoPointers/removeDuplicatesFromSortedArray.java)
  - [reverseString.java](LeetCode/TwoPointers/reverseString.java)
  - [sortColors.java](LeetCode/TwoPointers/sortColors.java)
