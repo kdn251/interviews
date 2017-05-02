@@ -21,17 +21,17 @@
 - [Directory Tree](#directory-tree)
 
 ## Online Judges
-* LeetCode](https://leetcode.com/)
-* Virtual Judge](https://vjudge.net/)
-* CareerCup](https://www.careercup.com/)
-* HackerRank](https://www.hackerrank.com/)
-* CodeFights](https://codefights.com/)
-* Kattis](https://open.kattis.com/)
-* HackerEarth](https://www.hackerearth.com)
-* Codility](https://codility.com/programmers/lessons/1-iterations/)
-* Code Forces](http://codeforces.com/)
-* Code Chef](https://www.codechef.com/)
-* Sphere Online Judge - SPOJ](http://www.spoj.com/)
+* [LeetCode](https://leetcode.com/)
+* [Virtual Judge](https://vjudge.net/)
+* [CareerCup](https://www.careercup.com/)
+* [HackerRank](https://www.hackerrank.com/)
+* [CodeFights](https://codefights.com/)
+* [Kattis](https://open.kattis.com/)
+* [HackerEarth](https://www.hackerearth.com)
+* [Codility](https://codility.com/programmers/lessons/1-iterations/)
+* [Code Forces](http://codeforces.com/)
+* [Code Chef](https://www.codechef.com/)
+* [Sphere Online Judge - SPOJ](http://www.spoj.com/)
 
 ## Live Coding Practice
 * [Gainlo](http://www.gainlo.co/#!/)
