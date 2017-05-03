@@ -553,21 +553,23 @@ or equal to those of the children and the lowest key is in the root node
 - [wordBreak.java](Company/Uber/wordBreak.java)
 
 ## Cracking TheCodingInterview
-* Chapter1ArraysAndStrings
+### Chapter1ArraysAndStrings
 - [DeleteDups.java](Company/CrackingTheCodingInterview/Chapter1ArraysAndStrings/DeleteDups.java)
 - [IsRotation.java](Company/CrackingTheCodingInterview/Chapter1ArraysAndStrings/IsRotation.java)
 - [IsUniqueChars.java](Company/CrackingTheCodingInterview/Chapter1ArraysAndStrings/IsUniqueChars.java)
 - [NthToLast.java](Company/CrackingTheCodingInterview/Chapter1ArraysAndStrings/NthToLast.java)
 - [Permutation.java](Company/CrackingTheCodingInterview/Chapter1ArraysAndStrings/Permutation.java)
 - [ReplaceSpaces.java](Company/CrackingTheCodingInterview/Chapter1ArraysAndStrings/ReplaceSpaces.java)
-* Chapter2LinkedLists
+
+### Chapter2LinkedLists
 - [DeleteDups.java](Company/CrackingTheCodingInterview/Chapter2LinkedLists/DeleteDups.java)
 - [DeleteNode.java](Company/CrackingTheCodingInterview/Chapter2LinkedLists/DeleteNode.java)
 - [FindBeginning.java](Company/CrackingTheCodingInterview/Chapter2LinkedLists/FindBeginning.java)
 - [IsPalindrome.java](Company/CrackingTheCodingInterview/Chapter2LinkedLists/.java)
 - [NthToLast.java](Company/CrackingTheCodingInterview/Chapter2LinkedLists/IsPalindrome.java)
 - [Partition.java](Company/CrackingTheCodingInterview/Chapter2LinkedLists/Partition.java)
-* Chapter3StacksAndQueues
+
+### Chapter3StacksAndQueues
 - [BinaryTreeIsBalanced.java](Company/CrackingTheCodingInterview/Chapter3StacksAndQueues/BinaryTreeIsBalanced.java)
 - [MyQueue.java](Company/CrackingTheCodingInterview/Chapter3StacksAndQueues/MyQueue.java)
 - [MyQUeue.java](Company/CrackingTheCodingInterview/Chapter3StacksAndQueues/MyQUeue.java)
@@ -577,7 +579,8 @@ or equal to those of the children and the lowest key is in the root node
 - [StackWithMin.java](Company/CrackingTheCodingInterview/Chapter3StacksAndQueues/StackWithMin.java)
 - [ThreeStacks.java](Company/CrackingTheCodingInterview/Chapter3StacksAndQueues/ThreeStacks.java)
 - [TowersOfHanoi.java](Company/CrackingTheCodingInterview/Chapter3StacksAndQueues/TowersOfHanoi.java)
-* Chapter4TreesAndGraphs
+
+### Chapter4TreesAndGraphs
 - [BinaryTreeIsBalanced.java](Company/CrackingTheCodingInterview/Chapter4TreesAndGraphs/BinaryTreeIsBalanced.java)
 - [CreateBinarySearchTree.java](Company/CrackingTheCodingInterview/Chapter4TreesAndGraphs/CreateBinarySearchTree.java)
 - [CreateLinkedListForEachLevel.java](Company/CrackingTheCodingInterview/Chapter4TreesAndGraphs/CreateLinkedListForEachLevel.java)
@@ -585,15 +588,18 @@ or equal to those of the children and the lowest key is in the root node
 - [IsSubtree.java](Company/CrackingTheCodingInterview/Chapter4TreesAndGraphs/IsSubtree.java)
 - [PrintPaths.java](Company/CrackingTheCodingInterview/Chapter4TreesAndGraphs/PrintPaths.java)
 - [ValidBinarySearchTree.java](Company/CrackingTheCodingInterview/Chapter4TreesAndGraphs/ValidBinarySearchTree.java)
-* Chapter5BitManipulation
+
+### Chapter5BitManipulation
 - [BinaryRepresentation.java](Company/CrackingTheCodingInterview/hapter5BitManipulation/BinaryRepresentation.java)
 - [FindMissingInteger.java](Company/CrackingTheCodingInterview/hapter5BitManipulation/FindMissingInteger.java)
 - [InsertMIntoN.java](Company/CrackingTheCodingInterview/hapter5BitManipulation/InsertMIntoN.java)
 - [SwapBits.java](Company/CrackingTheCodingInterview/hapter5BitManipulation/SwapBits.java)
-* Chapter7MathematicsAndProbability
+
+### Chapter7MathematicsAndProbability
 - [Operations.java](Company/CrackingTheCodingInterview/Chapter7MathematicsAndProbability/Operations.java)
 - [WouldIntersect.java](Company/CrackingTheCodingInterview/Chapter7MathematicsAndProbability/WorstIntersect.java)
-* Chapter9RecursionAndDynamicProgramming
+
+### Chapter9RecursionAndDynamicProgramming
 - [AllPermutations.java](Company/CrackingTheCodingInterview/Chapter9RecursionAndDynamicProgramming/AllPermutations.java)
 - [AllSubsets.java](Company/CrackingTheCodingInterview/Chapter9RecursionAndDynamicProgramming/AllSubsets.java)
 - [EightQueens.java](Company/CrackingTheCodingInterview/Chapter9RecursionAndDynamicProgramming/EightQueens.java)
