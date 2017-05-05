@@ -28,6 +28,7 @@
  * Case 2: 0.114
  * Case 3: 0.135
  */
+
 //https://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1714
 
 import java.text.DecimalFormat;
