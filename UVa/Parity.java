@@ -6,13 +6,15 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
+import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class Parity {
 
-	static void solve() throws Exception {
+	public static void main(String[] args) {
 		while (true) {
-			int number = nextInt();
+			Scanner input = new Scanner(System.in);
+			int number = input.nextInt();
 			if (number == 0) {
 				break;
 			}
@@ -29,7 +31,7 @@ public class Parity {
 		}
 	}
 
-	static String convertToBinary(int number) {
+	private static String convertToBinary(int number) {
 		StringBuilder s = new StringBuilder("");
 		while (number != 0) {
 			s = s.append(number % 2);
@@ -37,32 +39,4 @@ public class Parity {
 		}
 		return s.reverse().toString();
 	}
-
-	static int nextInt() throws IOException {
-		return parseInt(next());
-	}
-
-	static String next() throws IOException {
-		while (tok == null || !tok.hasMoreTokens()) {
-			tok = new StringTokenizer(in.readLine());
-		}
-		return tok.nextToken();
-	}
-
-	public static void main(String[] args) {
-		try {
-			in = new BufferedReader(new InputStreamReader(System.in));
-			out = new PrintWriter(new OutputStreamWriter(System.out));
-			solve();
-			in.close();
-			out.close();
-		} catch (Throwable e) {
-			e.printStackTrace();
-			exit(0);
-		}
-	}
-
-	static BufferedReader in;
-	static PrintWriter out;
-	static StringTokenizer tok;
 }
