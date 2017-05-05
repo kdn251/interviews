@@ -7,7 +7,7 @@ public class GoldbachConjecture {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		boolean[] isPrime = generatePrimeNumbers(1000000);
+		boolean[] isPrime = sieveOfEratosthenes(1000000);
 		int number = input.nextInt();
 		while (number != 0) {
 			boolean found = false;
@@ -29,7 +29,7 @@ public class GoldbachConjecture {
 		}
 	}
 
-	static boolean[] generatePrimeNumbers(int number) {
+	static boolean[] sieveOfEratosthenes(int number) {
 		boolean[] isPrime = new boolean[number + 1];
 		for (int i = 2; i < number + 1; i++) {
 			isPrime[i] = true;
