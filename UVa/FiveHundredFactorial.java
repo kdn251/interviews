@@ -11,7 +11,7 @@ import java.util.StringTokenizer;
 
 public class FiveHundredFactorial {
 
-	static void solve() throws Exception {
+	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		while (input.hasNext()) {
 			int number = input.nextInt();
