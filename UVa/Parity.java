@@ -22,6 +22,9 @@
  * The parity of 10101 is 3 (mod 2).
  */
 
+
+//https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1872
+
 import static java.lang.Integer.parseInt;
 import static java.lang.System.exit;
 
