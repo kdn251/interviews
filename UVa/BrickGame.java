@@ -1,3 +1,6 @@
+
+//https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2986
+
 import static java.lang.Integer.parseInt;
 
 import java.util.ArrayList;
