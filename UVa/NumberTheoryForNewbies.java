@@ -1,3 +1,7 @@
+
+
+//https://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=2366
+
 import java.util.Arrays;
 import java.util.Scanner;
 
