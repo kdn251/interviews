@@ -1,23 +1,15 @@
-
-import static java.lang.Integer.parseInt;
-import static java.lang.System.exit;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.StringTokenizer;
+import java.util.Scanner;
 
 public class MischievousChildren {
 
-	static void solve() throws Exception {
-		int numberOfCases = nextInt();
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int numberOfCases = input.nextInt();
 		int currentCase = 1;
 		while (numberOfCases != 0) {
-			String line = next();
+			String line = input.next();
 			int numberOfLetters = line.length();
 			Map<Character, Integer> letterCounter = new HashMap<Character, Integer>();
 
@@ -52,7 +44,7 @@ public class MischievousChildren {
 		}
 	}
 
-	static long computeFactorial(int number) {
+	private static long computeFactorial(int number) {
 		long product = 1;
 		for (int i = 2; i < number + 1; i++) {
 			product = product * i;
@@ -60,31 +52,4 @@ public class MischievousChildren {
 		return product;
 	}
 
-	static int nextInt() throws IOException {
-		return parseInt(next());
-	}
-
-	static String next() throws IOException {
-		while (tok == null || !tok.hasMoreTokens()) {
-			tok = new StringTokenizer(in.readLine());
-		}
-		return tok.nextToken();
-	}
-
-	public static void main(String[] args) {
-		try {
-			in = new BufferedReader(new InputStreamReader(System.in));
-			out = new PrintWriter(new OutputStreamWriter(System.out));
-			solve();
-			in.close();
-			out.close();
-		} catch (Throwable e) {
-			e.printStackTrace();
-			exit(0);
-		}
-	}
-
-	static BufferedReader in;
-	static PrintWriter out;
-	static StringTokenizer tok;
 }
