@@ -23,6 +23,7 @@
 * no
 */
 
+//https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=&problem=1051
 
 import java.util.Scanner;
 
