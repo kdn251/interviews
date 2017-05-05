@@ -32,6 +32,7 @@
  * 30 coconuts, no solution
  * 3121 coconuts, 5 people and 1 monkey
  */
+
 //https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=557
 
 import java.util.Scanner;
