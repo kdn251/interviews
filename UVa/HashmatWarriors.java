@@ -1,3 +1,5 @@
+//https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=996
+
 import java.util.Scanner;
 
 public class HashmatWarriors {
