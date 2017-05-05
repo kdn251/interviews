@@ -1,3 +1,6 @@
+
+//https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1222
+
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
@@ -31,7 +34,7 @@ public class AverageSpeed {
 
 	}
 
-	public static double calcHours(String s) {
+	private static double calcHours(String s) {
 		String[] arr = s.split(":");
 		return (Integer.parseInt(arr[0]) * 3600 + Integer.parseInt(arr[1]) * 60 + Integer
 				.parseInt(arr[2])) * 1.0 / 3600;
