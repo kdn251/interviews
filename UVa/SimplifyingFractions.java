@@ -1,3 +1,23 @@
+/**
+ * You are to write a program that reduces a fraction into its lowest terms.
+ * Input
+ * The first line of the input file gives the number of test cases N (≤ 20). Each of the following N lines
+ * contains a fraction in the form of p/q (1 ≤ p, q ≤ 1030).
+ * Output
+ * For each test case, output the fraction after simplification.
+ * Sample Input
+ * 4
+ * 1 / 2
+ * 2 / 4
+ * 3 / 3
+ * 4 / 2
+ * Sample Output
+ * 1 / 2
+ * 1 / 2
+ * 1 / 1
+ * 2 / 1
+ */
+
 //https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1755
 
 import static java.lang.Integer.parseInt;
