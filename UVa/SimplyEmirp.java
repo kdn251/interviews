@@ -1,4 +1,7 @@
 
+//https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1176
+
+
 import static java.lang.Integer.parseInt;
 import static java.lang.System.exit;
 
