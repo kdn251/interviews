@@ -1,4 +1,3 @@
-package mathematics.bigInteger;
 
 import static java.lang.Integer.parseInt;
 import static java.lang.System.exit;
