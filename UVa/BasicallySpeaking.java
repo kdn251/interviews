@@ -40,17 +40,8 @@
 
 //https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=&problem=325
 
-import static java.lang.Integer.parseInt;
-import static java.lang.System.exit;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.io.PrintWriter;
 import java.math.BigInteger;
 import java.util.Scanner;
-import java.util.StringTokenizer;
 
 public class BasicallySpeaking {
 
