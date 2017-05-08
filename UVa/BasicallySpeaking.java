@@ -54,7 +54,7 @@ import java.util.StringTokenizer;
 
 public class BasicallySpeaking {
 
-	static void solve() throws Exception {
+	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		while (input.hasNext()) {
 			String numberAsString = input.next();
@@ -68,34 +68,5 @@ public class BasicallySpeaking {
 			}
 			System.out.printf("%7s\n", answer);
 		}
-		input.close();
 	}
-
-	static int nextInt() throws IOException {
-		return parseInt(next());
-	}
-
-	static String next() throws IOException {
-		while (tok == null || !tok.hasMoreTokens()) {
-			tok = new StringTokenizer(in.readLine());
-		}
-		return tok.nextToken();
-	}
-
-	public static void main(String[] args) {
-		try {
-			in = new BufferedReader(new InputStreamReader(System.in));
-			out = new PrintWriter(new OutputStreamWriter(System.out));
-			solve();
-			in.close();
-			out.close();
-		} catch (Throwable e) {
-			e.printStackTrace();
-			exit(0);
-		}
-	}
-
-	static BufferedReader in;
-	static PrintWriter out;
-	static StringTokenizer tok;
 }
