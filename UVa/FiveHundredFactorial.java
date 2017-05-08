@@ -52,6 +52,5 @@ public class FiveHundredFactorial {
 			}
 			System.out.println(number + "!\n" + product);
 		}
-		input.close();
 	}
 }
