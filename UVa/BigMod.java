@@ -41,45 +41,16 @@ import java.math.BigInteger;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-
 public class BigMod {
 
-    static void solve() throws Exception {
-	Scanner input = new Scanner(System.in);
-	while(input.hasNext()){
-	    BigInteger b = input.nextBigInteger();
-	    BigInteger p = input.nextBigInteger();
-	    BigInteger m = input.nextBigInteger();
-	    System.out.println(b.modPow(p, m));
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		while (input.hasNext()) {
+			BigInteger b = input.nextBigInteger();
+			BigInteger p = input.nextBigInteger();
+			BigInteger m = input.nextBigInteger();
+			System.out.println(b.modPow(p, m));
+		}
+		input.close();
 	}
-	input.close();
-    }
-
-    static int nextInt() throws IOException {
-	return parseInt(next());
-    }
-
-    static String next() throws IOException {
-	while (tok == null || !tok.hasMoreTokens()) {
-	    tok = new StringTokenizer(in.readLine());
-	}
-	return tok.nextToken();
-    }
-
-    public static void main(String[] args) {
-	try {
-	    in = new BufferedReader(new InputStreamReader(System.in));
-	    out = new PrintWriter(new OutputStreamWriter(System.out));
-	    solve();
-	    in.close();
-	    out.close();
-	} catch (Throwable e) {
-	    e.printStackTrace();
-	    exit(0);
-	}
-    }
-
-    static BufferedReader in;
-    static PrintWriter out;
-    static StringTokenizer tok;
 }
