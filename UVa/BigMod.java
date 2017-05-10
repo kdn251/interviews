@@ -42,6 +42,5 @@ public class BigMod {
 			BigInteger m = input.nextBigInteger();
 			System.out.println(b.modPow(p, m));
 		}
-		input.close();
 	}
 }
