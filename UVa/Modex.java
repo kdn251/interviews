@@ -45,7 +45,6 @@ public class Modex {
 			System.out.println(result);
 			numberOfTestCases--;
 		}
-		input.close();
 	}
 }
 
