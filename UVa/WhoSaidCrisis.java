@@ -43,6 +43,5 @@ public class WhoSaidCrisis {
 			System.out.println(first.subtract(second));
 			numberOfTestCases--;
 		}
-		input.close();
 	}
 }
