@@ -42,6 +42,5 @@ public class SimplifyingFractions {
 			System.out.println(p + " / " + q);
 			numberOfTestCases--;
 		}
-		input.close();
 	}
 }
