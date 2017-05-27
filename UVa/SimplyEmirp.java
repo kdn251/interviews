@@ -38,7 +38,7 @@ import java.util.Scanner;
 
 public class SimplyEmirp {
 
-	static void solve() throws Exception {
+	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		while (input.hasNext()) {
 			String inputGiven = input.next();
