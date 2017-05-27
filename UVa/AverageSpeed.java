@@ -33,7 +33,7 @@ import java.util.Scanner;
 
 public class AverageSpeed {
 
-	static void solve() throws Exception {
+	public static void main(String[] args) {
 		int speed = 0;
 		boolean reachedTheEnd = false;
 		Scanner input = new Scanner(System.in);
