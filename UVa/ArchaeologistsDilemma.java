@@ -1,5 +1,3 @@
-package uva;
-
 /**
  * An archeologist seeking proof of the presence of extraterrestrials in the Earth’s past, stumbles upon a
  * partially destroyed wall containing strange chains of numbers. The left-hand part of these lines of digits

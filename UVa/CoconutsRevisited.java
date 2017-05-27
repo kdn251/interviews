@@ -39,7 +39,7 @@ import java.util.Scanner;
 
 public class CoconutsRevisited {
 
-	static void solve() throws Exception {
+	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int i, rez, j;
 		boolean isValid;
