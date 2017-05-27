@@ -36,14 +36,13 @@
  * Case 2: impossible
  */
 
-
 //https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2823
 
 import java.util.Scanner;
 
 public class NumberingRoads {
 
-	static void solve() throws Exception {
+	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int caseNumber = 1;
 		while (true) {
