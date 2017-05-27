@@ -1,3 +1,5 @@
+package uva;
+
 /**
  * An archeologist seeking proof of the presence of extraterrestrials in the Earth’s past, stumbles upon a
  * partially destroyed wall containing strange chains of numbers. The left-hand part of these lines of digits
@@ -39,7 +41,7 @@ public class ArchaeologistsDilemma {
 	final static double LOG2 = Math.log(2.0);
 	final static double LOG2_10 = Math.log(10) / LOG2;
 
-	public static void solve() throws IOException {
+	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		while (true) {
 			long N = input.nextLong();
