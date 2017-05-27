@@ -38,7 +38,7 @@ import java.util.Scanner;
 
 public class AddingReversedNumbers {
 
-	static void solve() throws Exception {
+	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int numberOfTestCases = input.nextInt();
 		while (numberOfTestCases != 0) {
