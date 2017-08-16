@@ -46,7 +46,7 @@ public class Solution {
 
     }
 
-    public void helper(List<List<String>> ret, List<String> cur, int matched, int total, Map<String, Set<String>> map){
+    public void helper(List<List<String>> ret, List<String> cur, int matched, int total, Map<String, Set<String>> map) {
 
         if(matched == total) {ret.add(new ArrayList<String>(cur));return;}
 
@@ -60,13 +60,15 @@ public class Solution {
 
         if(cand==null) return;
 
-        for(String str:cand){
-
+        cand.stream().map(str -> {
             cur.add(str);
+            return _item;
+        }).map(_item -> {
             helper(ret, cur, matched+1, total, map);
+            return _item;
+        }).forEach(_item -> {
             cur.remove(cur.size()-1);
-
-        }
+        });
 
     }
 
