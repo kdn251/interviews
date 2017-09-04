@@ -8,6 +8,7 @@
 - [简体中文](./README-zh-cn.md)
 
 ## Table of Contents
+- [Articles](#articles)
 - [Online Judges](#online-judges)
 - [Live Coding Practice](#live-coding-practice)
 - [Data Structures](#data-structures)
@@ -19,6 +20,9 @@
 - [Interview Books](#interview-books)
 - [Computer Science News](#computer-science-news)
 - [Directory Tree](#directory-tree)
+
+## Articles
+* [Starting Work](https://medium.com/@Naughton/starting-work-b06e10f6007e)
 
 ## Online Judges
 * [LeetCode](https://leetcode.com/)
