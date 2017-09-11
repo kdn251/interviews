@@ -23,6 +23,7 @@
 
 ## Articles
 * [Starting Work](https://medium.com/@Naughton/starting-work-b06e10f6007e)
+* [5 Tricks Interview Magic](http://www.iconoclastlabs.com/blog/5-tricks-interview-magic)
 
 ## Online Judges
 * [LeetCode](https://leetcode.com/)
