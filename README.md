@@ -35,8 +35,12 @@
 * [Codility](https://codility.com/programmers/lessons/1-iterations/)
 * [Code Forces](http://codeforces.com/)
 * [Code Chef](https://www.codechef.com/)
+* [CS Academy](https://csacademy.com/)
+* [At Coder](https://atcoder.jp)
+* [Top Coder](https://topcoder.com)
 * [Sphere Online Judge - SPOJ](http://www.spoj.com/)
 * [InterviewBit](https://www.interviewbit.com/)
+* [GeeksForgeeks](http://www.geeksforgeeks.org/)
 
 ## Live Coding Practice
 * [Pramp](https://www.pramp.com/ref/gt4)
@@ -352,6 +356,9 @@ or equal to those of the children and the lowest key is in the root node
 * [Cracking The Coding Interview - Gayle Laakmann McDowell](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=sr_1_1?s=books&ie=UTF8)
 * [Cracking The PM Interview - Gayle Laakmann McDowell & Jackie Bavaro](https://www.amazon.com/Cracking-PM-Interview-Product-Technology-ebook/dp/B00ISYMUR6/ref=sr_1_1?s=books&ie=UTF8)
 * [Introduction to Algorithms -  Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest & Clifford Stein](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/ref=sr_1_1?ie=UTF8&qid=1490295989&sr=8-1&keywords=Introduction+to+Algorithms)
+* [Algorithm Design, by Jon Kleinberg and Éva Tardos](http://amzn.to/VjhioK)
+* [The Algorithm Design Manual, by Steven S. Skiena](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693)
+* [Algorithms, by Robert Sedgewick and Kevin Wayne](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X)
 
 ## Computer Science News
 * [Hacker News](https://news.ycombinator.com/)
