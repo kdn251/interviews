@@ -136,11 +136,9 @@ A heap can be classified further as either a "max heap" or a "min heap". In a ma
 than or equal to those of the children and the highest key is in the root node. In a min heap, the keys of parent nodes are less than
 or equal to those of the children and the lowest key is in the root node
 * Time Complexity:
- * Access: `O(log(n))`
- * Search: `O(log(n))`
+ * Access Max / Min: `O(1)`
  * Insert: `O(log(n))`
- * Remove: `O(log(n))`
- * Remove Max / Min: `O(1)`
+ * Remove Max / Min: `O(log(n))`
 
 <img src="/Images/heap.png?raw=true" alt="Max Heap" width="400" height="500">
 
