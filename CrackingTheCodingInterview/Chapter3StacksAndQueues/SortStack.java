@@ -11,7 +11,7 @@ public class SortStack {
 			while(!r.isEmpty() && r.peek() > tmp) { //step 2
 				s.push(r.pop());
 			}
-			r.push(tmp) //step 3
+			r.push(tmp); //step 3
 		}
 		return r;
 	}
