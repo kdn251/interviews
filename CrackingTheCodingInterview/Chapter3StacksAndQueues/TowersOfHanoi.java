@@ -39,7 +39,7 @@ public class Tower {
 			System.out.println("Error placing disk " + d);
 		}
 		else {
-			disks.push(d):
+			disks.push(d);
 		}
 	}
 
