@@ -62,20 +62,20 @@
    *pop*, which removes the most recently added element
  * Last in, first out data structure (LIFO)
  * Time Complexity:
-  * Access: `O(n)`
-  * Search: `O(n)`
-  * Insert: `O(1)`
-  * Remove: `O(1)`
+   * Access: `O(n)`
+   * Search: `O(n)`
+   * Insert: `O(1)`
+   * Remove: `O(1)`
 
 ### Queue
  * A *Queue* is a collection of elements, supporting two principle operations: *enqueue*, which inserts an element
    into the queue, and *dequeue*, which removes an element from the queue
  * First in, first out data structure (FIFO)
  * Time Complexity:
-  * Access: `O(n)`
-  * Search: `O(n)`
-  * Insert: `O(1)`
-  * Remove: `O(1)`
+   * Access: `O(n)`
+   * Search: `O(n)`
+   * Insert: `O(1)`
+   * Remove: `O(1)`
 
 ### Tree
  * A *Tree* is an undirected, connected, acyclic graph
@@ -93,10 +93,10 @@
    node must be greater than or equal to any value stored in the left sub-tree, and less than or equal to any value stored
    in the right sub-tree
  * Time Complexity:
-  * Access: `O(log(n))`
-  * Search: `O(log(n))`
-  * Insert: `O(log(n))`
-  * Remove: `O(log(n))`
+   * Access: `O(log(n))`
+   * Search: `O(log(n))`
+   * Insert: `O(log(n))`
+   * Remove: `O(log(n))`
 
 <img src="/Images/BST.png?raw=true" alt="Binary Search Tree" width="400" height="500">
 
@@ -115,8 +115,8 @@
   a range of values, and by combining that sum with additional ranges encountered during an upward traversal to the root, the prefix
   sum is calculated
 * Time Complexity:
- * Range Sum: `O(log(n))`
- * Update: `O(log(n))`
+  * Range Sum: `O(log(n))`
+  * Update: `O(log(n))`
 
 ![Alt text](/Images/fenwickTree.png?raw=true "Fenwick Tree")
 
@@ -124,8 +124,8 @@
 * A Segment tree, is a tree data structure for storing intervals, or segments. It allows querying which of the stored segments contain
   a given point
 * Time Complexity:
- * Range Query: `O(log(n))`
- * Update: `O(log(n))`
+  * Range Query: `O(log(n))`
+  * Update: `O(log(n))`
 
 ![Alt text](/Images/segmentTree.png?raw=true "Segment Tree")
 
@@ -136,9 +136,9 @@ A heap can be classified further as either a "max heap" or a "min heap". In a ma
 than or equal to those of the children and the highest key is in the root node. In a min heap, the keys of parent nodes are less than
 or equal to those of the children and the lowest key is in the root node
 * Time Complexity:
- * Access Max / Min: `O(1)`
- * Insert: `O(log(n))`
- * Remove Max / Min: `O(log(n))`
+  * Access Max / Min: `O(1)`
+  * Insert: `O(log(n))`
+  * Remove Max / Min: `O(log(n))`
 
 <img src="/Images/heap.png?raw=true" alt="Max Heap" width="400" height="500">
 
@@ -177,9 +177,9 @@ or equal to those of the children and the lowest key is in the root node
 #### Quicksort
 * Stable: `No`
 * Time Complexity:
- * Best Case: `O(nlog(n))`
- * Worst Case: `O(n^2)`
- * Average Case: `O(nlog(n))`
+  * Best Case: `O(nlog(n))`
+  * Worst Case: `O(n^2)`
+  * Average Case: `O(nlog(n))`
 
 ![Alt text](/Images/quicksort.gif?raw=true "Quicksort")
 
@@ -188,9 +188,9 @@ or equal to those of the children and the lowest key is in the root node
   left subarray and right subarray and then merges the two sorted halves
 * Stable: `Yes`
 * Time Complexity:
- * Best Case: `O(nlog(n))`
- * Worst Case: `O(nlog(n))`
- * Average Case: `O(nlog(n))`
+  * Best Case: `O(nlog(n))`
+  * Worst Case: `O(nlog(n))`
+  * Average Case: `O(nlog(n))`
 
 ![Alt text](/Images/mergesort.gif?raw=true "Mergesort")
 
@@ -198,9 +198,9 @@ or equal to those of the children and the lowest key is in the root node
 * *Bucket Sort* is a sorting algorithm that works by distributing the elements of an array into a number of buckets. Each bucket
   is then sorted individually, either using a different sorting algorithm, or by recursively applying the bucket sorting algorithm
 * Time Complexity:
- * Best Case: `Ω(n + k)`
- * Worst Case: `O(n^2)`
- * Average Case:`Θ(n + k)`
+  * Best Case: `Ω(n + k)`
+  * Worst Case: `O(n^2)`
+  * Average Case:`Θ(n + k)`
 
 ![Alt text](/Images/bucketsort.png?raw=true "Bucket Sort")
 
@@ -208,9 +208,9 @@ or equal to those of the children and the lowest key is in the root node
 * *Radix Sort* is a sorting algorithm that like bucket sort, distributes elements of an array into a number of buckets. However, radix
   sort differs from bucket sort by 're-bucketing' the array after the initial pass as opposed to sorting each bucket and merging
 * Time Complexity:
- * Best Case: `Ω(nk)`
- * Worst Case: `O(nk)`
- * Average Case: `Θ(nk)`
+  * Best Case: `Ω(nk)`
+  * Worst Case: `O(nk)`
+  * Average Case: `Θ(nk)`
 
 ### Graph Algorithms
 
@@ -243,8 +243,8 @@ or equal to those of the children and the lowest key is in the root node
 * Although it is slower than Dijkstra's, it is more versatile, as it is capable of handling graphs in which some of the edge weights are
   negative numbers
 * Time Complexity:
- * Best Case: `O(|E|)`
- * Worst Case: `O(|V||E|)`
+  * Best Case: `O(|E|)`
+  * Worst Case: `O(|V||E|)`
 
 ![Alt text](/Images/bellman-ford.gif?raw=true "Bellman-Ford")
 
@@ -253,9 +253,9 @@ or equal to those of the children and the lowest key is in the root node
   no negative cycles
 * A single execution of the algorithm will find the lengths (summed weights) of the shortest paths between *all* pairs of nodes
 * Time Complexity:
- * Best Case: `O(|V|^3)`
- * Worst Case: `O(|V|^3)`
- * Average Case: `O(|V|^3)`
+  * Best Case: `O(|V|^3)`
+  * Worst Case: `O(|V|^3)`
+  * Average Case: `O(|V|^3)`
 
 #### Prim's Algorithm
 * *Prim's Algorithm* is a greedy algorithm that finds a minimum spanning tree for a weighted undirected graph. In other words, Prim's find a
