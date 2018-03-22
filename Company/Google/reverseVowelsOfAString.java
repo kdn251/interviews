@@ -9,11 +9,11 @@
 // Note:
 // The vowels does not include the letter "y".
 
-public class Solution {
-
+public class ReverseVowelsOfAString {
     public String reverseVowels(String s) {
-        
-        if(s == null || s.length() == 0) return s;
+        if(s == null || s.length() == 0) {
+            return s;
+        }
         
         String vowels = "aeiouAEIOU";
         
@@ -23,19 +23,13 @@ public class Solution {
         int end = s.length() - 1;
         
         while(start < end) {
-            
             while(start < end && !vowels.contains(chars[start] + "")) {
-                
                 start++;
-                
             }
             
             while(start < end && !vowels.contains(chars[end] + "")) {
-                
                 end--;
-                
             }
-            
             
             char temp = chars[start];
             chars[start] = chars[end];
@@ -43,11 +37,8 @@ public class Solution {
             
             start++;
             end--;
-            
         }
         
         return new String(chars);
-        
     }
-
 }

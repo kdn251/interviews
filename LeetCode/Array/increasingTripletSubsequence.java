@@ -12,23 +12,21 @@
 // Given [5, 4, 3, 2, 1],
 // return false.
 
-public class Solution {
-
+public class IncreasingTripletSequence {
     public boolean increasingTriplet(int[] nums) {
-        
         int firstMin = Integer.MAX_VALUE;
         int secondMin = Integer.MAX_VALUE;
         
         for(int n : nums) {
-            
-            if(n <= firstMin) firstMin = n;
-            else if(n < secondMin) secondMin = n;
-            else if(n > secondMin) return true;
-            
+            if(n <= firstMin) {
+                firstMin = n;
+            } else if(n < secondMin) {
+                secondMin = n;
+            } else if(n > secondMin) {
+                return true;
+            }
         }
         
         return false;
-        
     }
-
 }

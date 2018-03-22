@@ -13,14 +13,10 @@
  *     Interval(int s, int e) { start = s; end = e; }
  * }
  */
-public class Solution {
-
+public class MergeIntervals {
     public List<Interval> merge(List<Interval> intervals) {
-        
         if(intervals.size() <= 1) {
-            
             return intervals;
-            
         }
         
          // Sort by ascending starting point using an anonymous Comparator
@@ -37,27 +33,17 @@ public class Solution {
         int end = intervals.get(0).end;
         
         for(Interval interval : intervals) {
-            
             if(interval.start <= end) {
-                
                 end = Math.max(end, interval.end);
-                
-            }
-            
-            else {
-                
+            } else {
                 result.add(new Interval(start, end));
                 start = interval.start;
                 end = interval.end;
-                
             }
-            
         }
         
         result.add(new Interval(start, end));
         
         return result;
-
     }
-
 }

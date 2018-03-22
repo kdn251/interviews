@@ -13,56 +13,42 @@
 //   ["a","z"]
 // ]
 
-public class Solution {
-
+public class GroupShiftedStrings {
     public List<List<String>> groupStrings(String[] strings) {
-        
         List<List<String>> result = new ArrayList<List<String>>();
         
         HashMap<String, List<String>> map = new HashMap<String, List<String>>();
         
         for(String s : strings) {
-            
             int offset = s.charAt(0) - 'a';
             String key = "";
             
             for(int i = 0; i < s.length(); i++) {
-                
                 char current = (char)(s.charAt(i) - offset);
                 
                 if(current < 'a') {
-                    
                     current += 26;
-                    
                 }
                 
                 key += current;
-                
             }
             
             if(!map.containsKey(key)) {
-                
                 List<String> list = new ArrayList<String>();
                 map.put(key, list);
-                
             }
             
             map.get(key).add(s);
-            
         }
         
         for(String key : map.keySet()) {
-            
             List<String> list = map.get(key);
             
             Collections.sort(list);
             
             result.add(list);   
-            
         }
         
         return result;
-        
     }
-
 }

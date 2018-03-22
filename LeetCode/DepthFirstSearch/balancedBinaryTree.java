@@ -11,32 +11,26 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
-    
+public class BalancedBinaryTree {
     boolean balanced = true;
     
     public boolean isBalanced(TreeNode root) {
-        
         height(root);
         return balanced;
-        
     }
     
     private int height(TreeNode root) {
-        
-        if(root == null) return 0;
+        if(root == null) {
+            return 0;
+        }
         
         int leftHeight = height(root.left);
         int rightHeight = height(root.right);
         
         if(Math.abs(leftHeight - rightHeight) > 1) {
-            
             balanced = false;
-            
         }
         
         return 1 + Math.max(leftHeight, rightHeight);
-        
     }
-    
 }

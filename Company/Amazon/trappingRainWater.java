@@ -3,10 +3,8 @@
 // For example, 
 // Given [0,1,0,2,1,0,1,3,2,1,2,1], return 6.
 
-public class Solution {
-
+public class TrappingRainWater {
     public int trap(int[] height) {
-        
         int water = 0;
         
         int leftIndex = 0;
@@ -16,29 +14,19 @@ public class Solution {
         int rightMax = 0;
         
         while(leftIndex <= rightIndex) {
-            
             leftMax = Math.max(leftMax, height[leftIndex]);
             rightMax = Math.max(rightMax, height[rightIndex]);
             
             if(leftMax < rightMax) {
-                
                 water += leftMax - height[leftIndex];
                 leftIndex++;
-                
-            }
-            
-            else {
-                
+            } else {
                 water += rightMax - height[rightIndex];
                 rightIndex--;
-                
             }
-            
         }
         
         return water;
-        
     }
-    
 }
 

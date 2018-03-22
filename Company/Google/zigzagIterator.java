@@ -14,23 +14,18 @@
  * while (i.hasNext()) v[f()] = i.next();
  */
 
-public class ZigzagIterator {
-    
+public class ZigZagIterator {
     private Iterator<Integer> i;
     private Iterator<Integer> j;
     private Iterator<Integer> temp;
 
     public ZigzagIterator(List<Integer> v1, List<Integer> v2) {
-        
         i = v1.iterator();
         j = v2.iterator();
-
     }
 
     public int next() {
-        
         if(i.hasNext()) {
-            
             temp = i;
             i = j;
             j = temp;
@@ -38,14 +33,9 @@ public class ZigzagIterator {
         }
         
         return j.next();
-        
-
     }
 
     public boolean hasNext() {
-        
         return i.hasNext() || j.hasNext();
-
     }
-
 }

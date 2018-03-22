@@ -10,10 +10,8 @@
 // Follow up:
     // Could you solve it in O(n2) runtime?
 
-public class Solution {
-
+public class 3SumSmaller {
     public int threeSumSmaller(int[] nums, int target) {
-        
         //initialize total count to zero
         int count = 0;
         
@@ -22,7 +20,6 @@ public class Solution {
         
         //loop through entire array
         for(int i = 0; i < nums.length - 2; i++) {
-            
             //set left to i + 1
             int left = i + 1;
             
@@ -31,32 +28,21 @@ public class Solution {
             
             //while left index < right index
             while(left < right) {
-                
                 //if the 3 indices add to less than the target increment count
                 if(nums[i] + nums[left] + nums[right] < target) {
-                    
                     //increment the count by the distance between left and right because the array is sorted
                     count += right - left;
                     
                     //decrement right pointer
                     left++;
-                    
-                }
-                
-                //if they sum to a value greater than target...
-                else {
-                    
+                } else {
+                    //if they sum to a value greater than target...
                     //increment left pointer
                     right--;
-                    
                 }
-                
             }
-
         }
         
         return count;
-            
     }
-    
 }

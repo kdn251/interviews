@@ -13,31 +13,25 @@
  * double param_1 = obj.next(val);
  */
 
-public class MovingAverage {
-
+public class MovingAverageFromDataStream {
     double previousSum = 0.0;
     int maxSize;
     Queue<Integer> window;
 
     /** Initialize your data structure here. */
     public MovingAverage(int size) {
-        
         this.maxSize = size;
         window = new LinkedList<Integer>();
- 
     }
     
     public double next(int val) {
         if(window.size() == maxSize) {
-            
             previousSum -= window.remove();
-            
         }
         
         window.add(val);
         previousSum += val;
-        return previousSum / window.size();
-        
-    }
 
+        return previousSum / window.size();
+    }
 }

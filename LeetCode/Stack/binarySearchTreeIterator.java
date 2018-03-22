@@ -14,48 +14,35 @@
  * }
  */
 
-public class BSTIterator {
-    
+public class BinarySearchTreeIterator {
     Stack<TreeNode> stack;
 
     public BSTIterator(TreeNode root) {
-        
         stack = new Stack<TreeNode>();
         
         while(root != null) {
-            
             stack.push(root);
             root = root.left;
-            
         }
-        
     }
 
     /** @return whether we have a next smallest number */
     public boolean hasNext() {
-        
         return stack.isEmpty() ? false : true;
-        
     }
 
     /** @return the next smallest number */
     public int next() {
-        
         TreeNode nextSmallest = stack.pop();
-        
         TreeNode addToStack = nextSmallest.right;
         
         while(addToStack != null) {
-            
             stack.add(addToStack);
             addToStack = addToStack.left;
-            
         }
         
         return nextSmallest.val;
-        
     }
-
 }
 
 /**

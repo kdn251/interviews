@@ -15,47 +15,35 @@
 // Return 0
 // No such pair of words.
 
-public class Solution {
-
+public class MaximumProductOfWordLengths {
     public int maxProduct(String[] words) {
-        
-        if(words.length == 0 || words == null) return 0;
+        if(words.length == 0 || words == null) {
+            return 0;
+        }
         
         int length = words.length;
         int[] value = new int[length];
         int max = 0;
         
         for(int i = 0; i < length; i++) {
-            
             String temp = words[i];
             
             value[i] = 0;
             
             for(int j = 0; j < temp.length(); j++) {
-                
                 value[i] |= 1 << (temp.charAt(j) - 'a');
-                
             }
-            
         }
         
         
         for(int i = 0; i < length; i++) {
-            
             for(int j = 1; j < length; j++) {
-                
                 if((value[i] & value[j]) == 0 && (words[i].length() * words[j].length()) > max) {
-                    
                     max = words[i].length() * words[j].length();
-                    
                 }
-                
             }
-            
         }
         
         return max;
-        
     }
-
 }

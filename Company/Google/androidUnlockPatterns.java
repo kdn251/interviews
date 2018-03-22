@@ -25,10 +25,8 @@
 // Example:
 // Given m = 1, n = 1, return 9.
 
-public class Solution {
-
+public class AndroidUnlockPatterns {
     public int numberOfPatterns(int m, int n) {
-        
         //initialize a 10x10 matrix
         int skip[][] = new int[10][10];
         
@@ -47,22 +45,23 @@ public class Solution {
         
         //run DFS for each length from m to n
         for(int i = m; i <= n; ++i) {
-            
             totalNumber += DFS(visited, skip, 1, i - 1) * 4; //1, 3, 7, and 9 are symmetric so multiply this result by 4
             totalNumber += DFS(visited, skip, 2, i - 1) * 4; //2, 4, 6, and 8 are symmetric so multiply this result by 4
             totalNumber += DFS(visited, skip, 5, i - 1); //do not multiply by 4 because 5 is unique         
-            
         }
         
         return totalNumber;
-  
     }
     
     int DFS(boolean visited[], int[][] skip, int current, int remaining) {
-        
         //base cases
-        if(remaining < 0) return 0;
-        if(remaining == 0) return 1;
+        if(remaining < 0) {
+            return 0;
+        }
+
+        if(remaining == 0) {
+            return 1;
+        }
         
         //mark the current node as visited
         visited[current] = true;
@@ -70,16 +69,11 @@ public class Solution {
         //initialize total number to 0
         int totalNumber = 0;
         
-        
         for(int i = 1; i <= 9; ++i) {
-            
             //if the current node has not been visited and (two numbers are adjacent or skip number has already been visited)
             if(!visited[i] && (skip[current][i] == 0 || visited[skip[current][i]])) {
-                
                 totalNumber += DFS(visited, skip, i, remaining - 1);
-                
             }
-            
         }
         
         //mark the current node as not visited
@@ -87,7 +81,5 @@ public class Solution {
         
         //return total number
         return totalNumber;
-        
     }
-
 }

@@ -13,10 +13,8 @@
  *     ListNode(int x) { val = x; }
  * }
  */
-public class Solution {
-
+public class AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        
         ListNode current1 = l1;
         ListNode current2 = l2;
         

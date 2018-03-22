@@ -6,14 +6,12 @@
 // Note: 
 // You may assume k is always valid, 1 ≤ k ≤ array's length.
 
-public class Solution {
-
+public class KthLargestElementInAnArray {
     public int findKthLargest(int[] nums, int k) {
-
         int length = nums.length;
-        Arrays.sort(nums);
-        return nums[length - k];
-        
-    }
 
+        Arrays.sort(nums);
+
+        return nums[length - k];
+    }
 }

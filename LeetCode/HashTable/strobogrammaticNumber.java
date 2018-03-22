@@ -4,22 +4,14 @@
 
 // For example, the numbers "69", "88", and "818" are all strobogrammatic.
 
-public class Solution {
-
+public class StrobogrammaticNumber {
     public boolean isStrobogrammatic(String num) {
-
         for(int i = 0, j = num.length() - 1; i <= j; i++, j--) {
-            
             if(!"00 11 88 696".contains(num.charAt(i) + "" + num.charAt(j))) {
-                
                 return false;
-                
             }
-            
         }
         
         return true;
-        
     }
-
 }

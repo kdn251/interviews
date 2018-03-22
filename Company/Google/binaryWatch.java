@@ -15,31 +15,21 @@
 // The hour must not contain a leading zero, for example "01:00" is not valid, it should be "1:00".
 // The minute must be consist of two digits and may contain a leading zero, for example "10:2" is not valid, it should be "10:02".
 
-public class Solution {
-
+public class BinaryWatch {
     public List<String> readBinaryWatch(int num) {
-        
         ArrayList<String> allTimes = new ArrayList<String>();
         
         //iterate through all possible time combinations
         for(int i = 0; i < 12; i++) {
-            
             for(int j = 0; j < 60; j++) {
-                
                 //if the current number and n have the same number of bits the time is possible
                 if(Integer.bitCount(i * 64 + j) == num) {
-                    
                     //add the current time to all times arraylist
                     allTimes.add(String.format("%d:%02d", i, j));
-                    
                 }
-                
             }
-            
         }
         
         return allTimes;
-        
     }
-
 }

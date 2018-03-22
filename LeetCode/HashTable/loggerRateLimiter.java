@@ -26,48 +26,30 @@
 // // logging string "foo" at timestamp 11
 // logger.shouldPrintMessage(11,"foo"); returns true;
 
-public class Logger {
-
+public class LoggerRateLimiter {
     HashMap<String, Integer> messages;
 
     /** Initialize your data structure here. */
     public Logger() {
-       
        this.messages = new HashMap<String, Integer>(); 
-    
     }
     
     /** Returns true if the message should be printed in the given timestamp, otherwise returns false.
         If this method returns false, the message will not be printed.
         The timestamp is in seconds granularity. */
     public boolean shouldPrintMessage(int timestamp, String message) {
-        
         if(messages.containsKey(message)) {
-            
             if(timestamp - messages.get(message) >= 10) {
-                
                 messages.put(message, timestamp);
                 return true;
-                
-            }
-            
-            else {
-                
+            } else {
                 return false;
-                
             }
-            
-        }
-        
-        else {
-            
+        } else {
             messages.put(message, timestamp);
             return true;
-            
         }
-    
     }
-
 }
 
 /**

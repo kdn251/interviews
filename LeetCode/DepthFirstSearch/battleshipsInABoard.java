@@ -19,43 +19,29 @@
 // Follow up:
 // Could you do it in one-pass, using only O(1) extra memory and without modifying the value of the board?
 
-public class Solution {
-
+public class BattleshipsInABoard {
     public int countBattleships(char[][] board) {
-        
         int ships = 0;
         
         for(int i = 0; i < board.length; i++) {
-            
             for(int j = 0; j < board[0].length; j++) {
-                
                 if(board[i][j] == 'X') {
-                    
                     ships++;
                     sink(board, i, j, 1);
-                    
                 }
-                
             }
-            
         }
         
         return ships;
-        
     }
     
     public void sink(char[][] board, int i, int j, int numberOfShips) {
-        
         if(i < 0 || i >= board.length || j < 0 || j >= board[0].length || board[i][j] == '.') {
-            
             return;
-            
         }
         
         board[i][j] = '.';
         sink(board, i + 1, j, numberOfShips + 1);
         sink(board, i, j + 1, numberOfShips + 1);
-        
     }
-    
 }

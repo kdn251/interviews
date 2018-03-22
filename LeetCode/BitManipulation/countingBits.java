@@ -3,21 +3,16 @@
 // Example:
 // For num = 5 you should return [0,1,1,2,1,2].
 
-public class Solution {
+public class CountingBits {
     public int[] countBits(int num) {
-        
         int[] bits = new int[num + 1];
         
         bits[0] = 0;
         
         for(int i = 1; i <= num; i++) {
-            
             bits[i] = bits[i >> 1] + (i & 1);
-            
         }
         
         return bits;
-        
     }
-
 }

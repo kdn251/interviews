@@ -13,18 +13,17 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class ClosestBinarySearchTreeValue {
     public int closestValue(TreeNode root, double target) {
-        
         int value = root.val;
         TreeNode child = root.val < target ? root.right : root.left;
 
-        if(child == null) return value;
+        if(child == null) {
+            return value;
+        }
 
         int childValue = closestValue(child, target);
         
         return Math.abs(value - target) < Math.abs(childValue - target) ? value : childValue;
-
     }
-    
 }

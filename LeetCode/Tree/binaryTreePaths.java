@@ -20,26 +20,30 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
-
+public class BinaryTreePaths {
     public List<String> binaryTreePaths(TreeNode root) {
-        
         List<String> result = new ArrayList<String>();
-        
-        if(root == null) return result;
+
+        if(root == null) {
+            return result;
+        }
         
         helper(new String(), root, result);
         
         return result;
-        
     }
     
     public void helper(String current, TreeNode root, List<String> result) {
-        
-        if(root.left == null && root.right == null) result.add(current + root.val);
-        if(root.left != null) helper(current + root.val + "->", root.left, result);
-        if(root.right != null) helper(current + root.val + "->", root.right, result);
-        
+        if(root.left == null && root.right == null) {
+            result.add(current + root.val);
+        }
+
+        if(root.left != null) {
+            helper(current + root.val + "->", root.left, result);
+        }
+
+        if(root.right != null) {
+            helper(current + root.val + "->", root.right, result);
+        }
     }
-    
 }

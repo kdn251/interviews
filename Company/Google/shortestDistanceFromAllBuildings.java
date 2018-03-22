@@ -15,11 +15,11 @@
 // Note:
 // There will be at least one building. If it is not possible to build such house according to the above rules, return -1.
 
-public class Solution {
-
+public class ShortestDistanceFromAllBuildings {
     public int shortestDistance(int[][] grid) {
-        
-        if(grid == null || grid.length == 0 || grid[0].length == 0) return -1;
+        if(grid == null || grid.length == 0 || grid[0].length == 0) {
+            return -1;
+        }
         
         final int[] shift = {0, 1, 0, -1, 0};
         
@@ -32,12 +32,10 @@ public class Solution {
         int numberOfBuildings = 0;
         
         for(int i = 0; i < rows; i++) {
-            
             for(int j = 0; j < columns; j++) {
-                
                 if(grid[i][j] == 1) {
-                    
                     numberOfBuildings++;
+
                     Queue<int[]> queue = new LinkedList<int[]>();
                     queue.offer(new int[] {i, j});
                     
@@ -46,59 +44,41 @@ public class Solution {
                     int relativeDistance = 1;
                     
                     while(!queue.isEmpty()) {
-                        
                         int qSize = queue.size();
                         
                         for(int q = 0; q < qSize; q++) {
-                            
                             int[] current = queue.poll();
                             
                             for(int k = 0; k < 4; k++) {
-
                                 int nextRow = current[0] + shift[k];
                                 int nextColumn = current[1] + shift[k + 1];
                             
                                 if(nextRow >= 0 && nextRow < rows && nextColumn >= 0 && nextColumn < columns && grid[nextRow][nextColumn] == 0 && !visited[nextRow][nextColumn]) {
-                                
                                     distance[nextRow][nextColumn] += relativeDistance;
                                     reach[nextRow][nextColumn]++;
                                 
                                     visited[nextRow][nextColumn] = true;
                                     queue.offer(new int[] {nextRow, nextColumn});
-                            
                                 }   
-                        
                             }
-                        
                         }
                         
                         relativeDistance++;
-                
                     }
-        
                 }
             }
-            
         }
     
         int shortest = Integer.MAX_VALUE;
     
         for(int i = 0; i < rows; i++) {
-        
             for(int j = 0; j < columns; j++) {
-            
                 if(grid[i][j] == 0 && reach[i][j] == numberOfBuildings) {
-                
                     shortest = Math.min(shortest, distance[i][j]);
-                
                 }
-            
             }
-        
         }
     
         return shortest == Integer.MAX_VALUE ? -1 : shortest;
-    
     }
-
 }

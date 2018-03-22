@@ -11,31 +11,19 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
-
+public class InorderSuccessorInBST {
     public TreeNode inorderSuccessor(TreeNode root, TreeNode p) {
-        
         TreeNode successor = null;
         
         while(root != null) {
-            
             if(p.val < root.val) {
-                
                 successor = root;
                 root = root.left;
-                
-            }
-            
-            else {
-                
+            } else {
                 root = root.right;
-                
             }
-            
         }
         
         return successor;
-        
     }
-
 }
