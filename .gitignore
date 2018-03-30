@@ -1,2 +1,5 @@
 /bin/
 .idea
+
+#Ignore .DS_Stores from MacOS
+.DS_Store
