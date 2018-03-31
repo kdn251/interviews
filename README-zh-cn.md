@@ -38,7 +38,6 @@
 * [Code Chef](https://www.codechef.com/)
 * [Sphere Online Judge - SPOJ](http://www.spoj.com/)
 * [InterviewBit](https://www.interviewbit.com/)
-* [CodinGame](https://www.codingame.com/)
 
 ## 在线面试编程
 * [Pramp](https://www.pramp.com/ref/gt4-cn)
