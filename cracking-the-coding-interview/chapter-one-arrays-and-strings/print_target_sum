@@ -1,0 +1,15 @@
+private static void printtargetsum(int[] arr, int target, int videx,
+			String str, int sum) {
+		if (videx == arr.length) {
+			if (sum == target) {
+				System.out.println(str);
+			}
+			return;
+		}
+
+		printtargetsum(arr, tar, videx + 1, str, sum);
+
+		printtargetsum(arr, tar, videx + 1, str + " " + arr[videx], sum
+				+ arr[videx]);
+
+	}
