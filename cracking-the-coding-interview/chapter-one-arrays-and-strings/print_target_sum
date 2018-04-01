@@ -1,4 +1,5 @@
-private static void printtargetsum(int[] arr, int target, int videx,
+//give the (array,target to be achieved,videx=0,an empty string,sum=0)
+	private static void printtargetsum(int[] arr, int target, int videx,
 			String str, int sum) {
 		if (videx == arr.length) {
 			if (sum == target) {
