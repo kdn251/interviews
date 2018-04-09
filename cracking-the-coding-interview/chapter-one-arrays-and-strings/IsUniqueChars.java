@@ -12,4 +12,10 @@ public class IsUniqueChars {
         }
         return true;
     }
+
+
+    public static boolean isUniqueCharsByStreams(String str) {
+        return str.chars().distinct().count() - str.length() == 0;
+    }
+
 }
