@@ -14,29 +14,41 @@
 // Input:Digit string "23"
 // Output: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
 
-public class LetterCombinationOfAPhoneNumber {
+class LetterCombinationsOfAPhoneNumber {
     public List<String> letterCombinations(String digits) {
-        LinkedList<String> result = new LinkedList<>();
-        String[] mapping = new String[] { "0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz" };
+        List<String> result = new ArrayList<String>();
         
         if(digits == null || digits.length() == 0) {
             return result;
         }
         
-        result.add("");
+        String[] mapping = {
+            "0",
+            "1",
+            "abc",
+            "def",
+            "ghi",
+            "jkl",
+            "mno",
+            "pqrs",
+            "tuv",
+            "wxyz"
+        };
         
-        for(int i = 0; i < digits.length(); i++) {
-            int current = Character.getNumericValue(digits.charAt(i));
-            
-            while(result.peek().length() == i) {
-                String s = result.remove();
-                
-                for(char c : mapping[current].toCharArray()) {
-                    result.add(s + c);
-                }
-            }
-        }
+        letterCombinationsRecursive(result, digits, "", 0, mapping);
         
         return result;
+    }
+    
+    public void letterCombinationsRecursive(List<String> result, String digits, String current, int index, String[] mapping) {
+        if(index == digits.length()) {
+            result.add(current);
+            return;
+        }
+        
+        String letters = mapping[digits.charAt(index) - '0'];
+        for(int i = 0; i < letters.length(); i++) {
+            letterCombinationsRecursive(result, digits, current + letters.charAt(i), index + 1, mapping);
+        }
     }
 }
