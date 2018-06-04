@@ -13,36 +13,30 @@
  *     Interval(int s, int e) { start = s; end = e; }
  * }
  */
-public class MergeIntervals {
+class MergeIntervals {
     public List<Interval> merge(List<Interval> intervals) {
-        if(intervals.size() <= 1) {
-            return intervals;
+        List<Interval> result = new ArrayList<Interval>();
+        if(intervals == null || intervals.size() == 0) {
+            return result;
         }
         
-         // Sort by ascending starting point using an anonymous Comparator
-        Collections.sort(intervals, new Comparator<Interval>() {
-            @Override
-            public int compare(Interval i1, Interval i2) {
-                return Integer.compare(i1.start, i2.start);
-            }
+        Interval[] allIntervals = intervals.toArray(new Interval[intervals.size()]);
+        Arrays.sort(allIntervals, new Comparator<Interval>() {
+           public int compare(Interval a, Interval b) {
+               if(a.start == b.start) {
+                   return a.end - b.end;
+               }
+               return a.start - b.start;
+           } 
         });
         
-        List<Interval> result = new ArrayList<Interval>();
-
-        int start = intervals.get(0).start;
-        int end = intervals.get(0).end;
-        
-        for(Interval interval : intervals) {
-            if(interval.start <= end) {
-                end = Math.max(end, interval.end);
+        for(Interval i: allIntervals) {
+            if (result.size() == 0 || result.get(result.size() - 1).end < i.start) {
+                    result.add(i);
             } else {
-                result.add(new Interval(start, end));
-                start = interval.start;
-                end = interval.end;
+                result.get(result.size() - 1).end = Math.max(result.get(result.size() - 1).end, i.end);
             }
         }
-        
-        result.add(new Interval(start, end));
         
         return result;
     }
