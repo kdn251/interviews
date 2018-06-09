@@ -149,7 +149,7 @@ or equal to those of the children and the lowest key is in the root node
 
 
 ### Hashing
-* *Hashing* is used to map data of an arbitrary size to data of a fixed size. The values return by a hash
+* *Hashing* is used to map data of an arbitrary size to data of a fixed size. The values returned by a hash
   function are called hash values, hash codes, or simply hashes. If two keys map to the same value, a collision occurs
 * **Hash Map**: a *hash map* is a structure that can map keys to values. A hash map uses a hash function to compute
   an index into an array of buckets or slots, from which the desired value can be found.
