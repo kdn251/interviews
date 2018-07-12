@@ -23,7 +23,7 @@ class AddDigits {
 	public int addDigits2(int num)
 {
 	int sum=num%9;
-	if(summ==0)
+	if(sum==0)
 		return 9;
 	else
 		return sum;
