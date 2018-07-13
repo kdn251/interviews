@@ -45,6 +45,7 @@
 ## Live Coding Practice
 * [Pramp](https://www.pramp.com/ref/gt4)
 * [Gainlo](http://www.gainlo.co/#!/)
+* [PracticeCodingInterview](http://www.practicecodinginterview.com/)
 * [Refdash](https://refdash.com/)
 * [Interviewing.io](https://www.interviewing.io/)
 
