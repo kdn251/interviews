@@ -4,7 +4,7 @@
 
 class MaximumProductSubarray {
     public int maxProduct(int[] nums) {
-        int max = nums[0],min = nums[0],res=nums[0];
+        int max = nums[0],min = nums[0],res = nums[0];//use max and min to store the maximum and minimum answer for now
         for(int i=1;i<nums.length;i++){
            if(nums[i]<0){
                int temp = max;
