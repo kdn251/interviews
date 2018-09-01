@@ -1,5 +1,6 @@
 # Interviews
-> Your personal guide to Software Engineering technical interviews.
+> Your personal guide to Software Engineering technical interviews. Video
+> solutions to the following interview problems with detailed explanations can be found [here](https://www.youtube.com/channel/UCKvwPt6BifPP54yzH99ff1g).
 >
 > Maintainer - [Kevin Naughton Jr.](https://github.com/kdn251)
 
@@ -8,6 +9,7 @@
 - [简体中文](./README-zh-cn.md)
 
 ## Table of Contents
+- [YouTube](#youtube)
 - [Instagram](#instagram)
 - [Articles](#articles)
 - [Online Judges](#online-judges)
@@ -21,6 +23,9 @@
 - [Interview Books](#interview-books)
 - [Computer Science News](#computer-science-news)
 - [Directory Tree](#directory-tree)
+
+## YouTube
+* [Kevin Naughton Jr.](https://www.youtube.com/channel/UCKvwPt6BifPP54yzH99ff1g)
 
 ## Instagram 
 * [Programeme](https://www.instagram.com/programeme/)
