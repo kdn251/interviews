@@ -61,7 +61,7 @@
    pointing to the next node by means of a pointer. It is a data structure
    consisting of a group of nodes which together represent a sequence.
  * **Singly-linked list**: linked list in which each node points to the next node and the last node points to null
- * **Doubly-linked list**: linked list in which each node has two pointers p, n such that p points to the previous node and n points to the next node; the last node's n pointer points to null
+ * **Doubly-linked list**: linked list in which each node has two pointers, p and n, such that p points to the previous node and n points to the next node; the last node's n pointer points to null
  * **Circular-linked list**: linked list in which each node points to the next node and the last node points back to the first node
  * Time Complexity:
    * Access: `O(n)`
@@ -72,7 +72,7 @@
 ### Stack
  * A *Stack* is a collection of elements, with two principle operations: *push*, which adds to the collection, and
    *pop*, which removes the most recently added element
- * Last in, first out data structure (LIFO)
+ * **Last in, first out data structure (LIFO)**: the most recently added object is the first to be removed
  * Time Complexity:
    * Access: `O(n)`
    * Search: `O(n)`
@@ -82,7 +82,7 @@
 ### Queue
  * A *Queue* is a collection of elements, supporting two principle operations: *enqueue*, which inserts an element
    into the queue, and *dequeue*, which removes an element from the queue
- * First in, first out data structure (FIFO)
+ * **First in, first out data structure (FIFO)**: the oldest added object is the first to be removed
  * Time Complexity:
    * Access: `O(n)`
    * Search: `O(n)`
