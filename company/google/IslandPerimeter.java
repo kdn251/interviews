@@ -9,27 +9,38 @@
 
 // Answer: 16
 
-public class IslandPerimeter {
+class IslandPerimeter {
     public int islandPerimeter(int[][] grid) {
-        int islands = 0;
-        int neighbors = 0;
-        
+        int perimeter = 0;
+        if(grid == null || grid.length == 0) {
+            return perimeter;
+        }
+
         for(int i = 0; i < grid.length; i++) {
-            for(int j = 0; j < grid[0].length; j++) {
+            for(int j = 0; j < grid[i].length; j++) {
                 if(grid[i][j] == 1) {
-                    islands++;
-                    
-                    if(i < grid.length - 1 && grid[i + 1][j] == 1) {
-                        neighbors++;
-                    }
-                    
-                    if(j < grid[0].length - 1 && grid[i][j + 1] == 1) {
-                        neighbors++;
-                    }
+                    perimeter += numNeighbors(grid, i, j);
+                    return perimeter;
                 }
             }
         }
-        
-        return islands * 4 - neighbors * 2;
+
+        return perimeter;
+    }
+
+    public int numNeighbors(int[][] grid, int x, int y) {
+        if(x < 0 || x >= grid.length || y < 0 || y >= grid[x].length || grid[x][y] == 0) {
+            return 1;
+        }
+
+        if(grid[x][y] == -1) {
+            return 0;
+        }
+
+        grid[x][y] = -1;
+        return numNeighbors(grid, x + 1, y) + 
+            numNeighbors(grid, x - 1, y) + 
+            numNeighbors(grid, x, y + 1) + 
+            numNeighbors(grid, x, y - 1);
     }
 }
