@@ -6,33 +6,18 @@
 //and the tiny URL can be decoded to the original URL.
 
 public class EncodeAndDecodeTinyURL {
-    HashMap<String, String> map = new HashMap<String, String>();
-    String characters = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    int count = 1;
-
-    public String getKey() {
-        String key = "";
-        while(count > 0) {
-            count--;
-            key += characters.charAt(count);
-            count /= characters.length();
-        }
-        
-        return key;
-    }
     
+    final Map<String, String> map = new HashMap<>(); 
     // Encodes a URL to a shortened URL.
     public String encode(String longUrl) {
-        String key = getKey();
+        final String key = PREFIX + (map.size() + 1);
         map.put(key, longUrl);
-        count++;
-            
-        return "http://tinyurl.com/" + key;
+        return key;
     }
 
     // Decodes a shortened URL to its original URL.
     public String decode(String shortUrl) {
-        return map.get(shortUrl.replace("http://tinyurl.com/", ""));
+        return map.get(shortUrl);
     }
 }
 
