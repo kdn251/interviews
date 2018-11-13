@@ -6,7 +6,7 @@
 //and the tiny URL can be decoded to the original URL.
 
 public class EncodeAndDecodeTinyURL {
-    
+    final String PREFIX = "http://tinyurl.com/";
     final Map<String, String> map = new HashMap<>(); 
     // Encodes a URL to a shortened URL.
     public String encode(String longUrl) {
