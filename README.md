@@ -232,6 +232,7 @@ or equal to those of the children and the lowest key is in the root node
 * Time Complexity: `O(|V| + |E|)`
 
 ![Alt text](/images/dfsbfs.gif?raw=true "DFS / BFS Traversal")
+https://upload.wikimedia.org/wikipedia/commons/7/7f/Depth-First-Search.gif
 
 #### Breadth First Search
 * *Breadth First Search* is a graph traversal algorithm which explores the neighbor nodes first, before moving to the next
