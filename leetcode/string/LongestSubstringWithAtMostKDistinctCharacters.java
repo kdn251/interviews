@@ -7,6 +7,10 @@
 public class LongestSubstringWithAtMostKDistinctCharacters {
     public int lengthOfLongestSubstringKDistinct(String s, int k) {
         
+         if(s.length()==0|| k<=0||k>s.length()||s==null) {
+        	return 0;
+        }
+        else{
     int[] count = new int[256];     // there are 256 ASCII characters in the world
     
     int i = 0;  // i will be behind j
@@ -34,5 +38,6 @@ public class LongestSubstringWithAtMostKDistinctCharacters {
     }
 
     return res;
+    }
     }
 }
