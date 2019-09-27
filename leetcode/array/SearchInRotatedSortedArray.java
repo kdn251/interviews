@@ -38,3 +38,13 @@ public class SearchInRotatedSortedArray {
         return -1;
     }
 }
+
+@Test 
+public void testExist() {
+    int [] nums= {0,1,2,3,4,5,6,7};
+    int target = 8;
+    Calculator instance = new Calculator();
+    int expResult = 0;
+    int result = instance.exist(nums, target);
+      assertEquals(expResult ,result);
+}
