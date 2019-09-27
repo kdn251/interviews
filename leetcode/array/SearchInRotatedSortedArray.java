@@ -45,6 +45,6 @@ public void testExist() {
     int target = 8;
     Calculator instance = new Calculator();
     int expResult = 0;
-    int result = instance.exist(nums, target);
+    int result = instance.search(nums, target);
       assertEquals(expResult ,result);
 }
