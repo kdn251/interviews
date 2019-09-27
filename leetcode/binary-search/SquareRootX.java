@@ -4,8 +4,6 @@
 
 public class Solution {
     public int mySqrt(int x) {
-        if( x<0 ){return -1;}
-        
         if(x == 0) {
             return 0;
         }
@@ -28,3 +26,23 @@ public class Solution {
         return right;
     }
 }
+
+@Test
+    public void test1() {
+        assertEquals(0, Solution.mySqrt(0));
+    }
+
+    @Test
+       public void test2() {
+        assertEquals(2, Solution.mySqrt(4));
+    }
+
+    @Test
+      public void test3() {
+        assertEquals(3, Solution.mySqrt(9));
+    }
+
+    @Test
+      public void test4() {
+        assertEquals(8, Solution.mySqrt(64)));
+    }
