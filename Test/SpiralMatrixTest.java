@@ -4,6 +4,9 @@
  * and open the template in the editor.
  */
 
+//Path: company/google/SpiralMatrix.java
+//Link: https://github.com/kdn251/interviews/blob/master/company/google/SpiralMatrix.java
+
 import java.util.ArrayList;
 import java.util.List;
 import org.junit.Test;
