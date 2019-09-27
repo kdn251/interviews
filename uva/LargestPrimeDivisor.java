@@ -30,7 +30,7 @@ public class LargestPrimeDivisor {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		long number = input.nextLong();
+		try{long number = input.nextLong();
 		while (number != 0) {
 			number = (long) (Math.abs(number));
 			long largestPrimeDivisor = -1;
@@ -53,6 +53,9 @@ public class LargestPrimeDivisor {
 				System.out.println(largestPrimeDivisor);
 			}
 			number = input.nextLong();
-		}
+		}}
+		catch(Exception e){
+                    e.printStackTrace();
+                }
 	}
 }
