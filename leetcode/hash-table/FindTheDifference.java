@@ -32,3 +32,56 @@ public class FindTheDifference {
         return (char)(charCodeT - charCodeS);
     }
 }
+@Test
+	// chữ được thêm khác với các chữ còn lại
+	public void test1() {
+		String s1 = "abc";
+		String s2 = "abcd";
+	    Calculator instance = new Calculator();
+         int expResult = 0;
+        int result = instance.findTheDifference(s1, s2);;
+      assertEquals(expResult ,result);
+		
+		
+	}
+	@Test
+	// chữ được thêm giống với 1 trong các chữ còn lại
+	public void test2() {
+		String s1 = "abc";
+		String s2 = "abcc";
+	    Calculator instance = new Calculator();
+         int expResult = 0;
+        int result = instance.findTheDifference(s1, s2);;
+      assertEquals(expResult ,result);
+	}
+	@Test
+	//chữ được thêm nằm ở vị trí đầu tiên
+	public void test3() {
+		String s1 = "abc";
+		String s2 = "dabc";
+	    Calculator instance = new Calculator();
+         int expResult = 0;
+        int result = instance.findTheDifference(s1, s2);;
+      assertEquals(expResult ,result);
+	}
+	@Test
+	// chữ được thêm nằm ở giữa và giống 1 trong các chữ còn lại
+	public void test5() {
+		String s1 = "abc";
+		String s2 = "abbc";
+	    Calculator instance = new Calculator();
+         int expResult = 0;
+        int result = instance.findTheDifference(s1, s2);;
+      assertEquals(expResult ,result);
+	
+	}
+	@Test
+	// chữ được thêm nằm ở đầu tiên và giống chữ ocnf lại 
+	public void test1() {
+		String s1 = "abc";
+		String s2 = "aabb";
+	    Calculator instance = new Calculator();
+         int expResult = 0;
+        int result = instance.findTheDifference(s1, s2);;
+      assertEquals(expResult ,result);
+	}
