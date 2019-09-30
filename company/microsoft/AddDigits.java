@@ -8,15 +8,9 @@
 
 class AddDigits {
     public int addDigits(int num) {
-        while(num >= 10) {
-            int temp = 0;
-            while(num > 0) {
-                temp += num % 10;
-                num /= 10;
-            }
-            num = temp;
-        }
-        
+        if (num <= 0) return 0;
+        num %= 9;
+        if (num == 0) num = 9;
         return num;
     }
 }
