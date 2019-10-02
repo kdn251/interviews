@@ -34,4 +34,17 @@ class LongestConsecutiveSequence {
         
         return maxLength;
     }
+
+    @Test
+    public void testLCS1(){
+        // Test for null arrays
+        int[] nums;
+        org.junit.Assert.assertTrue(longestConsecutive(nums) == 0);
+    }
+    @Test
+    public void testLCS2(){
+        // Test for initial problem
+        int[] nums = new int[]{100, 4, 200, 1, 3, 2};
+        org.junit.Assert.assertTrue(longestConsecutive(nums) == 4);
+    }
 }
