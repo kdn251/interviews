@@ -28,7 +28,7 @@
 ## YouTube
 * [Kevin Naughton Jr.](https://www.youtube.com/channel/UCKvwPt6BifPP54yzH99ff1g)
 
-## Instagram 
+## Instagram
 * [Programeme](https://www.instagram.com/programeme/)
 
 ## Articles
@@ -100,9 +100,7 @@
    level are as far left as possible
 
 ### Binary Search Tree
- * A binary search tree, sometimes called BST, is a type of binary tree which maintains the property that the value in each
-   node must be greater than or equal to any value stored in the left sub-tree, and less than or equal to any value stored
-   in the right sub-tree
+ * A binary search tree, sometimes called BST, is a type of binary tree which maintains the property that keys/values that are less than the parent value they must be in the left sub-tree and the values that are greater than the parent/node they must be on the right sub-tree.
  * Time Complexity:
    * Access: `O(log(n))`
    * Search: `O(log(n))`
@@ -113,8 +111,8 @@
 
 ### Trie
 * A trie, sometimes called a radix or prefix tree, is a kind of search tree that is used to store a dynamic set or associative
-  array where the keys are usually Strings. No node in the tree stores the key associated with that node; instead, its position 
-  in the tree defines the key with which it is associated. All the descendants of a node have a common prefix of the String associated 
+  array where the keys are usually Strings. No node in the tree stores the key associated with that node; instead, its position
+  in the tree defines the key with which it is associated. All the descendants of a node have a common prefix of the String associated
   with that node, and the root is associated with the empty String.
 
 ![Alt text](/images/trie.png?raw=true "Trie")
@@ -358,7 +356,7 @@ or equal to those of the children and the lowest key is in the root node
     * [UC Berkeley Algorithms](https://archive.org/details/ucberkeley-webcast?&and[]=subject%3A%22Computer%20Science%22&and[]=subject%3A%22CS%22)
 
 ## Interview Books
-* [Competitive Programming 3 - Steven Halim & Felix Halim](https://www.amazon.com/Competitive-Programming-3rd-Steven-Halim/dp/B00FG8MNN8) 
+* [Competitive Programming 3 - Steven Halim & Felix Halim](https://www.amazon.com/Competitive-Programming-3rd-Steven-Halim/dp/B00FG8MNN8)
 * [Cracking The Coding Interview - Gayle Laakmann McDowell](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=sr_1_1?s=books&ie=UTF8)
 * [Cracking The PM Interview - Gayle Laakmann McDowell & Jackie Bavaro](https://www.amazon.com/Cracking-PM-Interview-Product-Technology-ebook/dp/B00ISYMUR6/ref=sr_1_1?s=books&ie=UTF8)
 * [Introduction to Algorithms -  Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest & Clifford Stein](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/ref=sr_1_1?ie=UTF8&qid=1490295989&sr=8-1&keywords=Introduction+to+Algorithms)
