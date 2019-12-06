@@ -43,6 +43,7 @@
 * [Pramp](https://www.pramp.com/ref/gt4-cn)
 * [Gainlo](http://www.gainlo.co/#!/)
 * [Refdash](https://refdash.com/)
+* [Interviewing.io](https://www.interviewing.io/)
 
 ## 数据结构
 ### Linked List
@@ -66,7 +67,7 @@
   * 移除: `O(1)`
 
 ### Queue
- * 队列是元素的集合，其包含了两个基本操作：enqueue 操作可以用于将元素插入到队列中，而 dequeeu 操作则是将元素从队列中移除。
+ * 队列是元素的集合，其包含了两个基本操作：enqueue 操作可以用于将元素插入到队列中，而 dequeue 操作则是将元素从队列中移除。
  * 遵循先入先出原则 (FIFO)。
  * 时间复杂度:
   * 索引: `O(n)`
@@ -92,12 +93,12 @@
   * 插入: `O(log(n))`
   * 删除: `O(log(n))`
 
-<img src="/Images/BST.png?raw=true" alt="Binary Search Tree" width="400" height="500">
+<img src="/images/BST.png?raw=true" alt="Binary Search Tree" width="400" height="500">
 
 ### Trie
 * 字典树，又称基数树或者前缀树，能够用于存储键为字符串的动态集合或者关联数组的搜索树。树中的节点并没有直接存储关联键值，而是该节点在树中的挂载位置决定了其关联键值。某个节点的所有子节点都拥有相同的前缀，整棵树的根节点则是空字符串。
 
-![Alt text](/Images/trie.png?raw=true "Trie")
+![Alt text](/images/trie.png?raw=true "Trie")
 
 ### Fenwick Tree
 * 树状数组又称 Binary Indexed Tree，其表现形式为树，不过本质上是以数组实现。数组中的下标代表着树中的顶点，每个顶点的父节点或者子节点的下标能够通过位运算获得。数组中的每个元素包含了预计算的区间值之和，在整棵树更新的过程中同样会更新这些预计算的值。
@@ -105,7 +106,7 @@
   * 区间求值: `O(log(n))`
   * 更新: `O(log(n))`
 
-![Alt text](/Images/fenwickTree.png?raw=true "Fenwick Tree")
+![Alt text](/images/fenwickTree.png?raw=true "Fenwick Tree")
 
 ### Segment Tree
 * 线段树是用于存放间隔或者线段的树形数据结构，它允许快速的查找某一个节点在若干条线段中出现的次数.
@@ -113,7 +114,7 @@
   * 区间查询: `O(log(n))`
   * 更新: `O(log(n))`
 
-![Alt text](/Images/segmentTree.png?raw=true "Segment Tree")
+![Alt text](/images/segmentTree.png?raw=true "Segment Tree")
 
 ### Heap
 * 堆是一种特殊的基于树的满足某些特性的数据结构，整个堆中的所有父子节点的键值都会满足相同的排序条件。堆更准确地可以分为最大堆与最小堆，在最大堆中，父节点的键值永远大于或者等于子节点的值，并且整个堆中的最大值存储于根节点；而最小堆中，父节点的键值永远小于或者等于其子节点的键值，并且整个堆中的最小值存储于根节点。
@@ -122,7 +123,7 @@
   * 插入: `O(log(n))`
   * 移除最大值 / 最小值: `O(log(n))`
 
-<img src="/Images/heap.png?raw=true" alt="Max Heap" width="400" height="500">
+<img src="/images/heap.png?raw=true" alt="Max Heap" width="400" height="500">
 
 
 ### Hashing
@@ -132,14 +133,14 @@
   * **链地址法（Separate Chaining）**: 链地址法中，每个桶是相互独立的，包含了一系列索引的列表。搜索操作的时间复杂度即是搜索桶的时间（固定时间）与遍历列表的时间之和。
   * **开地址法（Open Addressing）**: 在开地址法中，当插入新值时，会判断该值对应的哈希桶是否存在，如果存在则根据某种算法依次选择下一个可能的位置，直到找到一个尚未被占用的地址。所谓开地址法也是指某个元素的位置并不永远由其哈希值决定。
 
-![Alt text](/Images/hash.png?raw=true "Hashing")
+![Alt text](/images/hash.png?raw=true "Hashing")
 
 ### Graph
 * 图是一种数据元素间为多对多关系的数据结构，加上一组基本操作构成的抽象数据类型。
     * **无向图（Undirected Graph）**: 无向图具有对称的邻接矩阵，因此如果存在某条从节点 u 到节点 v 的边，反之从 v 到 u 的边也存在。
     * **有向图（Directed Graph）**: 有向图的邻接矩阵是非对称的，即如果存在从 u 到 v 的边并不意味着一定存在从 v 到 u 的边。
 
-<img src="/Images/graph.png?raw=true" alt="Graph" width="400" height="500">
+<img src="/images/graph.png?raw=true" alt="Graph" width="400" height="500">
 
 ## 算法
 
@@ -152,7 +153,7 @@
   * 最坏时间: `O(n^2)`
   * 平均时间: `O(nlog(n))`
 
-![Alt text](/Images/quicksort.gif?raw=true "Quicksort")
+![Alt text](/images/quicksort.gif?raw=true "Quicksort")
 
 #### 归并排序
 * 归并排序是典型的分治算法，它不断地将某个数组分为两个部分，分别对左子数组与右子数组进行排序，然后将两个数组合并为新的有序数组。
@@ -162,7 +163,7 @@
   * 最坏时间: `O(nlog(n))`
   * 平均时间: `O(nlog(n))`
 
-![Alt text](/Images/mergesort.gif?raw=true "Mergesort")
+![Alt text](/images/mergesort.gif?raw=true "Mergesort")
 
 #### 桶排序
 * 桶排序将数组分到有限数量的桶子里。每个桶子再个别排序（有可能再使用别的排序算法或是以递归方式继续使用桶排序进行排序）。
@@ -172,7 +173,7 @@
   * 平均时间:`Θ(n + k)`
 
 
-![Alt text](/Images/bucketsort.png?raw=true "Bucket Sort")
+![Alt text](/images/bucketsort.png?raw=true "Bucket Sort")
 
 #### 基数排序
 * 基数排序类似于桶排序，将数组分割到有限数目的桶中；不过其在分割之后并没有让每个桶单独地进行排序，而是直接进行了合并操作。
@@ -187,13 +188,13 @@
 * 深度优先算法是一种优先遍历子节点而不是回溯的算法。
 * 时间复杂度: `O(|V| + |E|)`
 
-![Alt text](/Images/dfsbfs.gif?raw=true "DFS / BFS Traversal")
+![Alt text](/images/dfsbfs.gif?raw=true "DFS / BFS Traversal")
 
 #### 广度优先搜索
 * 广度优先搜索是优先遍历邻居节点而不是子节点的图遍历算法。
 * 时间复杂度: `O(|V| + |E|)`
 
-![Alt text](/Images/dfsbfs.gif?raw=true "DFS / BFS Traversal")
+![Alt text](/images/dfsbfs.gif?raw=true "DFS / BFS Traversal")
 
 #### 拓扑排序
 * 拓扑排序是对于有向图节点的线性排序，如果存在某条从 u 到 v 的边，则认为 u 的下标先于 v。
@@ -203,7 +204,7 @@
 * **Dijkstra 算法** 用于计算有向图中单源最短路径问题。
 * 时间复杂度: `O(|V|^2)`
 
-![Alt text](/Images/dijkstra.gif?raw=true "Dijkstra's")
+![Alt text](/images/dijkstra.gif?raw=true "Dijkstra's")
 
 #### Bellman-Ford 算法
 * **Bellman-Ford 算法**是在带权图中计算从单一源点出发到其他节点的最短路径的算法。
@@ -212,7 +213,7 @@
   * 最优时间: `O(|E|)`
   - 最坏时间: `O(|V||E|)`
 
-![Alt text](/Images/bellman-ford.gif?raw=true "Bellman-Ford")
+![Alt text](/images/bellman-ford.gif?raw=true "Bellman-Ford")
 
 #### Floyd-Warshall 算法
 * **Floyd-Warshall 算法** 能够用于在无环带权图中寻找任意节点的最短路径。
@@ -225,13 +226,13 @@
 * **Prim 算法**是用于在带权无向图中计算最小生成树的贪婪算法。换言之，Prim 算法能够在图中抽取出连接所有节点的边的最小代价子集。
 * 时间复杂度: `O(|V|^2)`
 
-![Alt text](/Images/prim.gif?raw=true "Prim's Algorithm")
+![Alt text](/images/prim.gif?raw=true "Prim's Algorithm")
 
 #### Kruskal 算法
 * **Kruskal 算法**同样是计算图的最小生成树的算法，与 Prim 的区别在于并不需要图是连通的。
 * 时间复杂度: `O(|E|log|V|)`
 
-![Alt text](/Images/kruskal.gif?raw=true "Kruskal's Algorithm")
+![Alt text](/images/kruskal.gif?raw=true "Kruskal's Algorithm")
 
 ## 位运算
 * 位运算即是在位级别进行操作的技术，合适的位运算能够帮助我们得到更快地运算速度与更小的内存使用。
@@ -239,8 +240,8 @@
 * 设置第 k 位: `s |= (1 << k)`
 * 第 k 位置零: `s &= ~(1 << k)`
 * 切换第 k 位值: `s ^= ~(1 << k)`
-* 乘以 2: `s << n`
-* 除以 2: `s >> n`
+* 乘以 2<sup>n</sup>: `s << n`
+* 除以 2<sup>n</sup>: `s >> n`
 * 交集: `s & t`
 * 并集: `s | t`
 * 减法: `s & ~t`
@@ -259,7 +260,7 @@
 #### 大 O 表示
 * **大 O 表示** 用于表示某个算法的上限，往往用于描述最坏的情况。
 
-![Alt text](/Images/bigO.png?raw=true "Theta Notation")
+![Alt text](/images/bigO.png?raw=true "Theta Notation")
 
 #### 小 O 表示
 * **小 O 表示**用于描述某个算法的渐进上界，不过二者要更为紧密。
@@ -267,7 +268,7 @@
 #### 大 Ω 表示
 * **大 Ω 表示**用于描述某个算法的渐进下界。
 
-![Alt text](/Images/bigOmega.png?raw=true "Theta Notation")
+![Alt text](/images/bigOmega.png?raw=true "Theta Notation")
 
 #### 小 ω 表示
 * **Little Omega Notation**用于描述某个特定算法的下界，不过不一定很靠近。
@@ -275,15 +276,15 @@
 #### Theta Θ 表示
 * **Theta Notation**用于描述某个确定算法的确界。
 
-![Alt text](/Images/theta.png?raw=true "Theta Notation")
+![Alt text](/images/theta.png?raw=true "Theta Notation")
 
 ## 视频教程
 * Data Structures
- * [UC Berkeley Data Structures](https://www.youtube.com/watch?v=mFPmKGIrQs4&index=1&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
- * [MIT Advanced Data Structures](https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1)
+  * [UC Berkeley Data Structures](https://www.youtube.com/watch?v=mFPmKGIrQs4&index=1&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
+  * [MIT Advanced Data Structures](https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1)
 * Algorithms
- * [MIT Introduction to Algorithms](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=1)
- * [MIT Advanced Algorithms](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
+  * [MIT Introduction to Algorithms](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=1)
+  * [MIT Advanced Algorithms](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
 
 ## 面试书籍
 * Competitive Programming 3 - Steven Halim & Felix Halim
