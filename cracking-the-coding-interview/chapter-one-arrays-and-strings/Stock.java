@@ -30,17 +30,12 @@ class GFG {
 }
 
 }
-/*This is a function problem.You only need to complete the function given below*/
-/*
-class Interval {
-    int buy;
-    int sell;
-}*/
+
 class Stock{
     // Function to find the buy and sell days and print them
     static void stockBuySell(int price[], int n) {
         
-        // Your code here
+        
         int i,sum=arr[0],start=0,end=-1,flag=1;
     int value=0;
     for(i=1;i<n;i++)
