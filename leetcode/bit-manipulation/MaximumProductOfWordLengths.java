@@ -17,7 +17,7 @@
 
 public class MaximumProductOfWordLengths {
     public int maxProduct(String[] words) {
-        if(words.length == 0 || words == null) {
+        if(words == null || words.length == 0) {
             return 0;
         }
         
