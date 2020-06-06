@@ -11,6 +11,7 @@
 
 ## Table of Contents
 - [YouTube](#youtube)
+- [The Daily Byte](#the-daily-byte)
 - [Instagram](#instagram)
 - [Articles](#articles)
 - [Online Judges](#online-judges)
