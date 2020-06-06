@@ -43,7 +43,7 @@
 * [Virtual Judge](https://vjudge.net/)
 * [CareerCup](https://www.careercup.com/)
 * [HackerRank](https://www.hackerrank.com/)
-* [CodeFights](https://codefights.com/)
+* [CodeSignal](https://codesignal.com/)
 * [Kattis](https://open.kattis.com/)
 * [HackerEarth](https://www.hackerearth.com)
 * [Codility](https://codility.com/programmers/lessons/1-iterations/)
