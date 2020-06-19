@@ -99,7 +99,7 @@
  * A *Binary Tree* is a tree data structure in which each node has at most two children, which are referred to as
    the *left child* and *right child*
  * **Full Tree**: a tree in which every node has either 0 or 2 children
- * **Perfect Binary Tree**: a binary tree in which all interior nodes have two children and all leave have the same depth
+ * **Perfect Binary Tree**: a binary tree in which all interior nodes have two children and all leaves have the same depth
  * **Complete Tree**: a binary tree in which every level *except possibly the last* is full and all nodes in the last
    level are as far left as possible
 
