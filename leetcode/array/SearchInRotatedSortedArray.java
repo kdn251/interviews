@@ -38,3 +38,44 @@ public class SearchInRotatedSortedArray {
         return -1;
     }
 }
+
+@Test 
+public void test1() {
+    int [] nums= {1,2,3,4,5,6,7};
+    int target = 8;
+    Calculator instance = new Calculator();
+    int expResult = 0;
+    int result = instance.search(nums, target);
+      assertEquals(expResult ,result);
+}
+
+
+
+@Test 
+public void test2() {
+    int [] nums= {1,2,3,4,5,6,7};
+    int target = 0;
+    Calculator instance = new Calculator();
+    int expResult = 0;
+    int result = instance.search(nums, target);
+      assertEquals(expResult ,result);
+}
+
+@Test 
+public void test3() {
+    int [] nums= {1,2,3,4,5,6,7};
+    int target = 4;
+    Calculator instance = new Calculator();
+    int expResult = 0;
+    int result = instance.search(nums, target);
+      assertEquals(expResult ,result);
+}
+@Test 
+public void test3() {
+    int [] nums= {1,2,3,4,5,6,7};
+    int target = 2;
+    Calculator instance = new Calculator();
+    int expResult = 0;
+    int result = instance.search(nums, target);
+      assertEquals(expResult ,result);
+}
