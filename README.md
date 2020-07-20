@@ -39,24 +39,24 @@
 * [Starting Work](https://medium.com/@Naughton/starting-work-b06e10f6007e)
 
 ## Online Judges
-* [LeetCode](https://leetcode.com/)
-* [Virtual Judge](https://vjudge.net/)
 * [CareerCup](https://www.careercup.com/)
-* [HackerRank](https://www.hackerrank.com/)
-* [CodeFights](https://codefights.com/)
-* [Kattis](https://open.kattis.com/)
-* [HackerEarth](https://www.hackerearth.com)
-* [Codility](https://codility.com/programmers/lessons/1-iterations/)
-* [Code Forces](http://codeforces.com/)
 * [Code Chef](https://www.codechef.com/)
-* [Sphere Online Judge - SPOJ](http://www.spoj.com/)
+* [Code Forces](http://codeforces.com/)
+* [CodeFights](https://codefights.com/)
+* [Codility](https://codility.com/programmers/lessons/1-iterations/)
 * [InterviewBit](https://www.interviewbit.com/)
+* [HackerEarth](https://www.hackerearth.com)
+* [HackerRank](https://www.hackerrank.com/)
+* [Kattis](https://open.kattis.com/)
+* [LeetCode](https://leetcode.com/)
+* [Sphere Online Judge - SPOJ](http://www.spoj.com/)
+* [Virtual Judge](https://vjudge.net/)
 
 ## Live Coding Practice
-* [Pramp](https://www.pramp.com/ref/gt4)
 * [Gainlo](http://www.gainlo.co/#!/)
-* [Refdash](https://refdash.com/)
 * [Interviewing.io](https://www.interviewing.io/)
+* [Pramp](https://www.pramp.com/ref/gt4)
+* [Refdash](https://refdash.com/)
 
 ## Data Structures
 ### Linked List
@@ -368,8 +368,8 @@ or equal to those of the children and the lowest key is in the root node
 * [Introduction to Algorithms -  Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest & Clifford Stein](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/ref=sr_1_1?ie=UTF8&qid=1490295989&sr=8-1&keywords=Introduction+to+Algorithms)
 
 ## Computer Science News
-* [Hacker News](https://news.ycombinator.com/)
 * [Lobsters](https://lobste.rs/)
+* [Hacker News](https://news.ycombinator.com/)
 
 ## Directory Tree
 
