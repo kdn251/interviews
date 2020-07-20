@@ -5,16 +5,17 @@
 
 //Follow up:
 //Could you do it without any loop/recursion in O(1) runtime?
+// I am able to solve without using the extra while loop.
 
 class AddDigits {
     public int addDigits(int num) {
-        while(num >= 10) {
-            int temp = 0;
-            while(num > 0) {
-                temp += num % 10;
-                num /= 10;
-            }
-            num = temp;
+        int x = 0, y = 0;
+        int sum = 0;
+        while(num >=10) {
+            x = num % 10;
+            y = num / 10;
+            sum = x+y;
+            num = sum;
         }
         
         return num;
