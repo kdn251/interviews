@@ -1,5 +1,3 @@
-package com.algorithms;
-
 /**
  *
  * @author rjtmahinay
