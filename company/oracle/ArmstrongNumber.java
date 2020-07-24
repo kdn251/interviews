@@ -25,8 +25,4 @@ public class ArmstrongNumber {
 		return (sum == num);
 	}
 
-	public static void main(String... args) {
-		ArmstrongNumber an = new ArmstrongNumber();
-		System.out.println(an.isArmstrongNumber(407));
-	}
 }
