@@ -51,6 +51,7 @@
 * [Code Chef](https://www.codechef.com/)
 * [Sphere Online Judge - SPOJ](http://www.spoj.com/)
 * [InterviewBit](https://www.interviewbit.com/)
+* [Code Exercises](https://code-exercises.com)
 
 ## Live Coding Practice
 * [Pramp](https://www.pramp.com/ref/gt4)
