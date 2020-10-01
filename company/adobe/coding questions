@@ -1,0 +1,41 @@
+Coding round questions
+
+1.Count set bits in an integer
+
+2.Program for Binary To Decimal Conversion
+
+3.Check if a given array can represent Preorder Traversal of Binary Search Tree
+
+4.Sort an array of 0s, 1s and 2s
+
+5.Check if a number is a Palindrome
+
+6.Pascal's Triangle
+
+7.Trapping Rain Water
+
+8.Count Inversions in an array | Set 1 (Using Merge Sort)
+
+9.Write an Efficient Function to Convert a Binary Tree into its Mirror Tree
+
+10.Find the middle of a given linked list in C and Java
+
+11.Merge Sort for Linked Lists
+
+12.Print Right View of a Binary Tree
+
+13.Reverse Level Order Traversal
+
+14.Level order traversal in spiral form
+
+15.Remove duplicates from a sorted linked list
+
+16.K’th Smallest/Largest Element in Unsorted Array
+
+17.Validate if a given string is numeric. Examples:
+"0" => true
+" 0.1 " => true
+"abc" => false
+"1 a" => false
+"2e10" => true
+Return 0 / 1 ( 0 for false, 1 for true ) for this problem
