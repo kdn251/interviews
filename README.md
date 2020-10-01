@@ -60,11 +60,9 @@
 
 ## Data Structures
 ### Linked List
- * A *Linked List* is a linear collection of data elements, called nodes, each
-   pointing to the next node by means of a pointer. It is a data structure
-   consisting of a group of nodes which together represent a sequence.
+ * A *Linked List* is a linear collection of data elements, called nodes, each pointing to the next node by means of a pointer. It is a data structure consisting of a group of nodes that together represent a sequence.
  * **Singly-linked list**: linked list in which each node points to the next node and the last node points to null
- * **Doubly-linked list**: linked list in which each node has two pointers, p and n, such that p points to the previous node and n points to the next node; the last node's n pointer points to null
+ * **Doubly-linked list**: linked list in which each node has two pointers, p, and n, such that p points to the previous node and n points to the next node; the last node's n pointer points to null
  * **Circular-linked list**: linked list in which each node points to the next node and the last node points back to the first node
  * Time Complexity:
    * Access: `O(n)`
@@ -73,9 +71,9 @@
    * Remove: `O(1)`
 
 ### Stack
- * A *Stack* is a collection of elements, with two principle operations: *push*, which adds to the collection, and
+ * A *Stack* is a collection of elements, with two principal operations: *push*, which adds to the collection, and
    *pop*, which removes the most recently added element
- * **Last in, first out data structure (LIFO)**: the most recently added object is the first to be removed
+ * **Last in, the first-out data structure (LIFO)**: the most recently added object is the first to be removed
  * Time Complexity:
    * Access: `O(n)`
    * Search: `O(n)`
@@ -99,13 +97,13 @@
  * A *Binary Tree* is a tree data structure in which each node has at most two children, which are referred to as
    the *left child* and *right child*
  * **Full Tree**: a tree in which every node has either 0 or 2 children
- * **Perfect Binary Tree**: a binary tree in which all interior nodes have two children and all leave have the same depth
+ * **Perfect Binary Tree**: a binary tree in which all interior nodes have two children and all leaves have the same depth
  * **Complete Tree**: a binary tree in which every level *except possibly the last* is full and all nodes in the last
-   level are as far left as possible
+   the level is as far left as possible
 
 ### Binary Search Tree
  * A binary search tree, sometimes called BST, is a type of binary tree which maintains the property that the value in each
-   node must be greater than or equal to any value stored in the left sub-tree, and less than or equal to any value stored
+   the node must be greater than or equal to any value stored in the left sub-tree, and less than or equal to any value stored
    in the right sub-tree
  * Time Complexity:
    * Access: `O(log(n))`
@@ -116,9 +114,7 @@
 <img src="/images/BST.png?raw=true" alt="Binary Search Tree" width="400" height="500">
 
 ### Trie
-* A trie, sometimes called a radix or prefix tree, is a kind of search tree that is used to store a dynamic set or associative
-  array where the keys are usually Strings. No node in the tree stores the key associated with that node; instead, its position 
-  in the tree defines the key with which it is associated. All the descendants of a node have a common prefix of the String associated 
+* A trie sometimes called a radix or prefix tree is a kind of search tree that is used to store a dynamic set or associative array where the keys are usually strings. No node in the tree stores the key associated with that node; instead, its position in the tree defines the key with which it is associated. All the descendants of a node have a common prefix of the String associated 
   with that node, and the root is associated with the empty String.
 
 ![Alt text](/images/trie.png?raw=true "Trie")
@@ -136,7 +132,7 @@
 ![Alt text](/images/fenwickTree.png?raw=true "Fenwick Tree")
 
 ### Segment Tree
-* A Segment tree, is a tree data structure for storing intervals, or segments. It allows querying which of the stored segments contain
+* A Segment tree is a tree data structure for storing intervals or segments. It allows querying which of the stored segments contain
   a given point
 * Time Complexity:
   * Range Query: `O(log(n))`
@@ -145,10 +141,10 @@
 ![Alt text](/images/segmentTree.png?raw=true "Segment Tree")
 
 ### Heap
-* A *Heap* is a specialized tree based structure data structure that satisfies the *heap* property: if A is a parent node of
+* A *Heap* is a specialized tree-based structure data structure that satisfies the *heap* property: if A is a parent node of
 B, then the key (the value) of node A is ordered with respect to the key of node B with the same ordering applying across the entire heap.
 A heap can be classified further as either a "max heap" or a "min heap". In a max heap, the keys of parent nodes are always greater
-than or equal to those of the children and the highest key is in the root node. In a min heap, the keys of parent nodes are less than
+than or equal to those of the children and the highest key is in the root node. In a min-heap, the keys of parent nodes are less than
 or equal to those of the children and the lowest key is in the root node
 * Time Complexity:
   * Access Max / Min: `O(1)`
@@ -159,10 +155,8 @@ or equal to those of the children and the lowest key is in the root node
 
 
 ### Hashing
-* *Hashing* is used to map data of an arbitrary size to data of a fixed size. The values returned by a hash
-  function are called hash values, hash codes, or simply hashes. If two keys map to the same value, a collision occurs
-* **Hash Map**: a *hash map* is a structure that can map keys to values. A hash map uses a hash function to compute
-  an index into an array of buckets or slots, from which the desired value can be found.
+* *Hashing* is used to map data of arbitrary size to data of a fixed size. The values returned by a hash function are called hash values, hash codes, or simply hashes. If two keys map to the same value, a collision occurs
+* **Hash Map**: a *hash map* is a structure that can map keys to values. A hash map uses a hash function to compute an index into an array of buckets or slots, from which the desired value can be found.
 * Collision Resolution
  * **Separate Chaining**: in *separate chaining*, each bucket is independent, and contains a list of entries for each index. The
  time for hash map operations is the time to find the bucket (constant time), plus the time to iterate through the list
@@ -211,7 +205,7 @@ or equal to those of the children and the lowest key is in the root node
 
 #### Bucket Sort
 * *Bucket Sort* is a sorting algorithm that works by distributing the elements of an array into a number of buckets. Each bucket
-  is then sorted individually, either using a different sorting algorithm, or by recursively applying the bucket sorting algorithm
+  is then sorted individually, either using a different sorting algorithm or by recursively applying the bucket sorting algorithm
 * Time Complexity:
   * Best Case: `Ω(n + k)`
   * Worst Case: `O(n^2)`
@@ -235,8 +229,8 @@ or equal to those of the children and the lowest key is in the root node
 
 ![Alt text](/images/dfsbfs.gif?raw=true "DFS / BFS Traversal")
 
-#### Breadth First Search
-* *Breadth First Search* is a graph traversal algorithm which explores the neighbor nodes first, before moving to the next
+#### Breadth-First Search
+* *Breadth-First Search* is a graph traversal algorithm which explores the neighbor nodes first, before moving to the next
   level neighbors
 * Time Complexity: `O(|V| + |E|)`
 
@@ -274,7 +268,7 @@ or equal to those of the children and the lowest key is in the root node
 
 #### Prim's Algorithm
 * *Prim's Algorithm* is a greedy algorithm that finds a minimum spanning tree for a weighted undirected graph. In other words, Prim's find a
-  subset of edges that forms a tree that includes every node in the graph
+  the subset of edges that forms a tree that includes every node in the graph
 * Time Complexity: `O(|V|^2)`
 
 ![Alt text](/images/prim.gif?raw=true "Prim's Algorithm")
@@ -330,12 +324,12 @@ or equal to those of the children and the lowest key is in the root node
 ## Runtime Analysis
 
 #### Big O Notation
-* *Big O Notation* is used to describe the upper bound of a particular algorithm. Big O is used to describe worst case scenarios
+* *Big O Notation* is used to describe the upper bound of a particular algorithm. Big O is used to describe worst-case scenarios
 
 ![Alt text](/images/bigO.png?raw=true "Theta Notation")
 
 #### Little O Notation
-* *Little O Notation* is also used to describe an upper bound of a particular algorithm; however, Little O provides a bound
+* *Little O Notation* is also used to describe an upper bound of a particular algorithm; however, Little O provides abound
   that is not asymptotically tight
 
 #### Big Ω Omega Notation
