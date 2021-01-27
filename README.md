@@ -26,19 +26,19 @@
 - [Computer Science News](#computer-science-news)
 - [Directory Tree](#directory-tree)
 
-## YouTube
+## YouTube[⬆](#table-of-contents)<!-- Link generated with jump2header -->
 * [Kevin Naughton Jr.](https://www.youtube.com/channel/UCKvwPt6BifPP54yzH99ff1g)
 
-## The Daily Byte
+## The Daily Byte[⬆](#table-of-contents)<!-- Link generated with jump2header -->
 * [FAANG Interview Prep](https://bit.ly/2BaaSaK)
 
-## Instagram 
+## Instagram [⬆](#table-of-contents)<!-- Link generated with jump2header -->
 * [Kevin Naughton Jr.](https://bit.ly/2SM8SLZ)
 
-## Articles
+## Articles[⬆](#table-of-contents)<!-- Link generated with jump2header -->
 * [Starting Work](https://medium.com/@Naughton/starting-work-b06e10f6007e)
 
-## Online Judges
+## Online Judges[⬆](#table-of-contents)<!-- Link generated with jump2header -->
 * [LeetCode](https://leetcode.com/)
 * [Virtual Judge](https://vjudge.net/)
 * [CareerCup](https://www.careercup.com/)
@@ -52,13 +52,13 @@
 * [Sphere Online Judge - SPOJ](http://www.spoj.com/)
 * [InterviewBit](https://www.interviewbit.com/)
 
-## Live Coding Practice
+## Live Coding Practice[⬆](#table-of-contents)<!-- Link generated with jump2header -->
 * [Pramp](https://www.pramp.com/ref/gt4)
 * [Gainlo](http://www.gainlo.co/#!/)
 * [Refdash](https://refdash.com/)
 * [Interviewing.io](https://www.interviewing.io/)
 
-## Data Structures
+## Data Structures[⬆](#table-of-contents)<!-- Link generated with jump2header -->
 ### Linked List
  * A *Linked List* is a linear collection of data elements, called nodes, each
    pointing to the next node by means of a pointer. It is a data structure
@@ -185,7 +185,7 @@ or equal to those of the children and the lowest key is in the root node
 
 <img src="/images/graph.png?raw=true" alt="Graph" width="400" height="500">
 
-## Algorithms
+## Algorithms[⬆](#table-of-contents)<!-- Link generated with jump2header -->
 
 ### Sorting
 
@@ -286,7 +286,7 @@ or equal to those of the children and the lowest key is in the root node
 
 ![Alt text](/images/kruskal.gif?raw=true "Kruskal's Algorithm")
 
-## Greedy Algorithms
+## Greedy Algorithms[⬆](#table-of-contents)<!-- Link generated with jump2header -->
 * *Greedy Algorithms* are algorithms that make locally optimal choices at each step in the hope of eventually reaching the globally optimal solution
 * Problems must exhibit two properties in order to implement a Greedy solution:
  * Optimal Substructure
@@ -306,7 +306,7 @@ or equal to those of the children and the lowest key is in the root node
     * V = 0  | 4 coins used (1 - 1 = 0)
     * Using this algorithm, we arrive at a total of 4 coins which is optimal
 
-## Bitmasks
+## Bitmasks[⬆](#table-of-contents)<!-- Link generated with jump2header -->
 * Bitmasking is a technique used to perform operations at the bit level. Leveraging bitmasks often leads to faster runtime complexity and
   helps limit memory usage
 * Test kth bit: `s & (1 << k);`
@@ -327,7 +327,7 @@ or equal to those of the children and the lowest key is in the root node
                 x ^= y;
              ```
 
-## Runtime Analysis
+## Runtime Analysis[⬆](#table-of-contents)<!-- Link generated with jump2header -->
 
 #### Big O Notation
 * *Big O Notation* is used to describe the upper bound of a particular algorithm. Big O is used to describe worst case scenarios
@@ -352,7 +352,7 @@ or equal to those of the children and the lowest key is in the root node
 
 ![Alt text](/images/theta.png?raw=true "Theta Notation")
 
-## Video Lectures
+## Video Lectures[⬆](#table-of-contents)<!-- Link generated with jump2header -->
 * Data Structures
     * [UC Berkeley Data Structures](https://archive.org/details/ucberkeley-webcast?&and[]=subject%3A%22Computer%20Science%22&and[]=subject%3A%22CS%22)
     * [MIT Advanced Data Structures](https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1)
@@ -361,17 +361,17 @@ or equal to those of the children and the lowest key is in the root node
     * [MIT Advanced Algorithms](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
     * [UC Berkeley Algorithms](https://archive.org/details/ucberkeley-webcast?&and[]=subject%3A%22Computer%20Science%22&and[]=subject%3A%22CS%22)
 
-## Interview Books
+## Interview Books[⬆](#table-of-contents)<!-- Link generated with jump2header -->
 * [Competitive Programming 3 - Steven Halim & Felix Halim](https://www.amazon.com/Competitive-Programming-3rd-Steven-Halim/dp/B00FG8MNN8) 
 * [Cracking The Coding Interview - Gayle Laakmann McDowell](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=sr_1_1?s=books&ie=UTF8)
 * [Cracking The PM Interview - Gayle Laakmann McDowell & Jackie Bavaro](https://www.amazon.com/Cracking-PM-Interview-Product-Technology-ebook/dp/B00ISYMUR6/ref=sr_1_1?s=books&ie=UTF8)
 * [Introduction to Algorithms -  Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest & Clifford Stein](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/ref=sr_1_1?ie=UTF8&qid=1490295989&sr=8-1&keywords=Introduction+to+Algorithms)
 
-## Computer Science News
+## Computer Science News[⬆](#table-of-contents)<!-- Link generated with jump2header -->
 * [Hacker News](https://news.ycombinator.com/)
 * [Lobsters](https://lobste.rs/)
 
-## Directory Tree
+## Directory Tree[⬆](#table-of-contents)<!-- Link generated with jump2header -->
 
 ```
 .
