@@ -244,7 +244,7 @@
 * 除以 2<sup>n</sup>: `s >> n`
 * 交集: `s & t`
 * 并集: `s | t`
-* 减法: `s & ~t`
+* 差集: `s & ~t`
 * 交换 `x = x ^ y ^ (y = x)`
 * 取出最小非 0 位（Extract lowest set bit）: `s & (-s)`
 * 取出最小 0 位（Extract lowest unset bit）: `~s & (s + 1)`
