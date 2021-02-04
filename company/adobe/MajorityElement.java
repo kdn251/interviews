@@ -7,9 +7,9 @@ class MajorityElement {
             return nums[0];
         }
         
-        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
+        HashMap<Integer, Integer> map = new HashMap<>();
         for(int current: nums) {
-            if(map.containsKey(current) && map.get(current) + 1 > nums.length / 2) {
+            if(map.containsKey(current) && map.get(current) + 1 > nums.length >>> 1) {
                 return current;
             } else if(map.containsKey(current)) {
                 map.put(current, map.get(current) + 1);
