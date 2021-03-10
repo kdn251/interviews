@@ -1,59 +1,36 @@
-/* in the classic problem of the Towers of Hanoi, you have 3 towers and N disks of
- * different sizes which can slide onto any tower. The puzzle starts with disks sorted
- * in ascending order of size from top to bottom (i.e. each disk sits on top of an even 
- * larger one). You have the following constraints:
- * (1) Only one disk can be moved at a time
- * (2) A disk is slid off the top of one tower onto the next rod
- * (3) A disk can only be placed on top of a larger disk
- * Write a program to move the disks from the first tower to the last tower using Stacks */
+package algorithms.recursion;
 
-public class TowersOfHanoi {
-	public static void main(String args[]) {
-		int n = 3;
-		Tower[] towers = new Tower[n];
-		for(int i = 0; i < 3; i++) {
-			towers[i] = new Tower(i);
-		}
+import java.util.Scanner;
 
-		for(int i = n - 1; i >= 0; i--) {
-			towers[0].add(i);
-		}
-		towers[0].moveDisks(n, towers[2], towers[1]);
-	}
-}
+public class TowerOfHanoi {
 
-public class Tower {
-	private Stack<Integer> disks;
-	private int index;
-	public Tower(int i) {
-		disks = new Stack<Integer>();
-		index = i;
+	public static final int ONE_DISK = 1;
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("How many disks do you have?: ");
+		int numberOfDisks = scanner.nextInt();
+		scanner.nextLine();
+		System.out.println("Please enter three characters for the towers: ");
+		char firstTower = scanner.nextLine().trim().charAt(0);
+		char secondTower = scanner.nextLine().trim().charAt(0);
+		char thirdTower = scanner.nextLine().trim().charAt(0);
+		scanner.close();
+		System.out.println("Do this to solve the Tower of Hanoi: ");
+		showSteps(numberOfDisks, firstTower, secondTower, thirdTower);
 	}
 
-	public int index() {
-		return index;
+	private static void showSteps(int numberOfDisks, char source, char via, char destination) {
+		if (numberOfDisks == ONE_DISK) {
+			printMoveForOneDisk(source, destination);
+			return;
+		}
+		showSteps(numberOfDisks - 1, source, destination, via);
+		printMoveForOneDisk(source, destination);
+		showSteps(numberOfDisks - 1, via, source, destination);//tail recursion complexity is O(2^n)
 	}
 
-	public void add(int d) {
-		if(!disks.isEmpty() && disks.peek() <= d) {
-			System.out.println("Error placing disk " + d);
-		}
-		else {
-			disks.push(d);
-		}
-	}
-
-	public void moveTopTo(Tower t) {
-		int top = disks.pop();
-		t.add(top);
-		System.out.println("Move disk " + top + " from " + index() + " to " + t.index());
-	}
-
-	public void moveDisks(int n, Tower destination, Tower buffer) {
-		if(n > 0) {
-			moveDisks(n - 1, buffer, destination);
-			moveTopTo(destination);
-			buffer.moveDisks(n - 1, destination, this);
-		}
+	private static void printMoveForOneDisk(char source, char destination) {
+		System.out.println("Move the top disk from the tower '" + source + "' to tower '" + destination + "'.");
 	}
 }
