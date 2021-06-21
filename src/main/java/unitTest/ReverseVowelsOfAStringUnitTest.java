@@ -8,34 +8,36 @@ public class ReverseVowelsOfAStringUnitTest {
 
 	ReverseVowelsOfAString rs = new ReverseVowelsOfAString();
 	
+	//True test case of the inverse function-1
 	@Test
-	public void testTrueReverseWords() {
+	public void testTrueReverseVowels1() {
 		String startString = "learn funix";
-		String expectResults = "funix learn";
 		
 		String actualRs = rs.reverseVowels(startString);
 		assertEquals(actualRs, rs.reverseVowels(startString));
 	}
 	
+	//False test case of the inverse function-1
 	@Test
-	public void testReverseWords() {
+	public void testNotEqualsReverseVowels1() {
 		String startString = "learn FU";
 		String expectResults = "fu learn";
 		
 		assertNotEquals(expectResults, rs.reverseVowels(startString));
 	}
 	
-	
+	//true test case of the inverse function-2
 	@Test
-	public void testReverseWordsCase() {
-		String startString = "learn FU";
-		String expectResults = "FU hghjkhg";
+	public void testTrueReverseVowels2() {
+		String startString = "lUarn Fe";
+		String expectResults = "learn FU";
 		
-		assertNotEquals(expectResults, rs.reverseVowels(startString));
+		assertEquals(expectResults, rs.reverseVowels(startString));
 	}
 	
+	//False test case of the inverse function-2
 	@Test
-	public void testFalseReverseWords() {
+	public void testNotEqualsReverseWords2() {
 		String starString = "learn funix";
 		String expectResults = "learn funix";
 		
