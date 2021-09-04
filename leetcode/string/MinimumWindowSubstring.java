@@ -9,6 +9,8 @@
     // If there is no such window in S that covers all characters in T, return the empty string "".
     // If there are multiple such windows, you are guaranteed that there will always be only one unique minimum window in S.
 
+import java.util.HashMap;
+
 public class MinimumWindowSubstring {
     public String minWindow(String s, String t) {
         HashMap<Character, Integer> map = new HashMap<>();
