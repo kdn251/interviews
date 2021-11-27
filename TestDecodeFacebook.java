@@ -7,19 +7,19 @@ import main.DecodeWays;
 
 public class TestDecodeFacebook {
 	@Test
-	public void  test1() {
+	public void  testEx1() {
 		
 		assertEquals(1, DecodeWays.numDecodings("34"));
 
 	}
     @Test
-	public void Example4TestDecode() {
+	public void testEx2() {
 		
 		assertEquals(2, DecodeWays.numDecodings("12"));
 
 	}
     @Test
-	public void Example5TestDecode() {
+	public void testEx5() {
 		
 		assertEquals(1, DecodeWays.numDecodings("53"));
 

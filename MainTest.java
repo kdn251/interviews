@@ -8,19 +8,19 @@ import main.Power;
 public class MainTest {
 
 	@Test
-	void Example1TestPower() {
+	void testExample1() {
 
 		assertEquals(true, Power.isPowerOfTwo(1));
 
 	}
-
-	void Example4TestPower() {
+@Test
+	void testExample4() {
 
         assertEquals(true, Power.isPowerOfTwo(0));
 
 	}
-
-	void Example5TestPower() {
+@Test
+	void testExample5() {
 
 		assertEquals(true, Power.isPowerOfTwo(100));
 
