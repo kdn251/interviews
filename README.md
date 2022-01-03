@@ -5,6 +5,8 @@
 >
 > Maintainer - [Kevin Naughton Jr.](https://github.com/kdn251)
 
+[![Maintainability](https://cloud.quality-gate.com/dashboard/api/badge?projectName=kdn251_interviews&branchName=master)](https://cloud.quality-gate.com/dashboard/branches/30421#overview)
+
 ## Translations
 
 - [简体中文](./README-zh-cn.md)
