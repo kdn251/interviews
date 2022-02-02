@@ -8,7 +8,7 @@ public class BinaryRepresentation {
 			return "ERROR";
 		}
 
-		StrinBuilder binary = new StringBuilder();
+		StringBuilder binary = new StringBuilder();
 		binary.append(".");
 		while(num > 0) {
 			/* setting a limit on length: 32 characters */
