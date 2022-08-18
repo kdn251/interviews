@@ -23,6 +23,8 @@ class FindAllNumbersDisappearedInAnArray {
                 ary[ary[i] - 1] = ary[i];
                 ary[i] = temp;
                 i--;
+            } else if (ary[i]!=i+1) {
+                result.add(i + 1);
             }
         }
         return result;
