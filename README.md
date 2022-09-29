@@ -8,6 +8,7 @@
 ## Translations
 
 - [简体中文](./README-zh-cn.md)
+- [Spanish](README-es-mx.md)
 
 ## Table of Contents
 - [YouTube](#youtube)
