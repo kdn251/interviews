@@ -37,6 +37,7 @@
 
 ## Articles
 * [Starting Work](https://medium.com/@Naughton/starting-work-b06e10f6007e)
+* [Data Structures and Algorithms Tutorial](https://www.scaler.com/topics/data-structures/)
 
 ## Online Judges
 * [LeetCode](https://leetcode.com/)
