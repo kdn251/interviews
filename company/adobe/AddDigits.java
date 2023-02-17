@@ -7,17 +7,19 @@
 //Could you do it without any loop/recursion in O(1) runtime?
 
 class AddDigits {
-    public int addDigits(int num) {
-        while(num >= 10) {
-            int temp = 0;
-            while(num > 0) {
-                temp += num % 10;
-                num /= 10;
+    public int addDigits(int n) {
+        while(n >= 10){
+            int sum = 0;
+            while(n > 0){
+
+                int digit = n % 10;
+                sum = sum + digit;
+                n = n / 10;
+
             }
-            num = temp;
+            n = sum;
         }
-        
-        return num;
+        return n;
     }
 }
 
