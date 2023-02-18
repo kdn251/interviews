@@ -20,7 +20,7 @@ class MajorityElement {
         
         // //no majority element exists
         // return -1;
-        // Here is your Brutofocre solution also
+        // Here is your Brutofocre solution also check this out
          if(nums.length == 1){
             return 1;
         }
