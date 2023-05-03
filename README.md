@@ -1,6 +1,6 @@
 # Interviews
 > Your personal guide to Software Engineering technical interviews. Video
-> solutions to the following interview problems with detailed explanations can be found [here](https://www.youtube.com/channel/UCKvwPt6BifPP54yzH99ff1g).
+> Solutions to the following interview problems with detailed explanations can be found [here](https://www.youtube.com/channel/UCKvwPt6BifPP54yzH99ff1g).
 <a href="https://www.youtube.com/channel/UCKvwPt6BifPP54yzH99ff1g" style="display:block;"><img src="/images/youtube.png?raw=true"></a>
 >
 > Maintainer - [Kevin Naughton Jr.](https://github.com/kdn251)
@@ -66,6 +66,7 @@
  * **Singly-linked list**: linked list in which each node points to the next node and the last node points to null
  * **Doubly-linked list**: linked list in which each node has two pointers, p and n, such that p points to the previous node and n points to the next node; the last node's n pointer points to null
  * **Circular-linked list**: linked list in which each node points to the next node and the last node points back to the first node
+ * **Circular Doubly-linked list**: A circular doubly linked list is a mixture of a doubly linked list and a circular linked list. Like the doubly linked list, it has an extra pointer called the previous pointer, and similar to the circular linked list, its last node points at the head node.
  * Time Complexity:
    * Access: `O(n)`
    * Search: `O(n)`
@@ -74,7 +75,7 @@
 
 ### Stack
  * A *Stack* is a collection of elements, with two principle operations: *push*, which adds to the collection, and
-   *pop*, which removes the most recently added element
+   *pop*, which removes the most recently added element. *Stack* implements the *LIFO* Method.
  * **Last in, first out data structure (LIFO)**: the most recently added object is the first to be removed
  * Time Complexity:
    * Access: `O(n)`
@@ -86,6 +87,11 @@
  * A *Queue* is a collection of elements, supporting two principle operations: *enqueue*, which inserts an element
    into the queue, and *dequeue*, which removes an element from the queue
  * **First in, first out data structure (FIFO)**: the oldest added object is the first to be removed
+ * Types Of Queue:
+  *1.Queue (Normal Queue or Linear Queue)*
+  *2.Circular Queue*
+  *3.DEQUE (Double-ended Queue)*
+  *4.Priority Queue*
  * Time Complexity:
    * Access: `O(n)`
    * Search: `O(n)`
