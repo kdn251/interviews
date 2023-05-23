@@ -2,6 +2,8 @@
 
 // eg Input: arr = [4,5,6,7,0,1,2], target = 0, Output: 4 
 
+
+
 class SearchRotatedSortedArray {
     public int search(int[] arr, int target) {
         int pivot = findPivot(arr);
