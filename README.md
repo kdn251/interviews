@@ -31,6 +31,9 @@
 
 ## The Daily Byte
 * [FAANG Interview Prep](https://bit.ly/2BaaSaK)
+* [Python Interview Preparation Course](https://programiz.pro/course/python-interview-questions)
+* [SQL Interview Preparation Course](https://programiz.pro/course/sql-interview-questions)
+* [Java Interview Preparation Course](https://programiz.pro/course/java-interview-questions)
 
 ## Instagram 
 * [Kevin Naughton Jr.](https://bit.ly/2SM8SLZ)
