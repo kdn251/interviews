@@ -1,8 +1,7 @@
-<p align="center"><img src="/images/InterviewsRepository.jpg?raw=true"></p>
-
 # Interviews
 > Your personal guide to Software Engineering technical interviews. Video
 > solutions to the following interview problems with detailed explanations can be found [here](https://www.youtube.com/channel/UCKvwPt6BifPP54yzH99ff1g).
+<a href="https://www.youtube.com/channel/UCKvwPt6BifPP54yzH99ff1g" style="display:block;"><img src="/images/youtube.png?raw=true"></a>
 >
 > Maintainer - [Kevin Naughton Jr.](https://github.com/kdn251)
 
@@ -12,6 +11,7 @@
 
 ## Table of Contents
 - [YouTube](#youtube)
+- [The Daily Byte](#the-daily-byte)
 - [Instagram](#instagram)
 - [Articles](#articles)
 - [Online Judges](#online-judges)
@@ -29,8 +29,11 @@
 ## YouTube
 * [Kevin Naughton Jr.](https://www.youtube.com/channel/UCKvwPt6BifPP54yzH99ff1g)
 
+## The Daily Byte
+* [FAANG Interview Prep](https://bit.ly/2BaaSaK)
+
 ## Instagram 
-* [Programeme](https://www.instagram.com/programeme/)
+* [Kevin Naughton Jr.](https://bit.ly/2SM8SLZ)
 
 ## Articles
 * [Starting Work](https://medium.com/@Naughton/starting-work-b06e10f6007e)
