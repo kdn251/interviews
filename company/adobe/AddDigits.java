@@ -14,7 +14,7 @@ class AddDigits {
                 temp += num % 10;
                 num /= 10;
             }
-            num = temp;
+            num = temp  ;
         }
         
         return num;
