@@ -8,15 +8,13 @@
 
 class AddDigits {
     public int addDigits(int num) {
-        while(num >= 10) {
-            int temp = 0;
-            while(num > 0) {
-                temp += num % 10;
-                num /= 10;
-            }
-            num = temp;
+        if (num % 9 != 0) {
+            return num % 9;
         }
-        
-        return num;
+        if (num != 0) {
+            return 9;
+        }
+        return 0;
+        // The one digit is the remainder of the number when divided by 9, but if the remainder is 0, the resulting digit is 9 unless the number is 0
     }
 }
