@@ -15,35 +15,36 @@
  */
 public class AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode current1 = l1;
-        ListNode current2 = l2;
+        ListNode dummyHead = new ListNode(0);  // Dummy node to simplify the result list creation
+        ListNode current = dummyHead;  // Pointer for traversing the result list
+        int carry = 0;  // Variable to track the carry
         
-        ListNode head = new ListNode(0);
-        ListNode currentHead = head;
-        
-        int sum = 0;
-        
-        while(current1 != null || current2 != null) {
-            sum /= 10;
+        // Traverse both lists until both are null and there's no carry left
+        while (l1 != null || l2 != null || carry != 0) {
+            int sum = carry;  // Start with the carry from the previous addition
             
-            if(current1 != null) {
-                sum += current1.val;
-                current1 = current1.next;
+            // Add value from the first list if available
+            if (l1 != null) {
+                sum += l1.val;
+                l1 = l1.next;
             }
             
-            if(current2 != null) {
-                sum += current2.val;
-                current2 = current2.next;
+            // Add value from the second list if available
+            if (l2 != null) {
+                sum += l2.val;
+                l2 = l2.next;
             }
-
-            currentHead.next = new ListNode(sum % 10);
-            currentHead = currentHead.next;
+            
+            // Compute the new carry (either 1 or 0) for the next iteration
+            carry = sum / 10;
+            
+            // Create a new node with the digit and attach it to the result list
+            current.next = new ListNode(sum % 10);
+            current = current.next;
         }
         
-        if(sum / 10 == 1) {
-            currentHead.next = new ListNode(1);
-        }
-        
-        return head.next;
+        // Return the result list, skipping the dummy head
+        return dummyHead.next;
     }
 }
+
