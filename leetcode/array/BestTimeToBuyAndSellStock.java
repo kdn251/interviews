@@ -1,5 +1,5 @@
 public class BestTimeToBuyAndSellStock {
-    
+
     public int maxProfit(int[] prices) {
         // Return 0 if there are no prices or only one price (no transaction possible)
         if (prices == null || prices.length < 2) {
@@ -11,16 +11,16 @@ public class BestTimeToBuyAndSellStock {
 
         // Iterate over the prices starting from the second day
         for (int i = 1; i < prices.length; i++) {
-            // Calculate profit by selling at current price and buying at the minimum price
-            int currentProfit = prices[i] - minPrice;
+            // Calculate potential profit by selling at the current price and buying at the minimum price
+            int potentialProfit = prices[i] - minPrice;
             
-            // Update the maximum profit if current profit is higher
-            maxProfit = Math.max(maxProfit, currentProfit);
+            // Update the maximum profit if the potential profit is higher
+            maxProfit = Math.max(maxProfit, potentialProfit);
             
-            // Update the minimum price if current price is lower
+            // Update the minimum price if the current price is lower
             minPrice = Math.min(minPrice, prices[i]);
         }
         
-        return maxProfit;
+        return maxProfit;  // Return the maximum profit found
     }
 }
