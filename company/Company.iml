@@ -3,13 +3,21 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/Airbnb" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Amazon" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Facebook" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Google" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/LinkedIn" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Twitter" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Uber" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/adobe" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/airbnb" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/amazon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/apple" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bloomberg" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/facebook" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/google" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/linkedin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/microsoft" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/palantir" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/snapchat" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/twitter" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/uber" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/yahoo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/yelp" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

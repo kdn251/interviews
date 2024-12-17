@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="false">
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/array" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/backtracking" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/binary-search" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bit-manipulation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/brainteaser" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/breadth-first-search" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/depth-first-search" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/design" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/divide-and-conquer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dynamic-programming" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/greedy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hash-table" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/linked-list" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/math" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/queue" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sort" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/stack" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/string" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/trie" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/two-pointers" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
