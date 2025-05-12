@@ -1,5 +1,7 @@
 # Interviews
-> Your personal guide to Software Engineering technical interviews.
+> Pass your coding interviews with [The Daily Byte](https://thedailybyte.dev/?ref=kevin)  
+> [30,000+ Software Engineers have trusted us with their interview prep](https://thedailybyte.dev/?ref=kevin).
+<a href="" style="display:block;"><img src="/images/the-daily-byte.png?raw=true"></a>
 >
 > Maintainer - [Kevin Naughton Jr.](https://github.com/kdn251)
 
@@ -8,6 +10,8 @@
 - [简体中文](./README-zh-cn.md)
 
 ## Table of Contents
+- [YouTube](#youtube)
+- [The Daily Byte](#the-daily-byte)
 - [Instagram](#instagram)
 - [Articles](#articles)
 - [Online Judges](#online-judges)
@@ -22,11 +26,14 @@
 - [Computer Science News](#computer-science-news)
 - [Directory Tree](#directory-tree)
 
-## Instagram 
-* [Programeme](https://www.instagram.com/programeme/)
+## YouTube
+* [Kevin Naughton Jr.](https://www.youtube.com/channel/UCKvwPt6BifPP54yzH99ff1g)
 
-## Articles
-* [Starting Work](https://medium.com/@Naughton/starting-work-b06e10f6007e)
+## The Daily Byte
+* [FAANG Interview Prep](https://thedailybyte.dev/?ref=kevin)
+
+## Instagram 
+* [Kevin Naughton Jr.](https://www.instagram.com/kevinnaughtonjr)
 
 ## Online Judges
 * [LeetCode](https://leetcode.com/)
@@ -42,10 +49,15 @@
 * [Sphere Online Judge - SPOJ](http://www.spoj.com/)
 * [InterviewBit](https://www.interviewbit.com/)
 
+## Live Mock Interviews
+* [The Daily Byte](https://thedailybyte.dev/mock-interview)
+
 ## Live Coding Practice
+* [The Daily Byte](https://thedailybyte.dev/?ref=kevin)
 * [Pramp](https://www.pramp.com/ref/gt4)
 * [Gainlo](http://www.gainlo.co/#!/)
 * [Refdash](https://refdash.com/)
+* [Interviewing.io](https://www.interviewing.io/)
 
 ## Data Structures
 ### Linked List
@@ -53,7 +65,7 @@
    pointing to the next node by means of a pointer. It is a data structure
    consisting of a group of nodes which together represent a sequence.
  * **Singly-linked list**: linked list in which each node points to the next node and the last node points to null
- * **Doubly-linked list**: linked list in which each node has two pointers p, n such that p points to the previous node and n points to the next node; the last node's n pointer points to null
+ * **Doubly-linked list**: linked list in which each node has two pointers, p and n, such that p points to the previous node and n points to the next node; the last node's n pointer points to null
  * **Circular-linked list**: linked list in which each node points to the next node and the last node points back to the first node
  * Time Complexity:
    * Access: `O(n)`
@@ -64,7 +76,7 @@
 ### Stack
  * A *Stack* is a collection of elements, with two principle operations: *push*, which adds to the collection, and
    *pop*, which removes the most recently added element
- * Last in, first out data structure (LIFO)
+ * **Last in, first out data structure (LIFO)**: the most recently added object is the first to be removed
  * Time Complexity:
    * Access: `O(n)`
    * Search: `O(n)`
@@ -74,7 +86,7 @@
 ### Queue
  * A *Queue* is a collection of elements, supporting two principle operations: *enqueue*, which inserts an element
    into the queue, and *dequeue*, which removes an element from the queue
- * First in, first out data structure (FIFO)
+ * **First in, first out data structure (FIFO)**: the oldest added object is the first to be removed
  * Time Complexity:
    * Access: `O(n)`
    * Search: `O(n)`
@@ -148,7 +160,7 @@ or equal to those of the children and the lowest key is in the root node
 
 
 ### Hashing
-* *Hashing* is used to map data of an arbitrary size to data of a fixed size. The values return by a hash
+* *Hashing* is used to map data of an arbitrary size to data of a fixed size. The values returned by a hash
   function are called hash values, hash codes, or simply hashes. If two keys map to the same value, a collision occurs
 * **Hash Map**: a *hash map* is a structure that can map keys to values. A hash map uses a hash function to compute
   an index into an array of buckets or slots, from which the desired value can be found.
@@ -343,11 +355,12 @@ or equal to those of the children and the lowest key is in the root node
 
 ## Video Lectures
 * Data Structures
-    * [UC Berkeley Data Structures](https://www.youtube.com/watch?v=mFPmKGIrQs4&index=1&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd)
+    * [UC Berkeley Data Structures](https://archive.org/details/ucberkeley-webcast?&and[]=subject%3A%22Computer%20Science%22&and[]=subject%3A%22CS%22)
     * [MIT Advanced Data Structures](https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf&index=1)
 * Algorithms
     * [MIT Introduction to Algorithms](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=1)
     * [MIT Advanced Algorithms](https://www.youtube.com/playlist?list=PL6ogFv-ieghdoGKGg2Bik3Gl1glBTEu8c)
+    * [UC Berkeley Algorithms](https://archive.org/details/ucberkeley-webcast?&and[]=subject%3A%22Computer%20Science%22&and[]=subject%3A%22CS%22)
 
 ## Interview Books
 * [Competitive Programming 3 - Steven Halim & Felix Halim](https://www.amazon.com/Competitive-Programming-3rd-Steven-Halim/dp/B00FG8MNN8) 
