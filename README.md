@@ -1,7 +1,7 @@
 # Interviews
-> Your personal guide to Software Engineering technical interviews. Video
-> solutions to the following interview problems with detailed explanations can be found [here](https://www.youtube.com/channel/UCKvwPt6BifPP54yzH99ff1g).
-<a href="https://www.youtube.com/channel/UCKvwPt6BifPP54yzH99ff1g" style="display:block;"><img src="/images/youtube.png?raw=true"></a>
+> Pass your coding interviews with [The Daily Byte](https://thedailybyte.dev/?ref=kevin)
+> [30,000+ Software Engineers have trusted us with their interview prep](https://thedailybyte.dev/?ref=kevin).
+<a href="" style="display:block;"><img src="/images/the-daily-byte.png?raw=true"></a>
 >
 > Maintainer - [Kevin Naughton Jr.](https://github.com/kdn251)
 
@@ -35,9 +35,6 @@
 ## Instagram 
 * [Kevin Naughton Jr.](https://bit.ly/2SM8SLZ)
 
-## Articles
-* [Starting Work](https://medium.com/@Naughton/starting-work-b06e10f6007e)
-
 ## Online Judges
 * [LeetCode](https://leetcode.com/)
 * [Virtual Judge](https://vjudge.net/)
@@ -52,7 +49,11 @@
 * [Sphere Online Judge - SPOJ](http://www.spoj.com/)
 * [InterviewBit](https://www.interviewbit.com/)
 
+## Live Mock Interviews
+* [The Daily Byte](https://thedailybyte.dev/mock-interview)
+
 ## Live Coding Practice
+* [The Daily Byte](https://thedailybyte.dev/?ref=kevin)
 * [Pramp](https://www.pramp.com/ref/gt4)
 * [Gainlo](http://www.gainlo.co/#!/)
 * [Refdash](https://refdash.com/)
