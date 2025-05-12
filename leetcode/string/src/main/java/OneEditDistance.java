@@ -12,7 +12,6 @@ public class OneEditDistance {
                 } else if(s.length() < t.length()) {
                     //return true if the strings would be the same if you deleted a character from string t
                     return s.substring(i).equals(t.substring(i + 1));
-                    
                 } else {
                     //return true if the strings would be the same if you deleted a character from string s
                     return t.substring(i).equals(s.substring(i + 1));

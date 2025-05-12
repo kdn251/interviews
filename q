@@ -1,0 +1,536 @@
+[33mcommit 4f6b1ce5201b72325af20717cce21f9e6adaae4a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: vynhfx01574@funix.edu.vn <vynhfx01574@funix.edu.vn>
+Date:   Mon Nov 18 16:14:22 2024 +0700
+
+    First commit
+
+[33mcommit a70c2250ec5f2e43972a359e050182f970ea2ffd[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Kevin Naughton Jr <kdn251@nyu.edu>
+Date:   Fri Jun 5 22:37:07 2020 -0400
+
+    add the daily byte to table of contents
+
+[33mcommit feccc86c0d20f9770fd7175b32eb85d2ef945a65[m
+Author: Kevin Naughton Jr <kdn251@nyu.edu>
+Date:   Fri Jun 5 22:34:21 2020 -0400
+
+    add the daily byte and update youtube image
+
+[33mcommit d1a5d070d0d41073c56b78c7588b77a409bf072f[m
+Author: Kevin Naughton Jr <kdn251@nyu.edu>
+Date:   Thu Sep 26 20:24:52 2019 -0400
+
+    Add files via upload
+
+[33mcommit 28321b6398eb49af094fc963148c331e90fe22fa[m
+Author: Kevin Naughton Jr <kdn251@nyu.edu>
+Date:   Thu Sep 26 20:24:38 2019 -0400
+
+    Delete youtube.jpg
+
+[33mcommit b0e47ced84df94bdf2a23621046765da896a3ace[m
+Author: Kevin Naughton Jr <kdn251@nyu.edu>
+Date:   Thu Sep 26 20:21:40 2019 -0400
+
+    Update README.md
+
+[33mcommit 9c77bfb54e0fec1287ed9ee97f44e21b17e6f23a[m
+Author: Kevin Naughton Jr <kdn251@nyu.edu>
+Date:   Thu Sep 26 20:21:00 2019 -0400
+
+    Add files via upload
+
+[33mcommit 8e1157b1ffe713ed682a3fa9231de2bac1a459bd[m
+Author: Kevin Naughton Jr <kdn251@nyu.edu>
+Date:   Thu Sep 26 20:20:48 2019 -0400
+
+    Delete youtube.jpg
+
+[33mcommit ff850e6b021f56a888aa8da5caf9bdf7a4b23702[m
+Author: Kevin Naughton Jr <kdn251@nyu.edu>
+Date:   Thu Sep 26 20:20:05 2019 -0400
+
+    Delete youtube.jpg
+
+[33mcommit 67d244f131431cc1e60d1b5649de37b844ea5337[m
+Author: Kevin Naughton Jr <kdn251@nyu.edu>
+Date:   Thu Sep 26 20:19:37 2019 -0400
+
+    Add files via upload
+
+[33mcommit 8097e71d9710acad3f1ba7d7546a001362d10605[m
+Author: Kevin Naughton <kevingnaughton@Kevins-MacBook-Pro.local>
+Date:   Thu Oct 11 10:17:55 2018 -0400
+
+    add picture of YouTube
+
+[33mcommit 98cd3411f7de937dec274dce6d2e306d970cdfb7[m
+Merge: ea41dee c6a692b
+Author: Kevin Naughton Jr <kdn251@Kevins-Air-3.fios-router.home>
+Date:   Sun Sep 2 00:26:40 2018 -0400
+
+    Merge branch 'master' of https://github.com/kdn251/interviews
+
+[33mcommit ea41dee8a9b58bcb98b1f769f2ee70d9d96a6198[m
+Author: Kevin Naughton Jr <kdn251@Kevins-Air-3.fios-router.home>
+Date:   Sun Sep 2 00:26:15 2018 -0400
+
+    add banner
+
+[33mcommit c6a692b529a87579526bbba19a5efc26dfb5f3c0[m
+Merge: 2bce2b8 5cc1062
+Author: Kevin Naughton Jr <kdn251@nyu.edu>
+Date:   Sun Sep 2 00:08:55 2018 -0400
+
+    Merge pull request #77 from GrammarAndShape/patch-1
+    
+    updated linked list, stack, and queue
+
+[33mcommit 2bce2b8b136dd057c8fad0bffbc660b40cfa5845[m
+Merge: 9b1dae1 67c261a
+Author: Kevin Naughton Jr <kdn251@nyu.edu>
+Date:   Sun Sep 2 00:06:08 2018 -0400
+
+    Merge pull request #86 from kdn251/new-problems
+    
+    add EncodeAndDecodeTinyURL.java
+
+[33mcommit 9b1dae13cdc680dd59c21afdbd3d26524676407c[m
+Author: Kevin Naughton Jr <kdn251@Kevins-Air-3.fios-router.home>
+Date:   Sat Sep 1 19:05:57 2018 -0400
+
+    add YouTube channel for video solutions
+
+[33mcommit e8a47218c2c0be29f79cd8f630231d817cbed2fc[m
+Merge: 6e5075d 5cfd2f0
+Author: Kevin Naughton Jr <kdn251@nyu.edu>
+Date:   Sat Jun 9 13:53:27 2018 -0400
+
+    Merge pull request #84 from jeffbdye/master
+    
+    Minor grammatical fix in the hashing section
+
+[33mcommit 6e5075d7cd579b214977a59295f78824686147ab[m
+Merge: 991dc58 75f7285
+Author: Kevin Naughton Jr <kdn251@nyu.edu>
+Date:   Sat Jun 9 13:51:44 2018 -0400
+
+    Merge pull request #65 from Froren/master
+    
+    Adds interviewing.io and CodinGame
+
+[33mcommit 67c261a92088b32d557f69b451b67612f54de462[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Tue Jun 5 14:17:29 2018 -0400
+
+    added PowerOfTwo.java
+
+[33mcommit df4ee95c2f5a8f0013519196b71b92e9cf99fcbc[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Tue Jun 5 10:05:58 2018 -0400
+
+    added SpiralMatrix.java
+
+[33mcommit e815a7c69c1d949a86b3ab3b84aae91b43b76263[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Mon Jun 4 11:31:48 2018 -0400
+
+    added DailyTemperatures.java
+
+[33mcommit 3d5dc118ec97fede16c14a80ff0ed9149745c7f3[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Sun Jun 3 22:04:36 2018 -0400
+
+    added alternative solution to GuessNumberHigherOrLower.java
+
+[33mcommit fbbb6dbed8a14feac280c18550c58623ab0481ba[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Sun Jun 3 21:58:41 2018 -0400
+
+    added FindAllNumbersDisappearedInAnArray.java
+
+[33mcommit 2dd7ba0183b30eaffc3ce8720c4b293894a6a7e3[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Sun Jun 3 21:49:44 2018 -0400
+
+    added FirstUniqueCharacterInAString.java
+
+[33mcommit a904bdf37f85141bcbd17ad28ad6341e243aaf0e[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Sun Jun 3 21:24:53 2018 -0400
+
+    added new MergeIntervals.java solution
+
+[33mcommit e81f4e50958d85854c0ccb53bde87d36b4c46235[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Sun Jun 3 18:57:32 2018 -0400
+
+    added modified solution for LongestConsecutiveSequence.java
+
+[33mcommit f9c25d68d29cd74aba6ff2170f661752c6a9637b[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Fri Jun 1 17:32:34 2018 -0400
+
+    adding JudgeRouteCircle.java
+
+[33mcommit 668d511047629388132131502285bd4734d3e3cc[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Fri Jun 1 17:18:14 2018 -0400
+
+    adding BullsAndCows.java
+
+[33mcommit 86a1de891fdb2e54b8ca5e0cb16bf77c84416d2e[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Wed May 30 20:57:42 2018 -0400
+
+    alternative solution for IslandPerimeter
+
+[33mcommit 547272f4ec68ed129fa6c984de88c866c6640717[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Tue May 29 15:43:37 2018 -0400
+
+    add EncodeAndDecodeTinyURL.java
+
+[33mcommit 991dc5805e3e31f4684405222cef447f2c5b891d[m
+Merge: 5c74ad6 76c33ea
+Author: Kevin Naughton Jr <kdn251@nyu.edu>
+Date:   Tue May 29 13:21:00 2018 -0400
+
+    Merge pull request #78 from kdn251/new-problems
+    
+    Adding problems
+
+[33mcommit 76c33eadbf150c59af5e5c18c4e91ef7c6893539[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Tue May 29 13:18:59 2018 -0400
+
+    added edited version of LetterCombinationsOfAPhoneNumber.java
+
+[33mcommit a58514b70aab814dbfb9adf1a73e0d20cd8880ab[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Mon May 28 17:39:17 2018 -0400
+
+    added MinStack.java
+
+[33mcommit c41d2e8acadc1bf94f5f00f13f2ee10153684191[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Mon May 28 12:03:51 2018 -0400
+
+    add PlusOne.java
+
+[33mcommit 0adbc0dc12372c65b2a8d0ac508b671edb951369[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Sat May 26 20:02:40 2018 -0400
+
+    added GenerateParentheses.java
+
+[33mcommit 7920d949812a1f2f83cb5b91afb606ca15102039[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Fri Apr 13 15:44:24 2018 -0400
+
+    adding HouseRobberII
+
+[33mcommit 36d7015cbc9f69e9a102fe47840bd258c884b1ef[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Tue Apr 10 13:39:35 2018 -0400
+
+    add LongestIncreasingSubsequence
+
+[33mcommit 6a4460aea4bdcea6c79080111884e4c91e49f213[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Mon Apr 9 22:37:44 2018 -0400
+
+    adding CoinChange
+
+[33mcommit 6830e7c26970799ee25bddde0ed6a5d1f34e55df[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Mon Apr 9 11:01:59 2018 -0400
+
+    add MinimumPathSum
+
+[33mcommit daf5e85bfcd35f3e143a7a796ed9f48443506ea7[m
+Author: Kevin Naughton Jr <kdn251@172-16-230-96.DYNAPOOL.NYU.EDU>
+Date:   Fri Apr 6 09:33:36 2018 -0400
+
+    add PalindromicSubstrings and PaintHouse
+
+[33mcommit 84a1d4c9039b6570d21dcc62085ccf0aef123b3a[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Thu Apr 5 21:56:59 2018 -0400
+
+    add MinCostClimbingStairs
+
+[33mcommit 76a22ae0dc6f0929dddf057cb9fdfcfd5c5e132c[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Thu Apr 5 16:44:06 2018 -0400
+
+    edit house robber, update README
+
+[33mcommit 4b06ffc401550c6f5f17c8886781e7a8776c1921[m
+Author: Kevin Naughton Jr <kdn251@172-16-226-205.DYNAPOOL.NYU.EDU>
+Date:   Wed Apr 4 09:57:27 2018 -0400
+
+    add valid sudoku
+
+[33mcommit b08c50ae6aead2f63e1d97ce3b7958aefb065c3c[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Mon Apr 2 23:41:10 2018 -0400
+
+    ExclusiveTimeOfFunctions.java
+
+[33mcommit d9068148f0521623159c15627f9e4b0bab93bab7[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Mon Apr 2 15:55:23 2018 -0400
+
+    add InsertDeleteGetRandomO1.java
+
+[33mcommit 322523709c9bbded5dca52b77c9b5b178e86bba1[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Sun Apr 1 21:43:03 2018 -0400
+
+    adding additional problems
+
+[33mcommit 8ab35ca61136124404e1923ae437efefe35d7ece[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Fri Mar 30 16:54:52 2018 -0400
+
+    added brainteaser directory
+
+[33mcommit 3634a936e8740078905164b1c8cf2c74fba931fc[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Fri Mar 30 16:29:44 2018 -0400
+
+    add more problem solutions
+
+[33mcommit f50ed6c74df8e2da98beb612186d25c3691c4657[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-2.local>
+Date:   Thu Mar 29 23:26:07 2018 -0400
+
+    added yahoo and palantir directories
+
+[33mcommit aecbde906a75a7a5a0d8da59fc65a8adc1ec9ac9[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-2.local>
+Date:   Thu Mar 29 23:21:13 2018 -0400
+
+    added directories for snapchat, yelp, and apple
+
+[33mcommit 7c2237bd543b77e752c7cc3bf9ef7159271ed3fd[m
+Author: Kevin Naughton Jr <kdn251@172-16-231-191.DYNAPOOL.NYU.EDU>
+Date:   Thu Mar 29 11:47:57 2018 -0400
+
+    add adobe directory
+
+[33mcommit 6fbf1f41440e5d3a6048f767bf103450807c2673[m
+Author: Kevin Naughton Jr <kdn251@172-16-231-191.DYNAPOOL.NYU.EDU>
+Date:   Thu Mar 29 11:23:44 2018 -0400
+
+    adding new problems
+
+[33mcommit 5cfd2f0b7978d4368774a615e3cfd2d9694d6e34[m
+Author: Jeff Dye <jeffbdye@gmail.com>
+Date:   Fri May 11 19:04:40 2018 -0400
+
+    Minor grammatical fix in the hashing section
+
+[33mcommit 5c74ad6bd593ae1c793115afa463e60089bd1e99[m
+Merge: cf4f5e2 90c2bf0
+Author: Kevin Naughton Jr <kdn251@nyu.edu>
+Date:   Wed Apr 18 11:50:53 2018 -0400
+
+    Merge pull request #82 from brandonmanke/patch-1
+    
+    Added working link for UC Berkeley video lectures
+
+[33mcommit 90c2bf0f3df4e113365857bcaf4aa77f9e00b2b4[m
+Author: Brandon Manke <manke.brandon@gmail.com>
+Date:   Mon Apr 16 21:40:18 2018 -0500
+
+    Added working link for UC Berkeley video lectures
+    
+    Added link to UC Berkeley webcasts on Archive.org. Due to the original YouTube playlist being removed [1].
+    
+    [1] http://news.berkeley.edu/2017/03/01/course-capture/
+
+[33mcommit cf4f5e2fb7cc40adb520d341a68d8996740ad304[m
+Merge: 8d8e067 ff791c3
+Author: Kevin Naughton Jr <kdn251@nyu.edu>
+Date:   Mon Apr 9 22:17:33 2018 -0400
+
+    Merge pull request #81 from kdn251/add-license-1
+    
+    Create LICENSE
+
+[33mcommit ff791c3e3f7abc804469b0c7a9a52dce9f62be86[m
+Author: Kevin Naughton Jr <kdn251@nyu.edu>
+Date:   Mon Apr 9 22:17:24 2018 -0400
+
+    Create LICENSE
+
+[33mcommit 8d8e067f425b920d7c0b21d268e5a59aa557bd28[m
+Merge: b3a0200 1c47af5
+Author: Kevin Naughton Jr <kdn251@nyu.edu>
+Date:   Mon Apr 9 22:13:40 2018 -0400
+
+    Merge pull request #79 from xitu/zh-hans
+    
+    fix format error
+
+[33mcommit 1c47af579bee889551c519f646b79cf80cb9d5e5[m
+Merge: 156652d 47698ea
+Author: LeviDing <imdingxuewen@gmail.com>
+Date:   Mon Apr 9 10:09:01 2018 +0800
+
+    Merge pull request #5 from xitu/master
+    
+    Update README-zh-cn.md
+
+[33mcommit 47698ea25b629a2a42c5b72a0d0a1b0bdee94008[m
+Author: LeviDing <imdingxuewen@gmail.com>
+Date:   Mon Apr 9 10:07:36 2018 +0800
+
+    Update README-zh-cn.md
+
+[33mcommit 156652df368850dd135750242ec05419606ccd6a[m
+Author: LeviDing <imdingxuewen@gmail.com>
+Date:   Mon Apr 9 10:07:15 2018 +0800
+
+    Update README-zh-cn.md
+
+[33mcommit b3a02001ce4223e85d32cd9d47c23adcdd97e2fa[m
+Merge: 8991f3d 33c3215
+Author: Kevin Naughton Jr <kdn251@nyu.edu>
+Date:   Thu Apr 5 16:44:39 2018 -0400
+
+    Merge pull request #74 from kdn251/new-problems
+    
+    adding new problems
+
+[33mcommit 33c321593748ec961abf7c965159a2107d40da46[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Thu Apr 5 16:44:06 2018 -0400
+
+    edit house robber, update README
+
+[33mcommit f1fdb5840b1915345babbb0ddf4d235a3b2f6686[m
+Author: Kevin Naughton Jr <kdn251@172-16-226-205.DYNAPOOL.NYU.EDU>
+Date:   Wed Apr 4 09:57:27 2018 -0400
+
+    add valid sudoku
+
+[33mcommit c2b18ee20445c88de8344e659de38df5662fbbe6[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Mon Apr 2 23:41:10 2018 -0400
+
+    ExclusiveTimeOfFunctions.java
+
+[33mcommit 61287cdedca91b30c813e3eeabf861f8dd76c5d0[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Mon Apr 2 15:55:23 2018 -0400
+
+    add InsertDeleteGetRandomO1.java
+
+[33mcommit 5cc106211180a54c87e7587b1b278236b9edb161[m
+Author: GrammarAndShape <37989185+GrammarAndShape@users.noreply.github.com>
+Date:   Sun Apr 1 19:37:13 2018 -0700
+
+    updated linked list, stack, and queue
+    
+    Fixed the grammar in "Doubly-linked list", and gave definitions for LIFO and FIFO
+
+[33mcommit f847f89c04f942ed6f26697d707402f87a7d705f[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Sun Apr 1 21:43:03 2018 -0400
+
+    adding additional problems
+
+[33mcommit 75f72858012967ebc456447a211c7805984cdc64[m
+Author: Froren <r@sager>
+Date:   Fri Mar 30 19:51:09 2018 -0700
+
+    Remove codingame
+
+[33mcommit 380029c38a38ccec956c48b6d278692788878cc9[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Fri Mar 30 16:54:52 2018 -0400
+
+    added brainteaser directory
+
+[33mcommit 10347c64442c5fb2ceee0e06425c9722e43ecfed[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-3.local>
+Date:   Fri Mar 30 16:29:44 2018 -0400
+
+    add more problem solutions
+
+[33mcommit 4e65c9aabbdd6276ec76b132b237d0d09900f099[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-2.local>
+Date:   Thu Mar 29 23:26:07 2018 -0400
+
+    added yahoo and palantir directories
+
+[33mcommit c9a3f2ac27df0981376d5592e6c02aa171e82135[m
+Author: Kevin Naughton Jr <kdn251@Kevins-MacBook-Air-2.local>
+Date:   Thu Mar 29 23:21:13 2018 -0400
+
+    added directories for snapchat, yelp, and apple
+
+[33mcommit 05e15bb89185a865d3cdd4cdbabfc816043097f4[m
+Author: Kevin Naughton Jr <kdn251@172-16-231-191.DYNAPOOL.NYU.EDU>
+Date:   Thu Mar 29 11:47:57 2018 -0400
+
+    add adobe directory
+
+[33mcommit 8991f3d1fbac30e9d4a415e966b99e9216729de8[m
+Merge: f0050c9 771ebf2
+Author: Kevin Naughton Jr <kdn251@nyu.edu>
+Date:   Thu Mar 29 11:30:51 2018 -0400
+
+    Merge pull request #53 from xdream86/patch-1
+    
+    Update README-zh-cn.md
+
+[33mcommit f0050c90e5a9df167dcd0fcc422576ff5af73e6c[m
+Merge: e9d9860 aa46347
+Author: Kevin Naughton Jr <kdn251@nyu.edu>
+Date:   Thu Mar 29 11:30:07 2018 -0400
+
+    Merge pull request #64 from iamquang95/fix-missing-space
+    
+    Fix missing space for nested <li>
+
+[33mcommit e9d98605c7d1517648a6a0978d4d64574b76773a[m
+Merge: f97d580 04c6e48
+Author: Kevin Naughton Jr <kdn251@nyu.edu>
+Date:   Thu Mar 29 11:29:26 2018 -0400
+
+    Merge pull request #72 from liuhea/patch-1
+    
+    Update README-zh-cn.md
+
+[33mcommit f97d580ad9a1d69d6d68c452f66e619a27d7f045[m
+Merge: 6269878 e429abb
+Author: Kevin Naughton Jr <kdn251@nyu.edu>
+Date:   Thu Mar 29 11:28:07 2018 -0400
+
+    Merge pull request #71 from pedroAlba/patch-2
+    
+    Fix README.md images
+
+[33mcommit 504af1b94fc6b5ce3952cf70da497434bc74a7f5[m
+Author: Kevin Naughton Jr <kdn251@172-16-231-191.DYNAPOOL.NYU.EDU>
+Date:   Thu Mar 29 11:23:44 2018 -0400
+
+    adding new problems
+
+[33mcommit 04c6e480a339ac86e9c5ff3e421b5a43a1f5dc32[m
+Author: LiuHe <liuhe@juran.com.cn>
+Date:   Thu Mar 29 14:33:57 2018 +0800
+
+    Update README-zh-cn.md
+    
+    fix folder name
+
+[33mcommit e429abb6ba678294f3872ca1f0ad19bde87c10ec[m
+Author: Pedro H. P Alba <pedrohalba@hotmail.com>
+Date:   Wed Mar 28 08:33:07 2018 -0300
+
+    fix readme images
