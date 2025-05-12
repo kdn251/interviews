@@ -30,10 +30,10 @@
 * [Kevin Naughton Jr.](https://www.youtube.com/channel/UCKvwPt6BifPP54yzH99ff1g)
 
 ## The Daily Byte
-* [FAANG Interview Prep](https://bit.ly/2BaaSaK)
+* [FAANG Interview Prep](https://thedailybyte.dev/?ref=kevin)
 
 ## Instagram 
-* [Kevin Naughton Jr.](https://bit.ly/2SM8SLZ)
+* [Kevin Naughton Jr.](https://www.instagram.com/kevinnaughtonjr)
 
 ## Online Judges
 * [LeetCode](https://leetcode.com/)
