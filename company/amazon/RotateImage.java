@@ -3,24 +3,42 @@
 // Rotate the image by 90 degrees (clockwise).
 
 // Follow up:
-    // Could you do this in-place?
+    // Transpose and Swap the rows and Coloumns 
 
 public class RotateImage {
-    public void rotate(int[][] matrix) {
-        for(int i = 0; i < matrix.length; i++) {
-            for(int j = 0; j < i; j++) {
-                int temp = matrix[i][j];
-                matrix[i][j] = matrix[j][i];
-                matrix[j][i] = temp;
+    public static void RotatedMatrix(int[][] arr) {
+        //1.Transpose the Matrix
+        for(int i=0;i<arr.length;i++){
+            for(int j=0;j<arr[0].length; j++){
+                int temp=arr[i][j];
+                arr[i][j]=arr[j][i];
+                arr[j][i]=temp;
             }
         }
-        
-        for(int i = 0; i < matrix.length; i++) {
-            for(int j = 0; j < matrix[0].length / 2; j++) {
-                int temp = matrix[i][j];
-                matrix[i][j] = matrix[i][matrix[0].length - 1 - j];
-                matrix[i][matrix[0].length - 1 - j] = temp;
+        //2.Swapping the rows and columns
+        for(int i=0;i<arr.length;i++){
+            int li=0; //left Index
+            int ri=arr.length-1; //Right Index
+            while(li<ri){
+                int temp=arr[i][li];
+                arr[i][li]=arr[i][ri];
+                arr[i][ri]=temp;
+                li++;
+                ri--;
             }
+        }
+    }
+    public static void main(String[] args) {
+        System.out.println("Rotation of Matrix");
+        int[][] arr= {
+                {1,2,3,4},
+                {5,6,7,8},
+                {9,10,11,12},
+                {13,14,15,16}
+        };
+        RotatedMatrix(arr);
+        for(var matrix:arr){
+            System.out.println(Arrays.toString(matrix));
         }
     }
 }
