@@ -1,37 +1,62 @@
-// Given two binary strings, return their sum (also a binary string).
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 
-// For example,
-// a = "11"
-// b = "1"
-// Return "100"
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import static org.junit.Assert.*;
 
-public class AddBinary {
-    public String addBinary(String a, String b) {
-        StringBuilder result = new StringBuilder();
-        
-        int carry = 0;
-        int i = a.length() - 1;
-        int j = b.length() - 1;
-        
-        while(i >= 0 || j >= 0) {
-            int sum = carry;
 
-            if(i >= 0) {
-                sum += a.charAt(i--) - '0';
-            }
-
-            if(j >= 0) {
-                sum += b.charAt(j--) - '0';
-            }
-
-            result.append(sum % 2);
-            carry = sum / 2;
-        }
-
-        if(carry != 0) {
-            result.append(carry);
-        }
-
-        return result.reverse().toString();
-    }
+/**
+ *
+ * @author HuyDuc
+ */
+public class lab_5Test {
+ 
+  @Test
+  public void test1(){
+      AddBinary ad = new AddBinary();
+      String input1= "0001";
+      String input2="0001";
+      String expected = "0010";
+      assertEquals(expected, ad.addBinary(input2, input2) );
+    
+    
+  }
+  @Test
+  public void test2(){
+      AddBinary ad = new AddBinary();
+      String input1= "1234";
+      String input2="0001";
+      String expected = "Error";
+      assertEquals(expected, ad.addBinary(input2, input2) );
+  }
+  @Test
+  public void test3(){
+      AddBinary ad = new AddBinary();
+      String input1= "a001";
+      String input2="0001";
+      String expected = "Error";
+      assertEquals(expected, ad.addBinary(input2, input2) );
+    
+    
+  }
+  @Test
+  public void test4(){
+      AddBinary ad = new AddBinary();
+      String input1= "abcd";
+      String input2="abcd";
+      boolean c= false;
+      String expected = "Error";
+      assertEquals(expected, ad.addBinary(input2, input2) );
+    
+    
+  }
+    
+  
 }
