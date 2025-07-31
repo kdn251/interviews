@@ -102,7 +102,7 @@
  * **Full Tree**: a tree in which every node has either 0 or 2 children
  * **Perfect Binary Tree**: a binary tree in which all interior nodes have two children and all leave have the same depth
  * **Complete Tree**: a binary tree in which every level *except possibly the last* is full and all nodes in the last
-   level are as far left as possible
+   level is as far left as possible
 
 ### Binary Search Tree
  * A binary search tree, sometimes called BST, is a type of binary tree which maintains the property that the value in each
