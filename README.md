@@ -234,14 +234,14 @@ or equal to those of the children and the lowest key is in the root node
 * *Depth First Search* is a graph traversal algorithm which explores as far as possible along each branch before backtracking
 * Time Complexity: `O(|V| + |E|)`
 
-![Alt text](/images/dfsbfs.gif?raw=true "DFS / BFS Traversal")
+![Alt text](https://www.codingame.com/servlet/fileservlet?id=7767772365970 "DFS Traversal")
 
 #### Breadth First Search
 * *Breadth First Search* is a graph traversal algorithm which explores the neighbor nodes first, before moving to the next
   level neighbors
 * Time Complexity: `O(|V| + |E|)`
 
-![Alt text](/images/dfsbfs.gif?raw=true "DFS / BFS Traversal")
+![Alt text](https://www.codingame.com/servlet/fileservlet?id=7768503315394 "BFS Traversal")
 
 #### Topological Sort
 * *Topological Sort* is the linear ordering of a directed graph's nodes such that for every edge from node u to node v, u
