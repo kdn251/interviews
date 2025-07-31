@@ -1,2 +1,5 @@
 /bin/
 .idea
+*.DS_Store # Hide files made by MacOS
+*.iml # Hide files made by IntelliJ IDE
+*.project # Hide files made by Eclipse IDE
