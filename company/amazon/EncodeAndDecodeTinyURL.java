@@ -5,34 +5,44 @@
 //encode/decode algorithm should work. You just need to ensure that a URL can be encoded to a tiny URL 
 //and the tiny URL can be decoded to the original URL.
 
-public class EncodeAndDecodeTinyURL {
-    HashMap<String, String> map = new HashMap<String, String>();
-    String characters = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    int count = 1;
-
-    public String getKey() {
-        String key = "";
-        while(count > 0) {
-            count--;
-            key += characters.charAt(count);
-            count /= characters.length();
+public class WordSearch {
+    public boolean exist(char[][] board, String word) {
+        char[] w = word.toCharArray();
+        
+        for(int i = 0; i < board.length; i++) {
+            for(int j = 0; j < board[0].length; j++) {
+                if(search(board, i, j, w, 0)) {
+                    return true;
+                }
+            }
         }
         
-        return key;
+        return false;
     }
     
-    // Encodes a URL to a shortened URL.
-    public String encode(String longUrl) {
-        String key = getKey();
-        map.put(key, longUrl);
-        count++;
-            
-        return "http://tinyurl.com/" + key;
-    }
+    
+    public boolean search(char[][] board, int i, int j, char[] w, int index) {
+        if(index == w.length) {
+            return true;
+        }
+        
+        if(i < 0 || i >= board.length || j < 0 || j >= board[0].length) {
+            return false;
+        }
 
-    // Decodes a shortened URL to its original URL.
-    public String decode(String shortUrl) {
-        return map.get(shortUrl.replace("http://tinyurl.com/", ""));
+        if(board[i][j] != w[index]) {
+            return false;
+        }
+        
+        board[i][j] ^= 256;
+
+        boolean exist = search(board, i + 1, j, w, index + 1) ||
+                        search(board, i - 1, j, w, index + 1) ||
+                        search(board, i, j + 1, w, index + 1) ||
+                        search(board, i, j - 1, w, index + 1);
+        board[i][j] ^= 256;
+
+        return exist;
     }
 }
 

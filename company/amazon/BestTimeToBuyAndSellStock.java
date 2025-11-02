@@ -12,6 +12,12 @@
 // Output: 0
 
 // In this case, no transaction is done, i.e. max profit = 0.
+// new comments
+// new comments
+// new comments
+// new comments
+// new comments
+// new comments
 
 public class BestTimeToBuyAndSellStock {
     public int maxProfit(int[] prices) {
