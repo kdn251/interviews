@@ -44,9 +44,9 @@
 * [Kattis](https://open.kattis.com/)
 * [HackerEarth](https://www.hackerearth.com)
 * [Codility](https://codility.com/programmers/lessons/1-iterations/)
-* [Code Forces](http://codeforces.com/)
+* [Code Forces](https://codeforces.com/)
 * [Code Chef](https://www.codechef.com/)
-* [Sphere Online Judge - SPOJ](http://www.spoj.com/)
+* [Sphere Online Judge - SPOJ](https://www.spoj.com/)
 * [InterviewBit](https://www.interviewbit.com/)
 
 ## Live Mock Interviews
@@ -55,7 +55,7 @@
 ## Live Coding Practice
 * [The Daily Byte](https://thedailybyte.dev/?ref=kevin)
 * [Pramp](https://www.pramp.com/ref/gt4)
-* [Gainlo](http://www.gainlo.co/#!/)
+* [Gainlo](https://www.gainlo.co/#!/)
 * [Refdash](https://refdash.com/)
 * [Interviewing.io](https://www.interviewing.io/)
 
