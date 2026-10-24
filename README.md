@@ -1,7 +1,7 @@
 # Interviews
 > Pass your coding interviews with [The Daily Byte](https://thedailybyte.dev/?ref=kevin)  
 > [30,000+ Software Engineers have trusted us with their interview prep](https://thedailybyte.dev/?ref=kevin).
-<a href="" style="display:block;"><img src="/images/the-daily-byte.png?raw=true"></a>
+<a href="https://thedailybyte.dev/?ref=kevin" style="display:block;"><img src="/images/the-daily-byte.png?raw=true"></a>
 >
 > Maintainer - [Kevin Naughton Jr.](https://github.com/kdn251)
 
@@ -50,7 +50,7 @@
 * [InterviewBit](https://www.interviewbit.com/)
 
 ## Live Mock Interviews
-* [The Daily Byte](https://thedailybyte.dev/mock-interview)
+* [The Daily Byte](https://thedailybyte.dev/products/mock-interview)
 
 ## Live Coding Practice
 * [The Daily Byte](https://thedailybyte.dev/?ref=kevin)
@@ -74,7 +74,7 @@
    * Remove: `O(1)`
 
 ### Stack
- * A *Stack* is a collection of elements, with two principle operations: *push*, which adds to the collection, and
+ * A *Stack* is a collection of elements, with two principal operations: *push*, which adds to the collection, and
    *pop*, which removes the most recently added element
  * **Last in, first out data structure (LIFO)**: the most recently added object is the first to be removed
  * Time Complexity:
@@ -84,7 +84,7 @@
    * Remove: `O(1)`
 
 ### Queue
- * A *Queue* is a collection of elements, supporting two principle operations: *enqueue*, which inserts an element
+ * A *Queue* is a collection of elements, supporting two principal operations: *enqueue*, which inserts an element
    into the queue, and *dequeue*, which removes an element from the queue
  * **First in, first out data structure (FIFO)**: the oldest added object is the first to be removed
  * Time Complexity:
@@ -333,7 +333,7 @@ or equal to those of the children and the lowest key is in the root node
 #### Big O Notation
 * *Big O Notation* is used to describe the upper bound of a particular algorithm. Big O is used to describe worst case scenarios
 
-![Alt text](/images/bigO.png?raw=true "Theta Notation")
+![Big O notation diagram](/images/bigO.png?raw=true "Big O Notation")
 
 #### Little O Notation
 * *Little O Notation* is also used to describe an upper bound of a particular algorithm; however, Little O provides a bound
@@ -342,7 +342,7 @@ or equal to those of the children and the lowest key is in the root node
 #### Big Ω Omega Notation
 * *Big Omega Notation* is used to provide an asymptotic lower bound on a particular algorithm
 
-![Alt text](/images/bigOmega.png?raw=true "Theta Notation")
+![Big Omega notation diagram](/images/bigOmega.png?raw=true "Big Omega Notation")
 
 #### Little ω Omega Notation
 * *Little Omega Notation* is used to provide a lower bound on a particular algorithm that is not asymptotically tight
