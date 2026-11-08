@@ -51,6 +51,7 @@
 
 ## Live Mock Interviews
 * [The Daily Byte](https://thedailybyte.dev/mock-interview)
+* [Practick](https://practick.io)
 
 ## Live Coding Practice
 * [The Daily Byte](https://thedailybyte.dev/?ref=kevin)
